@@ -334,63 +334,6 @@
   },   
   {
     "type": "option_slider",
-    "id": "world_proficiency",
-    "context": "WORLDGEN",
-    "name": "Proficiency Rate",
-    "default": 0,
-    "levels": [
-      {
-        "level": 0,
-        "name": "1x",
-        "description": "Proficiency learning rate is normal.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 1.0 }
-        ]
-      },
-      {
-        "level": 1,
-        "name": "2x",
-        "description": "Proficiencies are acquired 2 times as fast.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 2.0 }
-        ]
-      },
-      {
-        "level": 2,
-        "name": "3x",
-        "description": "Proficiencies are acquired 3 times as fast.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 3.0 }
-        ]
-      },
-      {
-        "level": 3,
-        "name": "4x",
-        "description": "Proficiencies are acquired 4 times as fast.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 4.0 }
-        ]
-      },
-      {
-        "level": 4,
-        "name": "5x",
-        "description": "Proficiencies are acquired 5 times as fast.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 5.0 }
-        ]
-      },
-      {
-        "level": 5,
-        "name": "10x",
-        "description": "Proficiencies are acquired 10 times as fast.",
-        "options": [
-          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 10.0 }
-        ]
-      }
-    ]
-  },    
-  {
-    "type": "option_slider",
     "id": "world_daycycle",
     "context": "WORLDGEN",
     "name": "Day Cycle",
