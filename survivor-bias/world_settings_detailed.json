@@ -300,7 +300,7 @@
     "levels": [
       {
         "level": 0,
-        "name": "25%",
+        "name": "1%",
         "description": "Construction times are reduced to 1%.",
         "options": [
           { "option": "CONSTRUCTION_SCALING", "type": "int", "val": 1 }
