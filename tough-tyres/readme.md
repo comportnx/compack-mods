@@ -1,6 +1,6 @@
 # Tough Tyres
 
-A rebalance mod that makes armored, wide, off-road, train, and roller drum wheels much more resistant to rolling damage.
+A rebalance mod that makes armoured, wide, off-road, train, and roller drum wheels much more resistant to rolling damage.
 
 Running over 100 bones:
 
