@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "quiet-riots",
+    "name": "COMPACK: No Riot Damage",
+    "authors": [ "comportnx" ],
+    "description": "Removes riot damage from buildings (but not roads).",
+    "category": "misc",
+    "dependencies": [ "dda" ]
+  }
+]
