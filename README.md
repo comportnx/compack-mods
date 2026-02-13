@@ -1,5 +1,7 @@
 # COMPACK Mod Collection
 
+[Download (zip)](https://github.com/comportnx/compack-mods/releases/download/COMPACK/compack-mods.zip)
+
 Mods included in this pack:
 
 ### Tough Tyres
