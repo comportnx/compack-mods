@@ -18,7 +18,7 @@ Gives sledgehammers and heavy sledgehammers an (a)ctivatable ability that pulps 
 
 ### Quiet Riots
 
-`disables riot damage`
+`Disables riot damage`
 
 Disables riot damage for buildings (but not roads).
 
