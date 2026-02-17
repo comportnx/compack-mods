@@ -4,7 +4,7 @@
     "id": "tough-tyres",
     "name": "COMPACK: Tough Tyres",
     "authors": [ "comportnx" ],
-    "description": "Off-road Wide wheels don't get punctures.",
+    "description": "Replaces off-road wide wheels with off-road no-flat wheels which are immune to punctures.",
     "category": "misc",
     "dependencies": [ "dda" ]
   },
