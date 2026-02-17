@@ -8,7 +8,7 @@ Mods included in this pack:
 
 In reality, a lot of heavy duty off-road vehicles like tractors use foam-filled or semi-pneumatic tyres to eliminate the risk of punctures.
 
-This mod replacies off-road wide wheels with off-road no-flat wheels, which are heavier but immune to punctures. Found on tractors, trenchers, and excavators.
+This mod replaces off-road wide wheels with off-road no-flat wheels, which are heavier but immune to punctures. Found on tractors, trenchers, and excavators.
 
 ---
 
