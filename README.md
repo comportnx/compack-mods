@@ -16,7 +16,7 @@ This mod replaces off-road wide wheels with off-road no-flat wheels, which are h
 
 `(a)ctivating a sledgehammer pulps nearby corpses`
 
-Gives sledgehammers and heavy sledgehammers an (a)ctivatable ability that pulps surrounding corpses. Using the ability takes 10 seconds and some stamina.
+This mod gives sledgehammers and heavy sledgehammers an (a)ctivatable ability that pulps surrounding corpses. Using the ability takes 10 seconds and some stamina.
 
 ---
 
