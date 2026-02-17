@@ -12,6 +12,6 @@ This mod makes wide off-road tyres heavier, but immune to punctures. Found on tr
 
 Disables riot damage for buildings (but not roads).
 
-### Pulping Hammers
+### Fast Pulping
 
-Gives sledgehammers, short sledgehammers, and engineer hammers an (a)ctivatable ability that pulps surrounding corpses.
+Gives sledgehammers and heavy sledgehammers an (a)ctivatable ability that pulps surrounding corpses.
