@@ -6,7 +6,7 @@ Separates the combined difficulty options back out into their own sliders.
 
 **Installation**
 
-1. Download the world sliders file as a .json file (not txt)
+1. Download the world_settings_detailed file as a .json file (not txt)
 
 2. Save it in GAME_FOLDER\data\core\world_settings_detailed.json
 
