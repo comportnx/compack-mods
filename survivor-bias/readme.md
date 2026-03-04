@@ -12,4 +12,4 @@ Separates the combined difficulty options back out into their own sliders.
 
 3. Start the game. After (I)gnoring a warning about changed files, the new options should be visible on the Create World settings screen
 
-Some content used from https://github.com/CleverRaven/Cataclysm-DDA
+Some content used & modified from https://github.com/CleverRaven/Cataclysm-DDA
