@@ -12,9 +12,9 @@ This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which a
 
 ### Fast Pulping
 
-`(a)ctivating a sledgehammer pulps nearby corpses`
+`pulping corpses is 20x faster`
 
-This mod gives sledgehammers and heavy sledgehammers an (a)ctivatable ability that pulps surrounding corpses. Using the ability takes 10 seconds and some stamina.
+This mod creates the effect of making pulping zombie corpses much faster, though special tools (prying etc) are still needed for larger corpses.
 
 ---
 
