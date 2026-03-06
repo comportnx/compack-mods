@@ -3,95 +3,45 @@
         "type": "MOD_INFO",
         "id": "fast-smash",
         "name": "COMPACK: Fast Pulping",
-        "authors": [
-            "comportnx"
-        ],
-        "description": "(A)ctivating a wielded sledgehammer pulps surrounding corpses.",
+        "authors": [ "comportnx" ],
+        "description": "Pulping corpses only takes a few seconds.",
         "category": "misc",
-        "dependencies": [
-            "dda"
-        ]
+        "dependencies": [ "dda" ]
     },
     {
-        "id": "fs_eoc_pulp",
+        "id": "fs_pulp_activity_starts",
+        "type": "effect_on_condition",
+        "eoc_type": "EVENT",
+        "required_event": "character_starts_activity",
+        "condition": {
+            "compare_string": [ "ACT_PULP", { "context_val": "activity" } ]
+        },
+        "effect": { "run_eocs": "fs_damage_surrounding_corpses" }
+    },
+    {
+        "id": "fs_damage_surrounding_corpses",
         "type": "effect_on_condition",
         "effect": [
             {
-                "npc_map_run_item_eocs": "all",
-                "loc": {
-                    "context_val": "spell_location"
-                },
-                "search_data": [
-                    {
-                        "flags": "CORPSE"
-                    }
-                ],
+                "u_map_run_item_eocs": "all",
+                "min_radius": 0,
+                "max_radius": 1,
+                "search_data": [ { "flags": "CORPSE" } ],
                 "true_eocs": [
                     {
                         "id": "fs_eoc_apply_pulp",
                         "effect": [
+                            { 
+                                "if": { "math": ["n_hp('ALL') > 100"] }, 
+                                "then": { "math": ["n_hp('ALL') = 100"] }
+                            },
                             {
-                                "npc_set_flag": "PULPED"
+                                "u_message": { "context_val": "" }
                             }
                         ]
                     }
                 ]
             }
         ]
-    },
-    {
-        "id": "fs_spell_pulp",
-        "type": "SPELL",
-        "name": "pulp corpses",
-        "description": "Pulps a corpse",
-        "valid_targets": [
-            "ground"
-        ],
-        "effect": "effect_on_condition",
-        "effect_str": "fs_eoc_pulp",
-        "shape": "blast",
-        "flags": [
-            "SILENT",
-            "NO_EXPLOSION_SFX",
-            "NO_FAIL",
-            "NO_HANDS",
-            "NON_MAGICAL"
-        ],
-        "min_range": 0,
-        "max_range": 0,
-        "min_aoe": 1,
-        "max_aoe": 1,
-        "base_casting_time": 600,
-        "final_casting_time": 600,
-        "base_energy_cost": 500,
-        "final_energy_cost": 500,
-        "energy_source": "STAMINA",
-        "message": "You smash around with the hammer"
-    },
-    {
-        "type": "ITEM",
-        "id": "hammer_sledge",
-        "copy-from": "hammer_sledge",
-        "use_action": {
-            "type": "cast_spell",
-            "spell_id": "fs_spell_pulp",
-            "no_fail": true,
-            "level": 1,
-            "need_wielding": true,
-            "mundane": true
-        }
-    },
-    {
-        "type": "ITEM",
-        "id": "hammer_sledge_heavy",
-        "copy-from": "hammer_sledge_heavy",
-        "use_action": {
-            "type": "cast_spell",
-            "spell_id": "fs_spell_pulp",
-            "no_fail": true,
-            "level": 1,
-            "need_wielding": true,
-            "mundane": true
-        }
-    }    
+    }
 ]
