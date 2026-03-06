@@ -34,9 +34,6 @@
                             { 
                                 "if": { "math": ["n_hp('ALL') > 100"] }, 
                                 "then": { "math": ["n_hp('ALL') = 100"] }
-                            },
-                            {
-                                "u_message": { "context_val": "" }
                             }
                         ]
                     }
@@ -45,3 +42,4 @@
         ]
     }
 ]
+
