@@ -13,7 +13,7 @@ This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which a
 ### Fast Pulping
 
 `Pulping corpses is 20x faster`
-https://github.com/CleverRaven/Cataclysm-DDA
+
 This mod has the effect of making pulping zombie corpses much faster, though special tools (prying etc) are still needed for larger corpses.
 
 ---
