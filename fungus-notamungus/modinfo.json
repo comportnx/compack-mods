@@ -1,0 +1,31 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "fungus-notamongus",
+    "name": "COMPACK: Fungus Not Among Us",
+    "authors": [
+      "comportnx"
+    ],
+    "description": "Keeps fungal creatures closer to their blooms.",
+    "category": "misc",
+    "dependencies": [
+      "dda"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Fungal Bloom",
+    "copy-from": "Fungal Bloom",
+    "spawns": {
+      "group": "GROUP_FUNGI",
+      "population": [
+        100,
+        200
+      ],
+      "radius": [
+        5,
+        15
+      ]
+    }
+  }
+]
