@@ -1,6 +1,6 @@
 # COMPACK Mods
 
-Mods included in this pack:
+All mods are on Default tab under NO CATEGORY:
 
 ### Tough Tyres
 
