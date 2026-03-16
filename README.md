@@ -14,7 +14,7 @@ Wheels are much more resistant to punctures, while armoured wheels and off-road 
 
 `Pulping corpses is much faster`
 
-This mod has the effect of making pulping zombie corpses much faster, though special tools (prying etc) are still needed for larger corpses.
+This mod has the effect of making pulping zombie corpses much faster, with regular zs only taking a few seconds, though special tools (prying etc) are still needed for larger corpses.
 
 ---
 
