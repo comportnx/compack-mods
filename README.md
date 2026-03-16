@@ -6,7 +6,7 @@ All mods are on Default tab under NO CATEGORY:
 
 `Wheels are more resistant to punctures` `Armoured and 'off-road wide' wheels are immune to punctures`
 
-Wheels are much more resistant to punctures, while armoured wheels and off-road wide wheels are immune to them (found on military vehicles, tractors, excavators, and trenchers).
+Wheels are much more resistant to punctures, while armoured wheels and off-road wide wheels are immune to them (armoured are found on military vehicles, 'off-road no-flat' wheels are on tractors, excavators, and trenchers).
 
 ---
 
