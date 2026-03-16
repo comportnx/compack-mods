@@ -6,7 +6,7 @@ Mods included in this pack:
 
 `Wheels are much tougher. Armoured and 'wide off-road' wheels are immune to punctures. `
 
-This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which are heavier but immune to punctures. Found on tractors, trenchers, and excavators (but no longer on 4x4 cars). Armored wheels are also immunue to punctures, and regular tyres have had their toughness increased.
+This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which are heavier but immune to punctures. Found on tractors, trenchers, and excavators (but no longer on 4x4 cars). Armored wheels are also immunue to punctures, and regular wheels have greatly increased resistance to punctures.
 
 ---
 
