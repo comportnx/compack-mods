@@ -1,1 +1,3 @@
-These mods are released under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) and use content modified from https://github.com/CleverRaven/Cataclysm-DDA. A list of Cataclysm-DDA content authors can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors).
+These mods are released under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) and use content modified from https://github.com/CleverRaven/Cataclysm-DDA. 
+
+A list of Cataclysm-DDA content authors can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors).
