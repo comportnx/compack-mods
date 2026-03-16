@@ -25,3 +25,6 @@ This mod has the effect of making pulping zombie corpses much faster, with regul
 This mod keeps fungal monsters much closer to their blooms, shrinking the area of the overmap they dominate.
 
 
+# Compatibility
+
+Last checked on cdda-experimental-2026-03-14.
