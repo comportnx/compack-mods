@@ -24,8 +24,4 @@ This mod has the effect of making pulping zombie corpses much faster, though spe
 
 This mod reduces the distance fungals can spawn from a fungal bloom considerably, shrinking the area of the overmap they dominate.
 
----
 
-# License
-
-These mods are released under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) and use the mod API and content modified from https://github.com/CleverRaven/Cataclysm-DDA. A list of Cataclysm-DDA content authors can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors).
