@@ -4,7 +4,7 @@
     "id": "tough-tyres",
     "name": "COMPACK: Tough Tyres",
     "authors": [ "comportnx" ],
-    "description": "Makes armored wheels and wide off-road wheels immune to punctures, and increases the puncture-resistance of regular tyres.",
+    "description": "Makes armored wheels and wide off-road wheels immune to punctures, and increases the puncture-resistance of regular wheels.",
     "category": "misc",
     "dependencies": [ "dda" ]
   },
