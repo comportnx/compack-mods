@@ -1,0 +1,44 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "fast-pulping",
+        "name": "COMPACK: Fast Pulping",
+        "authors": [ "compxrt" ],
+        "description": "Pulping corpses only takes a few seconds.",
+        "category": "misc",
+        "dependencies": [ "dda" ]
+    },
+    {
+        "id": "fs_pulp_activity_starts",
+        "type": "effect_on_condition",
+        "eoc_type": "EVENT",
+        "required_event": "character_starts_activity",
+        "condition": {
+            "compare_string": [ "ACT_PULP", { "context_val": "activity" } ]
+        },
+        "effect": { "run_eocs": "fs_damage_surrounding_corpses" }
+    },
+    {
+        "id": "fs_damage_surrounding_corpses",
+        "type": "effect_on_condition",
+        "effect": [
+            {
+                "u_map_run_item_eocs": "all",
+                "min_radius": 0,
+                "max_radius": 1,
+                "search_data": [ { "flags": "CORPSE" } ],
+                "true_eocs": [
+                    {
+                        "id": "fs_eoc_apply_pulp",
+                        "effect": [
+                            { 
+                                "if": { "math": ["n_hp('ALL') > 100"] }, 
+                                "then": { "math": ["n_hp('ALL') = 100"] }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
