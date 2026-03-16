@@ -1,4 +1,4 @@
-# COMPACK Mod Collection
+# COMPACK Mods
 
 Mods included in this pack:
 
