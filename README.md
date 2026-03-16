@@ -28,6 +28,4 @@ This mod reduces the distance fungals can spawn from a fungal bloom considerably
 
 # License
 
-These mods are released under CC BY-SA 3.0 and use the mod API and content from https://github.com/CleverRaven/Cataclysm-DDA. 
-
-A list of content authors can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors).
+These mods are released under CC BY-SA 3.0 and use the mod API and content from https://github.com/CleverRaven/Cataclysm-DDA. A list of Cataclysm-DDA content authors can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors).
