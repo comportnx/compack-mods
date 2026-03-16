@@ -12,16 +12,16 @@ This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which a
 
 ### Fast Pulping
 
-`Pulping corpses is 20x faster`
+`Pulping corpses is much faster`
 
 This mod has the effect of making pulping zombie corpses much faster, though special tools (prying etc) are still needed for larger corpses.
 
 ---
 
-### Smaller Fungal Blooms
+### Reduced Fungal Radius
 
 `Fungal bloom spawn radius reduced`
 
-This mod reduces the distance fungals can spawn from a fungal bloom considerably, shrinking the area of the overmap they dominate.
+This mod keeps fungal monsters much closer to their blooms, shrinking the area of the overmap they dominate.
 
 
