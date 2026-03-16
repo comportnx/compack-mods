@@ -15,12 +15,3 @@ This mod replaces 'off-road wide' wheels with 'off-road no-flat' wheels, which a
 `Pulping corpses is 20x faster`
 
 This mod has the effect of making pulping zombie corpses much faster, though special tools (prying etc) are still needed for larger corpses.
-
----
-
-### Quiet Riots
-
-`Disables riot damage`
-
-Disables riot damage for buildings (but not roads).
-
