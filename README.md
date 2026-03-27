@@ -14,15 +14,11 @@ This patch adds the ability to attack across Z-levels to very long weapons like 
 
 Wheels are much more resistant to punctures, while armoured wheels and off-road wide wheels are immune to them. Armoured wheels are found on military vehicles, 'off-road no-flat' wheels are on tractors, excavators, and trenchers.
 
----
-
 ### Fast Pulping
 
 `Pulping corpses is much faster.`
 
 This mod has the effect of making pulping zombie corpses much faster, with regular zs only taking a few seconds, though special tools (prying etc) are still needed for larger corpses.
-
----
 
 ### Reduced Fungal Radius
 
