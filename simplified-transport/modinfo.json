@@ -1,0 +1,41 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "simplified-transport",
+        "name": "compack: Simplified Transport",
+        "authors": [ "comportnx" ],
+        "description": "Adds a large crate for transporting furniture items too big for cargo compartments.",
+        "category": "misc",
+        "dependencies": [ "dda" ]
+    },
+    {
+        "id": "st_crate_large",
+        "type": "ITEM",
+        "category": "container",
+        "copy-from": "box_large_wood",
+        "name": { "str": "large crate" },
+        "looks_like": "f_crate_o",
+        "description": "A large crate, heavy but with lots of space.",
+        "ascii_picture": "box_large_wood",
+        "weight": "50000 g",
+        "volume": "500 l",
+        "longest_side": "155 cm",
+        "price": "50 USD",
+        "price_postapoc": "10 USD",
+        "//": "1.5m3",
+        "pocket_data": [
+            {
+                "pocket_type": "CONTAINER",
+                "rigid": true,
+                "max_contains_volume": "3000 l",
+                "max_contains_weight": "800 kg",
+                "max_item_length": "150 cm"
+            }
+        ],
+        "material": [
+            "wood"
+        ],
+        "symbol": "#",
+        "color": "brown"
+    }
+]
