@@ -1,0 +1,11 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "reach-tweak",
+        "name": "compack: REACH3 Patch",
+        "authors": [ "comportnx" ],
+        "description": "Re-enables cross-z-level attacks for very long weapons like pikes.",
+        "category": "misc",
+        "dependencies": [ "dda" ]
+    }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "simple_pike_pipe",
+    "type": "ITEM",
+    "copy-from": "simple_pike_pipe",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_bronze",
+    "type": "ITEM",
+    "copy-from": "pike_bronze",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bullwhip",
+    "type": "ITEM",
+    "copy-from": "bullwhip",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_copper",
+    "type": "ITEM",
+    "copy-from": "pike_copper",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dressage_whip",
+    "type": "ITEM",
+    "copy-from": "dressage_whip",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike",
+    "type": "ITEM",
+    "copy-from": "pike",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_fake",
+    "type": "ITEM",
+    "copy-from": "pike_fake",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_inferior",
+    "type": "ITEM",
+    "copy-from": "pike_inferior",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_pipe",
+    "type": "ITEM",
+    "copy-from": "pike_pipe",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "soaking_long_pole",
+    "type": "ITEM",
+    "copy-from": "soaking_long_pole",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pike_wood",
+    "type": "ITEM",
+    "copy-from": "pike_wood",
+    "subtypes": [
+      "ARTIFACT"
+    ],
+    "flags": [
+      "MUNDANE",
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          {
+            "value": "MELEE_RANGE_MODIFIER",
+            "add": 10
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,354 @@
+[
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_exploration_start",
+        "eoc_type": "EVENT",
+        "required_event": "game_start",
+        "effect": [ 
+            { "run_eocs": "st_eoc_initialize" },
+            { "u_spawn_item": "st_route_map", "count": 1 } 
+        ]
+    },      
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_exploration_load",
+        "eoc_type": "EVENT",
+        "required_event": "game_load",
+        "effect": [ { "run_eocs": "st_eoc_initialize" } ]
+    },        
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_exploration",
+        "eoc_type": "EVENT",
+        "required_event": "avatar_enters_omt",
+        "effect": [ { "run_eocs": "st_eoc_exploration_box_expand" } ]
+    },   
+    {
+        "id": "st_eoc_initialize",
+        "type": "effect_on_condition",
+        "effect": [
+            { "u_location_variable": { "context_val": "st_exploration_location" } },
+            { "if": { "not": { "math": [ "has_var(u_explored_left)" ] } }, "then": { "math": [ "u_explored_left = _st_exploration_location.x" ] } },
+            { "if": { "not": { "math": [ "has_var(u_explored_right)" ] } }, "then": { "math": [ "u_explored_right = _st_exploration_location.x" ] } },
+            { "if": { "not": { "math": [ "has_var(u_explored_top)" ] } }, "then": { "math": [ "u_explored_top = _st_exploration_location.y" ] } },
+            { "if": { "not": { "math": [ "has_var(u_explored_bottom)" ] } }, "then": { "math": [ "u_explored_bottom = _st_exploration_location.y" ] } },
+            { "math": [ "u_explored_fuzz = 200" ] },
+            { "math": [ "u_travel_efficiency = 1" ] },
+            { "math": [ "u_st_route_inefficiency = 1.5" ] },
+            { "math": [ "u_st_atomic_travel_threshhold = 180" ] }
+        ]
+    },
+    {
+        "id": "st_eoc_exploration_box_expand",
+        "type": "effect_on_condition",
+        "effect": [
+            { "u_location_variable": { "context_val": "st_exploration_location" } },
+            { "math": [" u_explored_left = min(u_explored_left, _st_exploration_location.x) "] },
+            { "math": [" u_explored_right = max(u_explored_right, _st_exploration_location.x) "] },
+            { "math": [" u_explored_top = min(u_explored_top, _st_exploration_location.y) "] },
+            { "math": [" u_explored_bottom = max(u_explored_bottom, _st_exploration_location.y) "] }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_select_map_action",
+        "effect": [
+            {
+                "run_eoc_selector": [
+                    "st_eoc_reveal",
+                    "st_eoc_travel"
+                ],
+                "allow_cancel": true, 
+                "names": [
+                    "Look at surrounding roads",
+                    "Plan a journey"
+                ],
+                "title": "Select activity",
+                "descriptions": [
+                    "Read the map of surrounding roads.",
+                    "Travel to a distant location."
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_reveal",
+        "effect": [
+            { "u_spawn_item": "st_road_map", "suppress_message": true },
+            { 
+                "u_run_inv_eocs": "random",
+                "search_data": [ { "id": "st_road_map" } ],
+                "true_eocs": [ { "id": "st_road_map_activate", "effect": { "u_activate": "reveal_map" } } ]
+            },
+            { "u_consume_item_sum": [ { "item": "st_road_map", "amount": 1 } ] }
+        ]
+    },
+    {
+        "type": "ITEM",
+        "id": "st_road_map",
+        "category": "maps",
+        "name": {
+            "str": "road map"
+        },
+        "description": "A road map for the local area.",
+        "weight": "30 g",
+        "volume": "250 ml",
+        "flags": [
+            "PAPER_SHAPED"
+        ],
+        "price": "10 USD",
+        "price_postapoc": "10 USD",
+        "material": [
+            "paper"
+        ],
+        "symbol": ";",
+        "color": "yellow",
+        "copy-from": "abstractmap",
+        "use_action": {
+            "type": "reveal_map",
+            "radius": 90,
+            "terrain": [
+                {
+                    "om_terrain": "road",
+                    "om_terrain_match_type": "PREFIX"
+                },
+                {
+                    "om_terrain": "hw",
+                    "om_terrain_match_type": "PREFIX"
+                },
+                "bridge"
+            ],
+            "message": "You add the local roads to your map."
+        }
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_travel",
+        "effect": [
+            { "math": [ "_st_fail_target = false" ]  },
+            { "math": [ "_st_fail_origin = false" ]  },
+            { "math": [ "u_st_travel_target = null" ]  },
+            { "set_string_var": "", "target_var": { "context_val": "st_fail_reason" } },
+            { "u_location_variable": { "context_val": "st_current_position" } },
+            {
+                "if": { "math": [ "u_monsters_nearby('radius': 30, 'attitude': 'hostile') > 0 " ] },
+                "then": [
+                    { "set_string_var": "It isn't safe to plan a route from here.", "target_var": { "context_val": "st_fail_reason" } },
+                    { "math": [ "_st_fail_origin = true" ]  }                    
+                ]
+            },
+            {
+                "if": { "map_in_city": { "context_val": "st_current_position" } },
+                "then": [
+                    { "set_string_var": "You don't know a safe route out of the city.", "target_var": { "context_val": "st_fail_reason" } },
+                    { "math": [ "_st_fail_origin = true" ]  }
+                ]
+            },
+            {
+                "if": { "math": [ "_st_fail_origin == false" ] },
+                "then": [
+                    { "u_query_omt": { "u_val": "st_travel_target" }, "message": "Select destination to travel to." },       
+                    {
+                        "if": { "map_in_city": { "u_val": "st_travel_target" } },
+                        "then": [
+                            { 
+                                "set_string_var": "It's too dangerous to travel directly into a city. Choose another destination?", 
+                                "target_var": { "context_val": "st_fail_reason" } 
+                            },
+                            { "math": [ "_st_fail_target = true" ]  }
+                        ]
+                    },
+                    {
+                        "if": { "or": [ 
+                            { "math": [ "u_st_travel_target.x < u_explored_left - u_explored_fuzz" ] },
+                            { "math": [ "u_st_travel_target.x > u_explored_right + u_explored_fuzz" ] },
+                            { "math": [ "u_st_travel_target.y < u_explored_top - u_explored_fuzz" ] },
+                            { "math": [ "u_st_travel_target.y > u_explored_bottom + u_explored_fuzz" ] }
+                        ] },
+                        "then": [
+                            { 
+                                "set_string_var": "You're not familiar enough with that area. Choose another destination?", 
+                                "target_var": { "context_val": "st_fail_reason" } 
+                            },
+                            { "math": [ "_st_fail_target = true" ]  }
+                        ]
+                    },                    
+                    { 
+                        "if": { "math": [ "_st_fail_target == false" ] },
+                        "then": [ { "run_eocs": "st_eoc_travel_confirm" } ],
+                        "else": [ 
+                            { 
+                                "if" : { "u_query": { "context_val": "st_fail_reason" }, "default": true },
+                                "then": { "run_eocs": "st_eoc_travel" }
+                            }
+                        ]   
+                    }
+                ],
+                "else": [ { "u_message": { "context_val": "st_fail_reason" }, "popup": true } ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_travel_confirm",
+        "effect": [
+            { "u_location_variable": { "u_val": "st_start_location" } },
+            { "math": [ "_distance = distance('u', u_st_travel_target) " ] },
+            { "math": [ "_travel_speed = u_speed() / 100" ] },
+            { "math": [ "_travel_time = (_distance * u_st_route_inefficiency) * (_travel_speed * u_travel_efficiency)" ] },
+            { "math": [ "_travel_time_m = _travel_time / 60 - (_travel_time / 60 % 5)" ] },
+            { "math": [ "_travel_time_h = _travel_time_m / 60" ] },
+            { "math": [ "_travel_time_d = _travel_time_h / 24" ] },
+            { "math": [ "u_st_departure_time = time('now')" ] },
+            { "math": [ "u_st_travel_time = _travel_time" ] },
+            { "math": [ "u_st_travel_distance = _distance" ] },
+            { "math": [ "u_st_travel_distance_x = u_st_travel_target.x - _st_current_position.x" ] },
+            { "math": [ "u_st_travel_distance_y = u_st_travel_target.y - _st_current_position.y" ] },
+            { 
+                "set_string_var": "You estimate that journey will take <context_val:travel_time_m> minutes. Continue?", 
+                "target_var": { "context_val": "distanceS" }, 
+                "parse_tags": true 
+            },
+            { 
+                "if": { "u_query": { "context_val": "distanceS" }, "default": true }, 
+                "then": [
+                    { "math": [ "u_st_departure_time = time('now')" ] },
+                    { "u_location_variable": { "u_val": "st_last_step_location" } },                    
+                    { "u_assign_activity": "st_act_travel", "duration": { "context_val": "travel_time" } }
+                ]
+            }
+        ]
+    },        
+    {
+        "id": "st_act_travel",
+        "type": "activity_type",
+        "activity_level": "MODERATE_EXERCISE",
+        "verb": "traveling",
+        "based_on": "time",
+        "can_resume": false,
+        "do_turn_eoc": "st_eoc_travel_tick", 
+        "completion_eoc": "st_eoc_travel_complete"
+    },      
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_travel_tick",
+        "effect": [
+            { "math": [ "u_st_time_traveling = time_since(u_st_departure_time)" ] },
+            { 
+                "if": { "math": [ "u_st_time_traveling % u_st_atomic_travel_threshhold == 0" ] }, 
+                "then": [
+                    { "u_location_variable": { "u_val": "st_step_location" } },
+                    { "math": [ "u_st_travel_progress = u_st_time_traveling / u_st_travel_time" ] },
+                    { "math": [ "u_st_notional_x = round(u_st_start_location.x + (u_st_travel_distance_x * u_st_travel_progress))" ] },
+                    { "math": [ "u_st_notional_y = round(u_st_start_location.y + (u_st_travel_distance_y * u_st_travel_progress))" ] },
+                    { "math": [ "u_st_step_location.x = u_st_notional_x" ] },
+                    { "math": [ "u_st_step_location.y = u_st_notional_y" ] },
+                    { "math": [ "u_st_step_location.z = 0" ] },
+                    { "run_eocs": "st_eoc_travel_step" }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_test_location_valid",
+        "effect": [ 
+            { "u_location_variable": { "context_val": "st_test_prelocation" } },
+            { "u_add_effect": "st_travel_blind", "duration": "1 m" },
+            { "u_teleport": { "context_val": "st_test_location" } },
+            { "u_location_variable": { "context_val": "st_unsuitable_location_water_mdp" }, "target_max_radius": 1, "terrain": "t_water_moving_dp" },
+            { "u_location_variable": { "context_val": "st_unsuitable_location_water_msh" }, "target_max_radius": 1, "terrain": "t_water_moving_sh" },
+            { "u_location_variable": { "context_val": "st_unsuitable_location_water_mur" }, "target_max_radius": 1, "terrain": "t_water_murky" },
+            { "u_location_variable": { "context_val": "st_unsuitable_location_water_sha" }, "target_max_radius": 1, "terrain": "t_water_sh" },
+            { "u_location_variable": { "context_val": "st_unsuitable_location_water_dee" }, "target_max_radius": 1, "terrain": "t_water_dp" },
+            { "u_location_variable": { "context_val": "st_suitable_location" }, "target_max_radius": 1, "outdoor_only": true, "passable_only": true },
+            {
+                "if": { "or": [
+                    { "map_in_city": { "context_val": "st_test_location"} },
+                    { "math": [ "u_monsters_nearby('radius': _st_valdity_radius, 'attitude': 'hostile') > 0 " ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_mdp)" ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_msh)" ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_mur)" ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_sha)" ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_dee)" ] },
+                    { "not": { "math": [ "has_var(_st_suitable_location)" ] } }
+                ] },
+                "then": { "math": [ "u_st_location_valid = false" ] },
+                "else": { "math": [ "u_st_location_valid = true" ] }
+            },
+            { "u_teleport": { "context_val": "st_test_prelocation"} },
+            { "u_lose_effect": "st_travel_blind" }
+        ]
+    }, 
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_travel_step",
+        "effect": [ 
+            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_step_location" }, "st_valdity_radius": 50 } },
+            {
+                "if": { "math": [ "u_st_location_valid == true" ] },
+                "then": [
+                    { "u_location_variable": { "u_val": "st_last_step_location" } },
+                    { "u_teleport": { "u_val": "st_step_location"} }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_type",
+        "id": "st_travel_blind",
+        "name": [ "Traveling" ],
+        "desc": [ { "str": "Traveling and not paying attention." } ],
+        "rating": "neutral",
+        "show_in_info": false,
+        "limb_score_mods": [
+            { "limb_score": "vision", "modifier": 0.0 },
+            { "limb_score": "night_vis", "modifier": 0.0 },
+            { "limb_score": "reaction", "modifier": 0.0 }
+        ],
+        "flags": [ "EFFECT_LIMB_SCORE_MOD", "BLIND", "INVISIBLE" ]
+    },    
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_travel_complete",
+        "effect": [ 
+            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_travel_target" }, "st_valdity_radius": 30 } },
+            { 
+                "if": { "math": [ "u_st_location_valid == true" ] },
+                "then": [
+                    { "u_teleport": { "u_val": "st_travel_target"} },
+                    { "u_message": "You arrive at your destination." }
+                ],
+                "else": [ 
+                    { "u_message": "This was as close as you could get safely." }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "st_route_map",
+        "type": "ITEM",
+        "category": "tools",
+        "name": {
+            "str": "national map book"
+        },
+        "description": "A thick book containing road maps of the country at varying levels of detail.",
+        "color": "yellow",
+        "price_postapoc": "200 USD",
+        "price": "20 USD",
+        "weight": "200 g",
+        "volume": "500 ml",
+        "material": "paper",
+        "symbol": "?",
+        "use_action": [
+            {
+                "type": "effect_on_conditions",
+                "description": "Select an action",
+                "effect_on_conditions": [
+                    "st_eoc_select_map_action"
+                ]
+            }
+        ]
+    }
+]

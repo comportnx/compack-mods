@@ -1,0 +1,11 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "simplified-travel",
+        "name": "compack: Simplified Travel",
+        "authors": [ "comportnx" ],
+        "description": "The national road atlas can help you make long journeys without micromanagement.",
+        "category": "misc",
+        "dependencies": [ "dda" ]
+    }
+]

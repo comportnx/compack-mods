@@ -1,0 +1,35 @@
+[
+    {
+        "id": "stick_longer",
+        "type": "ITEM",
+        "subtypes": ["ARTIFACT"],
+        "copy-from": "stick_long",
+        "name": { "str": "rough pole" },
+        "looks_like": "pike",
+        "longest_side": "360 cm",
+        "weight": "3500 g",
+        "extend": { "flags": [ "MUNDANE" ] },
+        "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MELEE_RANGE_MODIFIER", "add": 10 } ] } ]
+    },
+    {
+        "type": "terrain",
+        "id": "t_tree_young",
+        "copy-from": "t_tree_young",
+        "bash": {
+            "str_min": 4,
+            "str_max": 50,
+            "sound": "crunch!",
+            "sound_fail": "whack!",
+            "ter_set": "t_dirt",
+            "items": [
+                { "item": "stick_longer", "count": [ 0, 1 ] },                
+                { "item": "stick_long", "count": [ 0, 5 ] },
+                { "item": "splinter", "count": [ 0, 4 ] },
+                { "item": "twig", "count": [ 2, 7 ] },
+                { "item": "leaves", "count": [ 5, 20 ] }
+            ],
+            "hit_field": [ "fd_dust", 2 ],
+            "destroyed_field": [ "fd_splinters", 1 ]
+        }
+    }
+]

@@ -1,9 +1,9 @@
 [
     {
         "type": "MOD_INFO",
-        "id": "fast-pulping",
-        "name": "COMPACK: Fast Pulping",
-        "authors": [ "compxrt" ],
+        "id": "fast-smash",
+        "name": "compack: Fast Pulping",
+        "authors": [ "comportnx" ],
         "description": "Pulping corpses only takes a few seconds.",
         "category": "misc",
         "dependencies": [ "dda" ]
