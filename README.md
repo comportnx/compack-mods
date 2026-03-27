@@ -6,7 +6,7 @@ All mods are on Default tab under NO CATEGORY:
 
 `Very long weapons can attack across z-levels.` `There are early-game long weapon options.`
 
-This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early game long weapons; smashing a young tree now has a chance to yield a 'rough pole', and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
+This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early game long weapons; smashing a young tree now has a chance to yield a 'rough pole' capable of attacking from a long way away, and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
 
 ### Tough Tyres
 
