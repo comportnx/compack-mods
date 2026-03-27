@@ -10,7 +10,7 @@ Adds a 'national map book' item with two functions. First, it works as a reusabl
 
 Traveling in this way takes a little longer than walking manually would take, and there are restrictions on traveling into and out of dangerous areas. It also doesn't work while driving or dragging vehicles.
 
-(The explored zone is a rectangle with edges described by the furthest you've traveled in each cardinal direction)
+(The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
 ### Reach3 Patch
 
