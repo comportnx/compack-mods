@@ -2,11 +2,19 @@
 
 All mods are on Default tab under NO CATEGORY:
 
+### Simplified Travel
+
+`Characters start with a National road atlas a reusable road map & fast- travel tool.`
+
+Adds a 'national road map' item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the explored zone* and travel there automatically, without needing to manually route around danger. I wanted this to travel between faction camps without a lot of micro-management, but it may have other uses as well.
+
+* The explored zone is a rectangle with edges described by the furthest you've traveled in each cardinal direction.
+
 ### Reach3 Patch
 
 `Very long weapons can attack across z-levels.` `There are early-game long weapon options.`
 
-This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early game long weapons; smashing a young tree now has a chance to yield a 'rough pole' capable of attacking from a long way away, and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
+This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early-game long weapons; smashing a young tree now has a chance to yield a 'rough pole' capable of attacking from a long way away, and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
 
 ### Tough Tyres
 
