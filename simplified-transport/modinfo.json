@@ -43,7 +43,7 @@
         "activity_level": "LIGHT_EXERCISE",
         "result": "st_crate_large",
         "category": "CC_*",
-        "subcategory": "CSC_*_NESTED",
+        "subcategory": "CSC_*",
         "skill_used": "fabrication",
         "difficulty": 2,
         "time": "40 m",

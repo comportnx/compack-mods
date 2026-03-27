@@ -15,14 +15,7 @@
         "eoc_type": "EVENT",
         "required_event": "game_load",
         "effect": [ { "run_eocs": "st_eoc_initialize" } ]
-    },        
-    {
-        "type": "effect_on_condition",
-        "id": "st_eoc_exploration",
-        "eoc_type": "EVENT",
-        "required_event": "avatar_enters_omt",
-        "effect": [ { "run_eocs": "st_eoc_exploration_box_expand" } ]
-    },   
+    },         
     {
         "id": "st_eoc_initialize",
         "type": "effect_on_condition",
@@ -39,6 +32,13 @@
         ]
     },
     {
+        "type": "effect_on_condition",
+        "id": "st_eoc_exploration",
+        "eoc_type": "EVENT",
+        "required_event": "avatar_enters_omt",
+        "effect": [ { "run_eocs": "st_eoc_exploration_box_expand" } ]
+    },      
+    {
         "id": "st_eoc_exploration_box_expand",
         "type": "effect_on_condition",
         "effect": [
@@ -49,6 +49,31 @@
             { "math": [" u_explored_bottom = max(u_explored_bottom, _st_exploration_location.y) "] }
         ]
     },
+    {
+        "id": "st_route_map",
+        "type": "ITEM",
+        "category": "tools",
+        "name": {
+            "str": "national map book"
+        },
+        "description": "A thick book containing road maps of the country at varying levels of detail.",
+        "color": "yellow",
+        "price_postapoc": "200 USD",
+        "price": "20 USD",
+        "weight": "200 g",
+        "volume": "500 ml",
+        "material": "paper",
+        "symbol": "?",
+        "use_action": [
+            {
+                "type": "effect_on_conditions",
+                "description": "Select an action",
+                "effect_on_conditions": [
+                    "st_eoc_select_map_action"
+                ]
+            }
+        ]
+    },    
     {
         "type": "effect_on_condition",
         "id": "st_eoc_select_map_action",
@@ -148,7 +173,19 @@
             {
                 "if": { "math": [ "_st_fail_origin == false" ] },
                 "then": [
-                    { "u_query_omt": { "u_val": "st_travel_target" }, "message": "Select destination to travel to." },       
+                    { "u_query_omt": { "u_val": "st_travel_target" }, "message": "Select destination to travel to." },
+                    { "set_string_var": "<u_val:st_travel_target>", "target_var": { "context_val": "st_target_test" }, "parse_tags": true },
+                    { 
+                        "if": { "compare_string": [ "0", { "context_val": "st_target_test" } ] },
+                        "then": [ 
+                            { "u_location_variable": { "u_val": "st_travel_target" } },
+                            { 
+                                "set_string_var": "No destination was selected. Choose one now?", 
+                                "target_var": { "context_val": "st_fail_reason" } 
+                            },
+                            { "math": [ "_st_fail_target = true" ]  }                            
+                        ]
+                    },
                     {
                         "if": { "map_in_city": { "u_val": "st_travel_target" } },
                         "then": [
@@ -322,31 +359,6 @@
                 ],
                 "else": [ 
                     { "u_message": "This was as close as you could get safely." }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "st_route_map",
-        "type": "ITEM",
-        "category": "tools",
-        "name": {
-            "str": "national map book"
-        },
-        "description": "A thick book containing road maps of the country at varying levels of detail.",
-        "color": "yellow",
-        "price_postapoc": "200 USD",
-        "price": "20 USD",
-        "weight": "200 g",
-        "volume": "500 ml",
-        "material": "paper",
-        "symbol": "?",
-        "use_action": [
-            {
-                "type": "effect_on_conditions",
-                "description": "Select an action",
-                "effect_on_conditions": [
-                    "st_eoc_select_map_action"
                 ]
             }
         ]
