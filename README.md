@@ -8,7 +8,7 @@ All mods are on Default tab under NO CATEGORY:
 
 Adds a 'national map book' item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the 'explored zone' and travel there automatically, without needing to manually route around hazards. I wanted this as a way to travel between faction camps without a lot of micro-management, but it may have other uses as well. 
 
-Traveling in this way takes a little longer for the character than walking manually would take, but less time and attention from the player. There are restrictions on traveling into and out of dangerous areas, and it doesn't work yet while driving or dragging vehicles.
+Traveling in this way takes a little longer for the character than walking manually would, but needs less time and attention from the player. There are restrictions on traveling into and out of dangerous areas, and it doesn't work yet while driving or dragging vehicles.
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
