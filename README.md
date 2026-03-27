@@ -1,4 +1,4 @@
-# COMPACK Mods
+# Compack Mods
 
 All mods are on Default tab under NO CATEGORY:
 
