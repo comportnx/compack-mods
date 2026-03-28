@@ -6,7 +6,7 @@ All mods are on Default tab under NO CATEGORY:
 
 `Characters start with a national map book: a reusable road map & fast-travel tool.`
 
-Adds a 'national map book' item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the 'explored zone' and travel there automatically, without needing to manually route around hazards. I wanted this as a way to travel between faction camps without a lot of micro-management, but it may have other uses as well. 
+Adds a 'national map book' item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the "explored zone" and travel there automatically, without needing to manually route around hazards. I wanted this as a way to travel between faction camps without a lot of micro-management, but it may have other uses as well. 
 
 Traveling in this way takes a little longer for the character than walking manually would, but needs less time and attention from the player. There are restrictions on traveling into and out of dangerous areas, and it doesn't work yet while driving or dragging vehicles.
 
