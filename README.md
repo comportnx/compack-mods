@@ -14,23 +14,23 @@ Traveling in this way takes a little longer for the character than walking manua
 
 ### Color-coded Clothing
 
-`Useful and valuable clothing items have cyan names`
+`Useful and valuable clothing items have cyan names.`
 
-This small(?) mod changes the color of 'useful' clothing items cyan.
+This simple mod makes the names of useful clothing items appear cyan so they're easier to see when looting stuffed dressers and wardrobes.
 
-Currently it applies to armor, bags, packs, pouches, warm clothes, and clothing that's worth more than 7 dollars to traders.
+Currently "useful" is defined as: armor, bags, packs, pouches, warm clothes, and clothing that's worth more than 7 dollars to traders.
 
 ### Reach3 Patch
 
 `Very long weapons can attack across z-levels.` `There are early-game long weapon options.`
 
-This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early-game long weapons; smashing a young tree now has a chance to yield a 'rough pole' capable of attacking from a long way away, and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
+This patch adds the ability to attack across Z-levels to very long weapons like pikes. It also adds some early-game long weapons; smashing a young tree now has a chance to yield a "rough pole" capable of attacking from a long way away, and the 'pipe pike' can now be made from just a simple pipe spear, a couple of pipes, and some pipe fittings.
 
 ### Tough Tyres
 
 `Wheels are more resistant to punctures.` `Armoured and 'off-road wide' wheels are immune to punctures.`
 
-Wheels are much more resistant to punctures, while armoured wheels and off-road wide wheels are immune to them. Armoured wheels are found on military vehicles, 'off-road no-flat' wheels are on tractors, excavators, and trenchers.
+Wheels are much more resistant to punctures, while armoured wheels and off-road wide wheels are immune to them. Armoured wheels are found on military vehicles, "off-road no-flat" wheels are on tractors, excavators, and trenchers.
 
 ### Fast Pulping
 
