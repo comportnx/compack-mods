@@ -1,0 +1,11 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "color-coding",
+        "name": "compack: Color-coded Clothing",
+        "authors": [ "comportnx" ],
+        "description": "Color codes armor and storage for easier looting.",
+        "category": "misc",
+        "dependencies": [ "dda" ]
+    }
+]
