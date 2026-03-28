@@ -12,6 +12,14 @@ Traveling in this way takes a little longer for the character than walking manua
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
+### Color-coded Clothing
+
+`Useful and valuable clothing items have cyan names`
+
+This small(?) mod changes the color of 'useful' clothing items cyan.
+
+Currently it applies to armor, bags, packs, pouches, warm clothes, and clothing that's worth more than 7 dollars to traders.
+
 ### Reach3 Patch
 
 `Very long weapons can attack across z-levels.` `There are early-game long weapon options.`
