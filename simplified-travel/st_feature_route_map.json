@@ -25,10 +25,10 @@
             { "if": { "not": { "math": [ "has_var(u_explored_right)" ] } }, "then": { "math": [ "u_explored_right = _st_exploration_location.x" ] } },
             { "if": { "not": { "math": [ "has_var(u_explored_top)" ] } }, "then": { "math": [ "u_explored_top = _st_exploration_location.y" ] } },
             { "if": { "not": { "math": [ "has_var(u_explored_bottom)" ] } }, "then": { "math": [ "u_explored_bottom = _st_exploration_location.y" ] } },
-            { "math": [ "u_explored_fuzz = 200" ] },
+            { "math": [ "u_explored_fuzz = 50" ] },
             { "math": [ "u_travel_efficiency = 1" ] },
             { "math": [ "u_st_route_inefficiency = 1.5" ] },
-            { "math": [ "u_st_atomic_travel_threshhold = 180" ] }
+            { "math": [ "u_st_atomic_travel_threshhold = 60" ] }
         ]
     },
     {
@@ -157,9 +157,16 @@
             { "set_string_var": "", "target_var": { "context_val": "st_fail_reason" } },
             { "u_location_variable": { "context_val": "st_current_position" } },
             {
-                "if": { "math": [ "u_monsters_nearby('radius': 30, 'attitude': 'hostile') > 0 " ] },
+                "if": { "math": [ "_st_current_position.z != 0" ] },
                 "then": [
-                    { "set_string_var": "It isn't safe to plan a route from here.", "target_var": { "context_val": "st_fail_reason" } },
+                    { "set_string_var": "Your map doesn't cover routes from here.", "target_var": { "context_val": "st_fail_reason" } },
+                    { "math": [ "_st_fail_origin = true" ]  }                    
+                ]
+            },            
+            {
+                "if": { "math": [ "u_monsters_nearby('radius': 2, 'attitude': 'hostile') > 0 " ] },
+                "then": [
+                    { "set_string_var": "It isn't safe to plan a route right now.", "target_var": { "context_val": "st_fail_reason" } },
                     { "math": [ "_st_fail_origin = true" ]  }                    
                 ]
             },
@@ -186,6 +193,13 @@
                             { "math": [ "_st_fail_target = true" ]  }                            
                         ]
                     },
+                    {
+                        "if": { "math": [ "u_st_travel_target.z != 0" ] },
+                        "then": [
+                            { "set_string_var": "Your map doesn't cover routes there. Choose another destination?", "target_var": { "context_val": "st_fail_reason" } },
+                            { "math": [ "_st_fail_target = true" ]  }                    
+                        ]
+                    },                             
                     {
                         "if": { "map_in_city": { "u_val": "st_travel_target" } },
                         "then": [
@@ -242,6 +256,7 @@
             { "math": [ "u_st_travel_distance = _distance" ] },
             { "math": [ "u_st_travel_distance_x = u_st_travel_target.x - _st_current_position.x" ] },
             { "math": [ "u_st_travel_distance_y = u_st_travel_target.y - _st_current_position.y" ] },
+            { "math": [ "u_st_atomic_travel_threshhold = round(u_st_travel_time / 10)" ] },
             { 
                 "set_string_var": "You estimate that journey will take <context_val:travel_time_m> minutes. Continue?", 
                 "target_var": { "context_val": "distanceS" }, 
@@ -289,8 +304,23 @@
     },
     {
         "type": "effect_on_condition",
+        "id": "st_eoc_travel_step",
+        "effect": [ 
+            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_step_location" }, "st_valdity_radius": 40, "st_monster_tolerance": 0 } },
+            {
+                "if": { "math": [ "u_st_location_valid == true" ] },
+                "then": [
+                    { "u_location_variable": { "u_val": "st_last_step_location" } },
+                    { "u_teleport": { "u_val": "st_step_location"} }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
         "id": "st_eoc_test_location_valid",
         "effect": [ 
+            { "math": [ "u_st_location_valid = true" ] },
             { "u_location_variable": { "context_val": "st_test_prelocation" } },
             { "u_add_effect": "st_travel_blind", "duration": "1 m" },
             { "u_teleport": { "context_val": "st_test_location" } },
@@ -302,36 +332,48 @@
             { "u_location_variable": { "context_val": "st_suitable_location" }, "target_max_radius": 1, "outdoor_only": true, "passable_only": true },
             {
                 "if": { "or": [
-                    { "map_in_city": { "context_val": "st_test_location"} },
-                    { "math": [ "u_monsters_nearby('radius': _st_valdity_radius, 'attitude': 'hostile') > 0 " ] },
+                    { "map_in_city": { "context_val": "st_test_location"} }
+                ] },
+                "then": [
+                    { "math": [ "u_st_location_valid = false" ] },
+                    { "set_string_var": "Location is in city", "target_var": { "u_val": "st_location_valid_reason" } }
+                ]
+            },            
+            {
+                "if": { "or": [
+                    { "math": [ "u_monsters_nearby('radius': _st_valdity_radius, 'attitude': 'hostile') > _st_monster_tolerance " ] }
+                ] },
+                "then": [ 
+                    { "math": [ "u_st_location_valid = false" ] },
+                    { "set_string_var": "Location is has monsters", "target_var": { "u_val": "st_location_valid_reason" } }
+                ]
+            },
+            {
+                "if": { "or": [
                     { "math": [ "has_var(_st_unsuitable_location_water_mdp)" ] },
                     { "math": [ "has_var(_st_unsuitable_location_water_msh)" ] },
                     { "math": [ "has_var(_st_unsuitable_location_water_mur)" ] },
                     { "math": [ "has_var(_st_unsuitable_location_water_sha)" ] },
-                    { "math": [ "has_var(_st_unsuitable_location_water_dee)" ] },
+                    { "math": [ "has_var(_st_unsuitable_location_water_dee)" ] }
+                ] },
+                "then": [
+                    { "math": [ "u_st_location_valid = false" ] },
+                    { "set_string_var": "Location is in water", "target_var": { "u_val": "st_location_valid_reason" } }
+                ]
+            },        
+            {
+                "if": { "or": [
                     { "not": { "math": [ "has_var(_st_suitable_location)" ] } }
                 ] },
-                "then": { "math": [ "u_st_location_valid = false" ] },
-                "else": { "math": [ "u_st_location_valid = true" ] }
-            },
+                "then": [
+                    { "math": [ "u_st_location_valid = false" ] },
+                    { "set_string_var": "Location is not passable", "target_var": { "u_val": "st_location_valid_reason" } }
+                ]
+            },                    
             { "u_teleport": { "context_val": "st_test_prelocation"} },
             { "u_lose_effect": "st_travel_blind" }
         ]
-    }, 
-    {
-        "type": "effect_on_condition",
-        "id": "st_eoc_travel_step",
-        "effect": [ 
-            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_step_location" }, "st_valdity_radius": 50 } },
-            {
-                "if": { "math": [ "u_st_location_valid == true" ] },
-                "then": [
-                    { "u_location_variable": { "u_val": "st_last_step_location" } },
-                    { "u_teleport": { "u_val": "st_step_location"} }
-                ]
-            }
-        ]
-    },
+    },     
     {
         "type": "effect_type",
         "id": "st_travel_blind",
@@ -350,7 +392,7 @@
         "type": "effect_on_condition",
         "id": "st_eoc_travel_complete",
         "effect": [ 
-            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_travel_target" }, "st_valdity_radius": 30 } },
+            { "run_eocs": "st_eoc_test_location_valid", "variables": { "st_test_location": { "u_val": "st_travel_target" }, "st_valdity_radius": 30, "st_monster_tolerance": 3 } },
             { 
                 "if": { "math": [ "u_st_location_valid == true" ] },
                 "then": [
@@ -358,7 +400,7 @@
                     { "u_message": "You arrive at your destination." }
                 ],
                 "else": [ 
-                    { "u_message": "This was as close as you could get safely." }
+                    { "u_message": "This was as close as you could get safely (<u_val:st_location_valid_reason>)." }
                 ]
             }
         ]
