@@ -35,6 +35,8 @@ jobs:
 
       - name: Delete Master Release
         run: gh release delete cdda-compack-main --cleanup-tag
+        env:
+          GH_TOKEN: ${{ github.token }}        
 
       - name: Upload Master Release
         uses: ncipollo/release-action@v1.12.0
