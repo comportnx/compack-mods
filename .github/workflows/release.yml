@@ -31,7 +31,7 @@ jobs:
         with:
           type: 'zip'
           filename: "release-cdda-compack-main.zip"
-          exclusions: '*.git*'
+          exclusions: '*.git* *.zip*'
 
       - name: Delete Master Release
         run: gh release delete cdda-compack-main --cleanup-tag
