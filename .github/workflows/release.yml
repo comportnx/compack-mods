@@ -17,12 +17,12 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: "release_${{ github.event.inputs.tag }}.zip"
+          filename: "release-${{ github.event.inputs.tag }}.zip"
           exclusions: '*.git*'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "release_${{ github.event.inputs.tag }}.zip"
+          artifacts: "release-${{ github.event.inputs.tag }}.zip"
           tag: "${{ github.event.inputs.tag }}"
 
