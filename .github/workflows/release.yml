@@ -2,8 +2,10 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      tag:
+        required: true
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   zip:
     runs-on: ubuntu-latest
@@ -15,12 +17,12 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'release.zip'
+          filename: "release_${{ github.event.inputs.tag }}.zip"
           exclusions: '*.git*'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: 'release.zip'
-          tag: compack_v0.4
+          artifacts: "release_${{ github.event.inputs.tag }}.zip"
+          tag: "${{ github.event.inputs.tag }}"
 
