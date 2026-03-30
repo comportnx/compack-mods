@@ -9,7 +9,7 @@
         "longest_side": "300 cm",
         "weight": "3500 g",
         "extend": { "flags": [ "MUNDANE" ] },
-        "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MELEE_RANGE_MODIFIER", "add": 10 } ] } ]
+        "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MELEE_RANGE_MODIFIER", "add": 5 } ] } ]
     },
     {
         "type": "terrain",

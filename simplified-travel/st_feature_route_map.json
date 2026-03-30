@@ -400,7 +400,7 @@
                     { "u_message": "You arrive at your destination." }
                 ],
                 "else": [ 
-                    { "u_message": "This was as close as you could get safely (<u_val:st_location_valid_reason>)." }
+                    { "u_message": "This was as close as you could get safely." }
                 ]
             }
         ]

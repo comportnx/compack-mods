@@ -15,6 +15,7 @@
       "NONCONDUCTIVE",
       "ALWAYS_TWOHAND"
     ],
+    "looks_like": "simple_spear_pipe",
     "passive_effects": [
       {
         "has": "WIELD",
@@ -22,7 +23,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -51,7 +52,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -80,7 +81,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -109,7 +110,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -138,7 +139,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -167,7 +168,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -196,7 +197,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -225,7 +226,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -254,7 +255,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -283,7 +284,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }
@@ -312,7 +313,7 @@
         "values": [
           {
             "value": "MELEE_RANGE_MODIFIER",
-            "add": 10
+            "add": 5
           }
         ]
       }

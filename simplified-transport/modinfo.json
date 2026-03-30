@@ -24,7 +24,7 @@
         "description": "A large crate, heavy but with lots of space.",
         "weight": "50000 g",
         "volume": "500 L",
-        "//": "Longest side hack to avoid a crate being put inside things that would fit inside a crate and other spacetime violations",
+        "//": "Longest side hack to avoid a crate being put inside things that would fit inside a crate (and other spacetime violations)",
         "longest_side": "1337 cm",
         "price": "50 USD",
         "price_postapoc": "10 USD",
