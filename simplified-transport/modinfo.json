@@ -3,20 +3,25 @@
         "type": "MOD_INFO",
         "id": "simplified-transport",
         "name": "compack: Simplified Transport",
-        "authors": [ "comportnx" ],
+        "authors": [
+            "comportnx"
+        ],
         "description": "Adds a large crate for transporting furniture items too big for cargo compartments.",
         "category": "misc",
-        "dependencies": [ "dda" ]
+        "dependencies": [
+            "dda"
+        ]
     },
     {
         "id": "st_crate_large",
         "type": "ITEM",
         "category": "container",
         "copy-from": "box_large_wood",
-        "name": { "str": "large crate" },
+        "name": {
+            "str": "large crate"
+        },
         "looks_like": "f_crate_o",
         "description": "A large crate, heavy but with lots of space.",
-        "ascii_picture": "box_large_wood",
         "weight": "50000 g",
         "volume": "500 L",
         "longest_side": "115 cm",
@@ -36,7 +41,19 @@
             "wood"
         ],
         "symbol": "#",
-        "color": "brown"
+        "color": "brown",
+        "use_action": {
+            "type": "deploy_furn",
+            "furn_type": "f_crate_o"
+        }
+    },
+    {
+        "type": "furniture",
+        "id": "f_crate_o",
+        "copy-from": "f_crate_o",
+        "deployed_item": "st_crate_large",
+        "examine_action": "deployed_furniture",
+        "max_volume": "1500 L"
     },
     {
         "type": "recipe",
@@ -51,17 +68,17 @@
         "reversible": true,
         "proficiencies": [
             {
-            "proficiency": "prof_carpentry_basic"
+                "proficiency": "prof_carpentry_basic"
             }
         ],
         "qualities": [
             {
-            "id": "SAW_W",
-            "level": 2
+                "id": "SAW_W",
+                "level": 2
             },
             {
-            "id": "HAMMER",
-            "level": 1
+                "id": "HAMMER",
+                "level": 1
             }
         ],
         "components": [
@@ -70,8 +87,8 @@
                     "2x4",
                     24
                 ]
-                ],
-                [
+            ],
+            [
                 [
                     "nails",
                     60,
@@ -79,5 +96,5 @@
                 ]
             ]
         ]
-    }    
+    }
 ]

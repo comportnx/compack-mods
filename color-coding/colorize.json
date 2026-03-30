@@ -20,6 +20,52 @@
     "variants": []
   },
   {
+    "id": "chestrig",
+    "type": "ITEM",
+    "copy-from": "chestrig",
+    "name": {
+      "str": "<color_cyan><</color> chest rig",
+      "str_pl": "<color_cyan><</color> chest rigs"
+    },
+    "variants": [
+      {
+        "append": true,
+        "description": "An American flag is proudly embroidered across the front of each pouch, with a tiny, eagle-winged .50-caliber bullet crowning each banner.",
+        "id": "flag_chestrig",
+        "name": {
+          "str": "<color_cyan><</color> patriot's chest rig",
+          "str_pl": "<color_cyan><</color> patriot's chest rigs"
+        }
+      },
+      {
+        "//": "inherit name from item",
+        "description": "Popularized during the Vietnam War, chest rigs like these are typically plain, barebones affairs consisting of three or more pouches in a row, with straps to secure them on your chest.  This one can hold four magazines in its pouches.",
+        "id": "generic_chestrig",
+        "weight": 30
+      }
+    ]
+  },
+  {
+    "id": "xl_chestrig",
+    "type": "ITEM",
+    "copy-from": "xl_chestrig",
+    "name": {
+      "str": "<color_cyan><</color> chest rig",
+      "str_pl": "<color_cyan><</color> chest rigs"
+    },
+    "variants": []
+  },
+  {
+    "id": "xs_chestrig",
+    "type": "ITEM",
+    "copy-from": "xs_chestrig",
+    "name": {
+      "str": "<color_cyan><</color> chest rig",
+      "str_pl": "<color_cyan><</color> chest rigs"
+    },
+    "variants": []
+  },
+  {
     "id": "javelin_bag",
     "type": "ITEM",
     "copy-from": "javelin_bag",
@@ -46,6 +92,166 @@
     "name": {
       "str": "<color_cyan>&</color> leg ammo pouch",
       "str_pl": "<color_cyan>&</color> leg ammo pouches"
+    },
+    "variants": []
+  },
+  {
+    "id": "quiver",
+    "type": "ITEM",
+    "copy-from": "quiver",
+    "name": {
+      "str": "<color_cyan><</color> quiver",
+      "str_pl": "<color_cyan><</color> quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "nylon_quiver",
+    "type": "ITEM",
+    "copy-from": "nylon_quiver",
+    "name": {
+      "str": "<color_cyan><</color> nylon quiver",
+      "str_pl": "<color_cyan><</color> nylon quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "quiver_birchbark",
+    "type": "ITEM",
+    "copy-from": "quiver_birchbark",
+    "name": {
+      "str": "<color_cyan><</color> birchbark quiver",
+      "str_pl": "<color_cyan><</color> birchbark quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "quiver_large",
+    "type": "ITEM",
+    "copy-from": "quiver_large",
+    "name": {
+      "str": "<color_cyan><</color> large quiver",
+      "str_pl": "<color_cyan><</color> large quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "quiver_large_birchbark",
+    "type": "ITEM",
+    "copy-from": "quiver_large_birchbark",
+    "name": {
+      "str": "<color_cyan><</color> large birchbark quiver",
+      "str_pl": "<color_cyan><</color> large birchbark quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "pipe_quiver_large",
+    "type": "ITEM",
+    "copy-from": "pipe_quiver_large",
+    "name": {
+      "str": "<color_cyan><</color> large pipe quiver",
+      "str_pl": "<color_cyan><</color> large pipe quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "quiver_takedown_bow",
+    "type": "ITEM",
+    "copy-from": "quiver_takedown_bow",
+    "name": {
+      "str": "<color_cyan><</color> multi-function quiver",
+      "str_pl": "<color_cyan><</color> multi-function quivers"
+    },
+    "variants": []
+  },
+  {
+    "id": "tacvest",
+    "type": "ITEM",
+    "copy-from": "tacvest",
+    "name": {
+      "str": "<color_cyan><</color> tac vest",
+      "str_pl": "<color_cyan><</color> tac vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "xl_tacvest",
+    "type": "ITEM",
+    "copy-from": "xl_tacvest",
+    "name": {
+      "str": "<color_cyan><</color> tac vest",
+      "str_pl": "<color_cyan><</color> tac vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "xs_tacvest",
+    "type": "ITEM",
+    "copy-from": "xs_tacvest",
+    "name": {
+      "str": "<color_cyan><</color> tac vest",
+      "str_pl": "<color_cyan><</color> tac vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "light_load_bearing_vest",
+    "type": "ITEM",
+    "copy-from": "light_load_bearing_vest",
+    "name": {
+      "str": "<color_cyan><</color> light load bearing vest",
+      "str_pl": "<color_cyan><</color> light load bearing vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "load_bearing_vest",
+    "type": "ITEM",
+    "copy-from": "load_bearing_vest",
+    "name": {
+      "str": "<color_cyan><</color> load bearing vest",
+      "str_pl": "<color_cyan><</color> load bearing vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "load_bearing_vest_sling",
+    "type": "ITEM",
+    "copy-from": "load_bearing_vest_sling",
+    "name": {
+      "str": "<color_cyan><</color> load bearing vest with sling",
+      "str_pl": "<color_cyan><</color> load bearing vests with slings"
+    },
+    "variants": []
+  },
+  {
+    "id": "heavy_load_bearing_vest",
+    "type": "ITEM",
+    "copy-from": "heavy_load_bearing_vest",
+    "name": {
+      "str": "<color_cyan><</color> heavy load bearing vest",
+      "str_pl": "<color_cyan><</color> heavy load bearing vests"
+    },
+    "variants": []
+  },
+  {
+    "id": "heavy_load_bearing_vest_sling",
+    "type": "ITEM",
+    "copy-from": "heavy_load_bearing_vest_sling",
+    "name": {
+      "str": "<color_cyan><</color> heavy load bearing vest with sling",
+      "str_pl": "<color_cyan><</color> heavy load bearing vests with slings"
+    },
+    "variants": []
+  },
+  {
+    "id": "heavy_load_bearing_vest_breacher",
+    "type": "ITEM",
+    "copy-from": "heavy_load_bearing_vest_breacher",
+    "name": {
+      "str": "<color_cyan><</color> breacher load bearing vest",
+      "str_pl": "<color_cyan><</color> breacher load bearing vests"
     },
     "variants": []
   },
@@ -1700,6 +1906,56 @@
     "variants": []
   },
   {
+    "id": "bandolier_pistol",
+    "type": "ITEM",
+    "copy-from": "bandolier_pistol",
+    "name": {
+      "str": "<color_cyan><</color> pistol bandolier",
+      "str_pl": "<color_cyan><</color> pistol bandoliers"
+    },
+    "variants": []
+  },
+  {
+    "id": "bandolier_rifle",
+    "type": "ITEM",
+    "copy-from": "bandolier_rifle",
+    "name": {
+      "str": "<color_cyan><</color> rifle bandolier",
+      "str_pl": "<color_cyan><</color> rifle bandoliers"
+    },
+    "variants": []
+  },
+  {
+    "id": "bandolier_shotgun",
+    "type": "ITEM",
+    "copy-from": "bandolier_shotgun",
+    "name": {
+      "str": "<color_cyan><</color> waist shotgun bandolier",
+      "str_pl": "<color_cyan><</color> waist shotgun bandoliers"
+    },
+    "variants": []
+  },
+  {
+    "id": "torso_bandolier_grenade",
+    "type": "ITEM",
+    "copy-from": "torso_bandolier_grenade",
+    "name": {
+      "str": "<color_cyan><</color> torso grenade bandolier",
+      "str_pl": "<color_cyan><</color> torso grenade bandoliers"
+    },
+    "variants": []
+  },
+  {
+    "id": "torso_bandolier_shotgun",
+    "type": "ITEM",
+    "copy-from": "torso_bandolier_shotgun",
+    "name": {
+      "str": "<color_cyan><</color> torso shotgun bandolier",
+      "str_pl": "<color_cyan><</color> torso shotgun bandoliers"
+    },
+    "variants": []
+  },
+  {
     "id": "flintlock_pouch",
     "type": "ITEM",
     "copy-from": "flintlock_pouch",
@@ -1770,6 +2026,46 @@
     "variants": []
   },
   {
+    "id": "bandolier_pipebomb",
+    "type": "ITEM",
+    "copy-from": "bandolier_pipebomb",
+    "name": {
+      "str": "<color_cyan><</color> large grenade bandolier",
+      "str_pl": "<color_cyan><</color> large grenade bandoliers"
+    },
+    "variants": []
+  },
+  {
+    "id": "fireman_belt",
+    "type": "ITEM",
+    "copy-from": "fireman_belt",
+    "name": {
+      "str": "<color_cyan><</color> firefighter belt",
+      "str_pl": "<color_cyan><</color> firefighter belts"
+    },
+    "variants": []
+  },
+  {
+    "id": "police_belt",
+    "type": "ITEM",
+    "copy-from": "police_belt",
+    "name": {
+      "str": "<color_cyan><</color> police duty belt",
+      "str_pl": "<color_cyan><</color> police duty belts"
+    },
+    "variants": []
+  },
+  {
+    "id": "tool_belt",
+    "type": "ITEM",
+    "copy-from": "tool_belt",
+    "name": {
+      "str": "<color_cyan><</color> tool belt",
+      "str_pl": "<color_cyan><</color> tool belts"
+    },
+    "variants": []
+  },
+  {
     "id": "webbing_belt",
     "type": "ITEM",
     "copy-from": "webbing_belt",
@@ -1784,8 +2080,8 @@
     "type": "ITEM",
     "copy-from": "boots",
     "name": {
-      "str": "boots (pair)",
-      "str_pl": "boots (pair)"
+      "str": "<color_cyan><</color> boots (pair)",
+      "str_pl": "<color_cyan><</color> boots (pair)"
     },
     "variants": []
   },
@@ -1794,8 +2090,8 @@
     "type": "ITEM",
     "copy-from": "xl_boots",
     "name": {
-      "str": "boots (pair)",
-      "str_pl": "boots (pair)"
+      "str": "<color_cyan><</color> boots (pair)",
+      "str_pl": "<color_cyan><</color> boots (pair)"
     },
     "variants": []
   },
@@ -1804,8 +2100,8 @@
     "type": "ITEM",
     "copy-from": "xs_boots",
     "name": {
-      "str": "boots (pair)",
-      "str_pl": "boots (pair)"
+      "str": "<color_cyan><</color> boots (pair)",
+      "str_pl": "<color_cyan><</color> boots (pair)"
     },
     "variants": []
   },
@@ -2144,8 +2440,8 @@
     "type": "ITEM",
     "copy-from": "boots_western",
     "name": {
-      "str": "western boots (pair)",
-      "str_pl": "western boots (pair)"
+      "str": "<color_cyan><</color> western boots (pair)",
+      "str_pl": "<color_cyan><</color> western boots (pair)"
     },
     "variants": []
   },
@@ -2184,8 +2480,8 @@
     "type": "ITEM",
     "copy-from": "cleats",
     "name": {
-      "str": "cleats (pair)",
-      "str_pl": "cleats (pair)"
+      "str": "<color_cyan><</color> cleats (pair)",
+      "str_pl": "<color_cyan><</color> cleats (pair)"
     },
     "variants": []
   },
@@ -2304,16 +2600,16 @@
     "type": "ITEM",
     "copy-from": "knee_high_boots",
     "name": {
-      "str": "knee-high boots (pair)",
-      "str_pl": "knee-high boots (pair)"
+      "str": "<color_cyan><</color> knee-high boots (pair)",
+      "str_pl": "<color_cyan><</color> knee-high boots (pair)"
     },
     "variants": [
       {
         "description": "A pair of sturdy, over-the-knee, laceless boots fitted with a rubberized sole: these imposing combat boots provide good traction despite their encumbering nature.  Most commonly associated with totalitarian regimes due to their use by Nazi soldiers, this style of boot is warm, protective, and produces a deeply satisfying sound while marching.",
         "id": "jackboots",
         "name": {
-          "str": "jackboots (pair)",
-          "str_pl": "jackboots (pair)"
+          "str": "<color_cyan><</color> jackboots (pair)",
+          "str_pl": "<color_cyan><</color> jackboots (pair)"
         },
         "weight": 10
       },
@@ -2321,8 +2617,8 @@
         "description": "A pair of knee-length, laceless boots formed from calfskin with an elastic side panel that's designed to stretch away to facilitate simple donning and doffing, these stylish stompers are a time-old gift from Victorian-age England.  Intended for you to fashionably saunter down roadways rather than sprint for your life, this style of boot became a style staple within London during the 1960s, where they were synonymous with the mod crowd.",
         "id": "chelsea_boots",
         "name": {
-          "str": "Chelsea boots (pair)",
-          "str_pl": "Chelsea boots (pair)"
+          "str": "<color_cyan><</color> Chelsea boots (pair)",
+          "str_pl": "<color_cyan><</color> Chelsea boots (pair)"
         },
         "weight": 10
       },
@@ -2378,8 +2674,8 @@
     "type": "ITEM",
     "copy-from": "roller_blades",
     "name": {
-      "str": "rollerblades (pair)",
-      "str_pl": "rollerblades (pair)"
+      "str": "<color_cyan><</color> rollerblades (pair)",
+      "str_pl": "<color_cyan><</color> rollerblades (pair)"
     },
     "variants": []
   },
@@ -2458,8 +2754,8 @@
     "type": "ITEM",
     "copy-from": "roller_shoes_off",
     "name": {
-      "str": "heelys (off) (pair)",
-      "str_pl": "heelys (off) (pair)"
+      "str": "<color_cyan><</color> heelys (off) (pair)",
+      "str_pl": "<color_cyan><</color> heelys (off) (pair)"
     },
     "variants": []
   },
@@ -2468,8 +2764,8 @@
     "type": "ITEM",
     "copy-from": "roller_shoes_on",
     "name": {
-      "str": "heelys (on) (pair)",
-      "str_pl": "heelys (on) (pair)"
+      "str": "<color_cyan><</color> heelys (on) (pair)",
+      "str_pl": "<color_cyan><</color> heelys (on) (pair)"
     },
     "variants": []
   },
@@ -3183,8 +3479,8 @@
     "type": "ITEM",
     "copy-from": "lc_sabaton",
     "name": {
-      "str": "mild steel sabaton",
-      "str_pl": "mild steel sabatons"
+      "str": "<color_cyan><</color> mild steel sabaton",
+      "str_pl": "<color_cyan><</color> mild steel sabatons"
     },
     "variants": []
   },
@@ -3193,8 +3489,8 @@
     "type": "ITEM",
     "copy-from": "xl_lc_sabaton",
     "name": {
-      "str": "mild steel sabaton",
-      "str_pl": "mild steel sabatons"
+      "str": "<color_cyan><</color> mild steel sabaton",
+      "str_pl": "<color_cyan><</color> mild steel sabatons"
     },
     "variants": []
   },
@@ -3203,8 +3499,8 @@
     "type": "ITEM",
     "copy-from": "mc_sabaton",
     "name": {
-      "str": "medium steel sabaton",
-      "str_pl": "medium steel sabatons"
+      "str": "<color_cyan><</color> medium steel sabaton",
+      "str_pl": "<color_cyan><</color> medium steel sabatons"
     },
     "variants": []
   },
@@ -3213,8 +3509,8 @@
     "type": "ITEM",
     "copy-from": "xl_mc_sabaton",
     "name": {
-      "str": "medium steel sabaton",
-      "str_pl": "medium steel sabatons"
+      "str": "<color_cyan><</color> medium steel sabaton",
+      "str_pl": "<color_cyan><</color> medium steel sabatons"
     },
     "variants": []
   },
@@ -3223,8 +3519,8 @@
     "type": "ITEM",
     "copy-from": "hc_sabaton",
     "name": {
-      "str": "high steel sabaton",
-      "str_pl": "high steel sabatons"
+      "str": "<color_cyan><</color> high steel sabaton",
+      "str_pl": "<color_cyan><</color> high steel sabatons"
     },
     "variants": []
   },
@@ -3233,8 +3529,8 @@
     "type": "ITEM",
     "copy-from": "xl_hc_sabaton",
     "name": {
-      "str": "high steel sabaton",
-      "str_pl": "high steel sabatons"
+      "str": "<color_cyan><</color> high steel sabaton",
+      "str_pl": "<color_cyan><</color> high steel sabatons"
     },
     "variants": []
   },
@@ -3243,8 +3539,8 @@
     "type": "ITEM",
     "copy-from": "ch_sabaton",
     "name": {
-      "str": "hardened steel sabaton",
-      "str_pl": "hardened steel sabatons"
+      "str": "<color_cyan><</color> hardened steel sabaton",
+      "str_pl": "<color_cyan><</color> hardened steel sabatons"
     },
     "variants": []
   },
@@ -3253,8 +3549,8 @@
     "type": "ITEM",
     "copy-from": "xl_ch_sabaton",
     "name": {
-      "str": "hardened steel sabaton",
-      "str_pl": "hardened steel sabatons"
+      "str": "<color_cyan><</color> hardened steel sabaton",
+      "str_pl": "<color_cyan><</color> hardened steel sabatons"
     },
     "variants": []
   },
@@ -3263,8 +3559,8 @@
     "type": "ITEM",
     "copy-from": "qt_sabaton",
     "name": {
-      "str": "tempered steel sabaton",
-      "str_pl": "tempered steel sabatons"
+      "str": "<color_cyan><</color> tempered steel sabaton",
+      "str_pl": "<color_cyan><</color> tempered steel sabatons"
     },
     "variants": []
   },
@@ -3273,8 +3569,8 @@
     "type": "ITEM",
     "copy-from": "xl_qt_sabaton",
     "name": {
-      "str": "tempered steel sabaton",
-      "str_pl": "tempered steel sabatons"
+      "str": "<color_cyan><</color> tempered steel sabaton",
+      "str_pl": "<color_cyan><</color> tempered steel sabatons"
     },
     "variants": []
   },
@@ -3283,8 +3579,8 @@
     "type": "ITEM",
     "copy-from": "espadrilles",
     "name": {
-      "str": "espadrilles",
-      "str_pl": "espadrilles"
+      "str": "<color_cyan><</color> espadrilles",
+      "str_pl": "<color_cyan><</color> espadrilles"
     },
     "variants": []
   },
@@ -3293,8 +3589,8 @@
     "type": "ITEM",
     "copy-from": "xl_espadrilles",
     "name": {
-      "str": "espadrilles",
-      "str_pl": "espadrilles"
+      "str": "<color_cyan><</color> espadrilles",
+      "str_pl": "<color_cyan><</color> espadrilles"
     },
     "variants": []
   },
@@ -3303,8 +3599,8 @@
     "type": "ITEM",
     "copy-from": "xs_espadrilles",
     "name": {
-      "str": "espadrilles",
-      "str_pl": "espadrilles"
+      "str": "<color_cyan><</color> espadrilles",
+      "str_pl": "<color_cyan><</color> espadrilles"
     },
     "variants": []
   },
@@ -7216,8 +7512,8 @@
     "type": "ITEM",
     "copy-from": "cape_sci_fi",
     "name": {
-      "str": "heraldic cape",
-      "str_pl": "heraldic capes"
+      "str": "<color_cyan><</color> heraldic cape",
+      "str_pl": "<color_cyan><</color> heraldic capes"
     },
     "variants": []
   },
@@ -7226,8 +7522,8 @@
     "type": "ITEM",
     "copy-from": "ruana_sci_fi",
     "name": {
-      "str": "dusken ruana",
-      "str_pl": "dusken ruanas"
+      "str": "<color_cyan><</color> dusken ruana",
+      "str_pl": "<color_cyan><</color> dusken ruanas"
     },
     "variants": []
   },
@@ -7236,8 +7532,8 @@
     "type": "ITEM",
     "copy-from": "grass_cloak",
     "name": {
-      "str": "grass cloak",
-      "str_pl": "grass cloaks"
+      "str": "<color_cyan><</color> grass cloak",
+      "str_pl": "<color_cyan><</color> grass cloaks"
     },
     "variants": []
   },
@@ -7336,8 +7632,8 @@
     "type": "ITEM",
     "copy-from": "optical_cloak",
     "name": {
-      "str": "FB51 optical cloak",
-      "str_pl": "FB51 optical cloaks"
+      "str": "<color_cyan><</color> FB51 optical cloak",
+      "str_pl": "<color_cyan><</color> FB51 optical cloaks"
     },
     "variants": []
   },
@@ -7346,8 +7642,8 @@
     "type": "ITEM",
     "copy-from": "optical_cloak_on",
     "name": {
-      "str": "FB51 optical cloak (on)",
-      "str_pl": "FB51 optical cloaks (on)"
+      "str": "<color_cyan><</color> FB51 optical cloak (on)",
+      "str_pl": "<color_cyan><</color> FB51 optical cloaks (on)"
     },
     "variants": []
   },
@@ -7636,8 +7932,8 @@
     "type": "ITEM",
     "copy-from": "coat_gut",
     "name": {
-      "str": "gutskin parka",
-      "str_pl": "gutskin parkas"
+      "str": "<color_cyan><</color> gutskin parka",
+      "str_pl": "<color_cyan><</color> gutskin parkas"
     },
     "variants": []
   },
@@ -7656,8 +7952,8 @@
     "type": "ITEM",
     "copy-from": "duster",
     "name": {
-      "str": "duster",
-      "str_pl": "dusters"
+      "str": "<color_cyan><</color> duster",
+      "str_pl": "<color_cyan><</color> dusters"
     },
     "variants": []
   },
@@ -7696,8 +7992,8 @@
     "type": "ITEM",
     "copy-from": "xl_duster",
     "name": {
-      "str": "duster",
-      "str_pl": "dusters"
+      "str": "<color_cyan><</color> duster",
+      "str_pl": "<color_cyan><</color> dusters"
     },
     "variants": []
   },
@@ -7706,8 +8002,8 @@
     "type": "ITEM",
     "copy-from": "xs_duster",
     "name": {
-      "str": "duster",
-      "str_pl": "dusters"
+      "str": "<color_cyan><</color> duster",
+      "str_pl": "<color_cyan><</color> dusters"
     },
     "variants": []
   },
@@ -7943,8 +8239,8 @@
     "type": "ITEM",
     "copy-from": "jacket_army_modern",
     "name": {
-      "str": "combat blouse",
-      "str_pl": "combat blouses"
+      "str": "<color_cyan><</color> combat blouse",
+      "str_pl": "<color_cyan><</color> combat blouses"
     },
     "variants": []
   },
@@ -8070,8 +8366,8 @@
     "type": "ITEM",
     "copy-from": "jacket_jean",
     "name": {
-      "str": "jean jacket",
-      "str_pl": "jean jackets"
+      "str": "<color_cyan><</color> jean jacket",
+      "str_pl": "<color_cyan><</color> jean jackets"
     },
     "variants": []
   },
@@ -8100,8 +8396,8 @@
     "type": "ITEM",
     "copy-from": "jacket_leather",
     "name": {
-      "str": "leather jacket",
-      "str_pl": "leather jackets"
+      "str": "<color_cyan><</color> leather jacket",
+      "str_pl": "<color_cyan><</color> leather jackets"
     },
     "variants": [
       {
@@ -8109,8 +8405,8 @@
         "description": "This one is a dark black.",
         "id": "jacket_leather_black",
         "name": {
-          "str": "black leather jacket",
-          "str_pl": "black leather jackets"
+          "str": "<color_cyan><</color> black leather jacket",
+          "str_pl": "<color_cyan><</color> black leather jackets"
         },
         "weight": 100
       },
@@ -8119,8 +8415,8 @@
         "description": "This one is a dark shade of brown.",
         "id": "jacket_leather_brown",
         "name": {
-          "str": "brown leather jacket",
-          "str_pl": "brown leather jackets"
+          "str": "<color_cyan><</color> brown leather jacket",
+          "str_pl": "<color_cyan><</color> brown leather jackets"
         },
         "weight": 100
       },
@@ -8129,8 +8425,8 @@
         "description": "This one has the symbol of a local biker gang on it.",
         "id": "jacket_leather_biker",
         "name": {
-          "str": "biker leather jacket",
-          "str_pl": "biker leather jackets"
+          "str": "<color_cyan><</color> biker leather jacket",
+          "str_pl": "<color_cyan><</color> biker leather jackets"
         },
         "weight": 10
       },
@@ -8139,8 +8435,8 @@
         "description": "This one is bright red.",
         "id": "jacket_leather_red",
         "name": {
-          "str": "red leather jacket",
-          "str_pl": "red leather jackets"
+          "str": "<color_cyan><</color> red leather jacket",
+          "str_pl": "<color_cyan><</color> red leather jackets"
         },
         "weight": 1
       }
@@ -9364,6 +9660,47 @@
     "variants": []
   },
   {
+    "id": "glasses_bifocal",
+    "type": "ITEM",
+    "copy-from": "glasses_bifocal",
+    "name": {
+      "str": "<color_cyan><</color> bifocal glasses",
+      "str_pl": "<color_cyan><</color> bifocal glasses"
+    },
+    "variants": [
+      {
+        "append": true,
+        "description": "This pair has rounded lenses.",
+        "id": "glasses_bifocal_round",
+        "name": {
+          "str": "<color_cyan><</color> round bifocal glasses",
+          "str_pl": "<color_cyan><</color> round bifocal glasses"
+        },
+        "weight": 10
+      },
+      {
+        "append": true,
+        "description": "This pair has square lenses.",
+        "id": "glasses_bifocal_square",
+        "name": {
+          "str": "<color_cyan><</color> square bifocal glasses",
+          "str_pl": "<color_cyan><</color> square bifocal glasses"
+        },
+        "weight": 20
+      },
+      {
+        "append": true,
+        "description": "This pair has aviator-styled lenses.",
+        "id": "glasses_bifocal_aviator",
+        "name": {
+          "str": "<color_cyan><</color> aviator bifocal glasses",
+          "str_pl": "<color_cyan><</color> aviator bifocal glasses"
+        },
+        "weight": 5
+      }
+    ]
+  },
+  {
     "id": "glasses_safety",
     "type": "ITEM",
     "copy-from": "glasses_safety",
@@ -9402,6 +9739,74 @@
       "str_pl": "snow goggles"
     },
     "variants": []
+  },
+  {
+    "id": "sunglasses_bifocal",
+    "type": "ITEM",
+    "copy-from": "sunglasses_bifocal",
+    "name": {
+      "str": "<color_cyan><</color> bifocal sunglasses",
+      "str_pl": "<color_cyan><</color> bifocal sunglasses"
+    },
+    "variants": [
+      {
+        "append": true,
+        "description": "This pair has rounded lenses.",
+        "id": "sunglasses_bifocal_round",
+        "name": {
+          "str": "<color_cyan><</color> round bifocal sunglasses",
+          "str_pl": "<color_cyan><</color> round bifocal sunglasses"
+        },
+        "weight": 10
+      },
+      {
+        "append": true,
+        "description": "This pair has square lenses.",
+        "id": "sunglasses_bifocal_square",
+        "name": {
+          "str": "<color_cyan><</color> square bifocal sunglasses",
+          "str_pl": "<color_cyan><</color> square bifocal sunglasses"
+        },
+        "weight": 20
+      },
+      {
+        "append": true,
+        "description": "This pair has aviator-styled lenses.",
+        "id": "sunglasses_bifocal_aviator",
+        "name": {
+          "str": "<color_cyan><</color> bifocal aviators",
+          "str_pl": "<color_cyan><</color> bifocal aviators"
+        },
+        "weight": 5
+      },
+      {
+        "description": "A pair of transition bifocal glasses for those who are both near-sighted and far-sighted.  Contains photochromic dyes that cause the lenses to darken when exposed to ultraviolet rays from sunlight.  When the UV light diminishes, the lenses fade back.  This pair has rounded lenses.",
+        "id": "transition_bifocal_round",
+        "name": {
+          "str": "<color_cyan><</color> round bifocal transition glasses",
+          "str_pl": "<color_cyan><</color> round bifocal transition glasses"
+        },
+        "weight": 2
+      },
+      {
+        "description": "A pair of transition bifocal glasses for those who are both near-sighted and far-sighted.  Contains photochromic dyes that cause the lenses to darken when exposed to ultraviolet rays from sunlight.  When the UV light diminishes, the lenses fade back.  This pair has square lenses.",
+        "id": "transition_bifocal_square",
+        "name": {
+          "str": "<color_cyan><</color> square bifocal transition glasses",
+          "str_pl": "<color_cyan><</color> square bifocal transition glasses"
+        },
+        "weight": 4
+      },
+      {
+        "description": "A pair of transition bifocal glasses for those who are both near-sighted and far-sighted.  Contains photochromic dyes that cause the lenses to darken when exposed to ultraviolet rays from sunlight.  When the UV light diminishes, the lenses fade back.  This pair has aviator-styled lenses.",
+        "id": "transition_bifocal_aviator",
+        "name": {
+          "str": "<color_cyan><</color> bifocal transition aviators",
+          "str_pl": "<color_cyan><</color> bifocal transition aviators"
+        },
+        "weight": 1
+      }
+    ]
   },
   {
     "id": "goggles_chem",
@@ -12592,8 +12997,8 @@
     "type": "ITEM",
     "copy-from": "tricorne",
     "name": {
-      "str": "tricorne",
-      "str_pl": "tricornes"
+      "str": "<color_cyan><</color> tricorne",
+      "str_pl": "<color_cyan><</color> tricornes"
     },
     "variants": []
   },
@@ -15054,12 +15459,82 @@
     "variants": []
   },
   {
+    "id": "back_holster",
+    "type": "ITEM",
+    "copy-from": "back_holster",
+    "name": {
+      "str": "<color_cyan><</color> back holster",
+      "str_pl": "<color_cyan><</color> back holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "baldric_holster",
+    "type": "ITEM",
+    "copy-from": "baldric_holster",
+    "name": {
+      "str": "<color_cyan><</color> baldric holster",
+      "str_pl": "<color_cyan><</color> baldric holsters"
+    },
+    "variants": []
+  },
+  {
     "id": "bbholster",
     "type": "ITEM",
     "copy-from": "bbholster",
     "name": {
       "str": "belly band holster",
       "str_pl": "belly band holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "side_double_holster",
+    "type": "ITEM",
+    "copy-from": "side_double_holster",
+    "name": {
+      "str": "<color_cyan><</color> side-by-side double holster",
+      "str_pl": "<color_cyan><</color> side-by-side double holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "FB_double_holster",
+    "type": "ITEM",
+    "copy-from": "FB_double_holster",
+    "name": {
+      "str": "<color_cyan><</color> front-to-back double holster",
+      "str_pl": "<color_cyan><</color> front-to-back double holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "side_nylon_double_holster",
+    "type": "ITEM",
+    "copy-from": "side_nylon_double_holster",
+    "name": {
+      "str": "<color_cyan><</color> nylon side-by-side double holster",
+      "str_pl": "<color_cyan><</color> nylon side-by-side double holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "FB_nylon_double_holster",
+    "type": "ITEM",
+    "copy-from": "FB_nylon_double_holster",
+    "name": {
+      "str": "<color_cyan><</color> nylon front-to-back double holster",
+      "str_pl": "<color_cyan><</color> nylon front-to-back double holsters"
+    },
+    "variants": []
+  },
+  {
+    "id": "XL_holster",
+    "type": "ITEM",
+    "copy-from": "XL_holster",
+    "name": {
+      "str": "<color_cyan><</color> large holster",
+      "str_pl": "<color_cyan><</color> large holsters"
     },
     "variants": []
   },
@@ -15824,6 +16299,26 @@
     "variants": []
   },
   {
+    "id": "diving_watch",
+    "type": "ITEM",
+    "copy-from": "diving_watch",
+    "name": {
+      "str": "<color_cyan><</color> diver's watch",
+      "str_pl": "<color_cyan><</color> diver's watches"
+    },
+    "variants": []
+  },
+  {
+    "id": "platinum_watch",
+    "type": "ITEM",
+    "copy-from": "platinum_watch",
+    "name": {
+      "str": "<color_cyan><</color> platinum watch",
+      "str_pl": "<color_cyan><</color> platinum watches"
+    },
+    "variants": []
+  },
+  {
     "id": "angel_wings",
     "type": "ITEM",
     "copy-from": "angel_wings",
@@ -16258,8 +16753,8 @@
     "type": "ITEM",
     "copy-from": "jeans_mod",
     "name": {
-      "str": "armored jeans",
-      "str_pl": "armored jeans"
+      "str": "<color_cyan><</color> armored jeans",
+      "str_pl": "<color_cyan><</color> armored jeans"
     },
     "variants": []
   },
@@ -16268,8 +16763,8 @@
     "type": "ITEM",
     "copy-from": "jeans_mod_ch",
     "name": {
-      "str": "hardened armored jeans",
-      "str_pl": "hardened armored jeans"
+      "str": "<color_cyan><</color> hardened armored jeans",
+      "str_pl": "<color_cyan><</color> hardened armored jeans"
     },
     "variants": []
   },
@@ -18429,6 +18924,276 @@
     "variants": []
   },
   {
+    "id": "kevlar_armor_cow",
+    "type": "ITEM",
+    "copy-from": "kevlar_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> Kevlar-lined cow peto",
+      "str_pl": "<color_cyan><</color> Kevlar-lined cow petos"
+    },
+    "variants": []
+  },
+  {
+    "id": "acidchitin_armor_cow",
+    "type": "ITEM",
+    "copy-from": "acidchitin_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> biosilicified chitin cow armor",
+      "str_pl": "<color_cyan><</color> biosilicified chitin cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "chitin_armor_cow",
+    "type": "ITEM",
+    "copy-from": "chitin_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> chitin cow armor",
+      "str_pl": "<color_cyan><</color> chitin cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "chainmail_armor_cow",
+    "type": "ITEM",
+    "copy-from": "chainmail_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> chainmail cow armor",
+      "str_pl": "<color_cyan><</color> chainmail cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "leather_armor_cow",
+    "type": "ITEM",
+    "copy-from": "leather_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> boiled leather cow barding with caparison",
+      "str_pl": "<color_cyan><</color> boiled leather cow bardings with caparison"
+    },
+    "variants": []
+  },
+  {
+    "id": "leatherbone_armor_cow",
+    "type": "ITEM",
+    "copy-from": "leatherbone_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> boiled leather cow barding with bones",
+      "str_pl": "<color_cyan><</color> boiled leather cow bardings with bones"
+    },
+    "variants": []
+  },
+  {
+    "id": "rubber_armor_cow",
+    "type": "ITEM",
+    "copy-from": "rubber_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> cow rain sheet",
+      "str_pl": "<color_cyan><</color> cow rain sheets"
+    },
+    "variants": []
+  },
+  {
+    "id": "iron_armor_cow",
+    "type": "ITEM",
+    "copy-from": "iron_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> iron cow armor",
+      "str_pl": "<color_cyan><</color> iron cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "steel_armor_cow",
+    "type": "ITEM",
+    "copy-from": "steel_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> steel cow armor",
+      "str_pl": "<color_cyan><</color> steel cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "bronze_armor_cow",
+    "type": "ITEM",
+    "copy-from": "bronze_armor_cow",
+    "name": {
+      "str": "<color_cyan><</color> bronze cow armor",
+      "str_pl": "<color_cyan><</color> bronze cow armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "kevlar_harness",
+    "type": "ITEM",
+    "copy-from": "kevlar_harness",
+    "name": {
+      "str": "<color_cyan><</color> Kevlar dog harness",
+      "str_pl": "<color_cyan><</color> Kevlar dog harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "acidchitin_harness_dog",
+    "type": "ITEM",
+    "copy-from": "acidchitin_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> biosilicified chitin dog mesh harness",
+      "str_pl": "<color_cyan><</color> biosilicified chitin dog mesh harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "chitin_harness_dog",
+    "type": "ITEM",
+    "copy-from": "chitin_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> chitin dog mesh harness",
+      "str_pl": "<color_cyan><</color> chitin dog mesh harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "chainmail_harness_dog",
+    "type": "ITEM",
+    "copy-from": "chainmail_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> chainmail dog coat",
+      "str_pl": "<color_cyan><</color> Kevlar dog harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "leather_harness_dog",
+    "type": "ITEM",
+    "copy-from": "leather_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> leather dog harness",
+      "str_pl": "<color_cyan><</color> leather dog harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "leatherbone_harness_dog",
+    "type": "ITEM",
+    "copy-from": "leatherbone_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> leather dog harness with bones",
+      "str_pl": "<color_cyan><</color> leather dog harnesses with bones"
+    },
+    "variants": []
+  },
+  {
+    "id": "rubber_harness_dog",
+    "type": "ITEM",
+    "copy-from": "rubber_harness_dog",
+    "name": {
+      "str": "<color_cyan><</color> rubber dog rainsuit",
+      "str_pl": "<color_cyan><</color> Kevlar dog harnesses"
+    },
+    "variants": []
+  },
+  {
+    "id": "kevlar_armor_horse",
+    "type": "ITEM",
+    "copy-from": "kevlar_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> Kevlar-lined horse peto",
+      "str_pl": "<color_cyan><</color> Kevlar-lined horse petos"
+    },
+    "variants": []
+  },
+  {
+    "id": "acidchitin_armor_horse",
+    "type": "ITEM",
+    "copy-from": "acidchitin_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> biosilicified chitin horse armor",
+      "str_pl": "<color_cyan><</color> biosilicified chitin horse armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "chitin_armor_horse",
+    "type": "ITEM",
+    "copy-from": "chitin_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> chitin horse armor",
+      "str_pl": "<color_cyan><</color> chitin horse armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "chainmail_armor_horse",
+    "type": "ITEM",
+    "copy-from": "chainmail_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> chainmail horse armor",
+      "str_pl": "<color_cyan><</color> chainmail horse armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "leather_armor_horse",
+    "type": "ITEM",
+    "copy-from": "leather_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> boiled leather horse barding with caparison",
+      "str_pl": "<color_cyan><</color> boiled leather horse bardings with caparison"
+    },
+    "variants": []
+  },
+  {
+    "id": "leatherbone_armor_horse",
+    "type": "ITEM",
+    "copy-from": "leatherbone_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> boiled leather horse barding with bones",
+      "str_pl": "<color_cyan><</color> boiled leather horse bardings with bones"
+    },
+    "variants": []
+  },
+  {
+    "id": "rubber_armor_horse",
+    "type": "ITEM",
+    "copy-from": "rubber_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> horse rain sheet",
+      "str_pl": "<color_cyan><</color> horse rain sheets"
+    },
+    "variants": []
+  },
+  {
+    "id": "iron_armor_horse",
+    "type": "ITEM",
+    "copy-from": "iron_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> iron horse armor",
+      "str_pl": "<color_cyan><</color> iron horse armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "steel_armor_horse",
+    "type": "ITEM",
+    "copy-from": "steel_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> steel horse armor",
+      "str_pl": "<color_cyan><</color> steel horse armors"
+    },
+    "variants": []
+  },
+  {
+    "id": "bronze_armor_horse",
+    "type": "ITEM",
+    "copy-from": "bronze_armor_horse",
+    "name": {
+      "str": "<color_cyan><</color> bronze horse armor",
+      "str_pl": "<color_cyan><</color> bronze horse armors"
+    },
+    "variants": []
+  },
+  {
     "id": "saddlebag",
     "type": "ITEM",
     "copy-from": "saddlebag",
@@ -18505,6 +19270,16 @@
     "name": {
       "str": "<color_cyan>[</color> Hub 01 visual augmentation headgear (on)",
       "str_pl": "<color_cyan>[</color> Hub 01 visual augmentation headgear (on)"
+    },
+    "variants": []
+  },
+  {
+    "id": "robofac_robotrig",
+    "type": "ITEM",
+    "copy-from": "robofac_robotrig",
+    "name": {
+      "str": "<color_cyan><</color> drone-tech harness",
+      "str_pl": "<color_cyan><</color> drone-tech harness"
     },
     "variants": []
   },
@@ -19029,6 +19804,16 @@
     "variants": []
   },
   {
+    "id": "bscabbard",
+    "type": "ITEM",
+    "copy-from": "bscabbard",
+    "name": {
+      "str": "<color_cyan><</color> back scabbard",
+      "str_pl": "<color_cyan><</color> back scabbards"
+    },
+    "variants": []
+  },
+  {
     "id": "backpack",
     "type": "ITEM",
     "copy-from": "backpack",
@@ -19225,6 +20010,16 @@
     "name": {
       "str": "<color_cyan>&</color> tainted hide bag",
       "str_pl": "<color_cyan>&</color> tainted hide bags"
+    },
+    "variants": []
+  },
+  {
+    "id": "hk_briefcase",
+    "type": "ITEM",
+    "copy-from": "hk_briefcase",
+    "name": {
+      "str": "<color_cyan><</color> H&K operational briefcase (empty)",
+      "str_pl": "<color_cyan><</color> H&K operational briefcases (empty)"
     },
     "variants": []
   },
@@ -19591,8 +20386,8 @@
     "type": "ITEM",
     "copy-from": "rifle_case_soft",
     "name": {
-      "str": "rifle case",
-      "str_pl": "rifle cases"
+      "str": "<color_cyan><</color> rifle case",
+      "str_pl": "<color_cyan><</color> rifle cases"
     },
     "variants": []
   },
@@ -19601,8 +20396,8 @@
     "type": "ITEM",
     "copy-from": "rifle_case_soft_leather",
     "name": {
-      "str": "leather rifle case",
-      "str_pl": "leather rifle cases"
+      "str": "<color_cyan><</color> leather rifle case",
+      "str_pl": "<color_cyan><</color> leather rifle cases"
     },
     "variants": []
   },
@@ -19611,8 +20406,8 @@
     "type": "ITEM",
     "copy-from": "rifle_case_soft_2",
     "name": {
-      "str": "double rifle case",
-      "str_pl": "double rifle cases"
+      "str": "<color_cyan><</color> double rifle case",
+      "str_pl": "<color_cyan><</color> double rifle cases"
     },
     "variants": []
   },
@@ -19621,8 +20416,8 @@
     "type": "ITEM",
     "copy-from": "rifle_case_soft_leather_2",
     "name": {
-      "str": "leather double rifle case",
-      "str_pl": "leather double rifle cases"
+      "str": "<color_cyan><</color> leather double rifle case",
+      "str_pl": "<color_cyan><</color> leather double rifle cases"
     },
     "variants": []
   },
@@ -19631,8 +20426,8 @@
     "type": "ITEM",
     "copy-from": "rifle_case_xl_soft_leather",
     "name": {
-      "str": "long leather rifle case",
-      "str_pl": "long leather rifle cases"
+      "str": "<color_cyan><</color> long leather rifle case",
+      "str_pl": "<color_cyan><</color> long leather rifle cases"
     },
     "variants": []
   },
@@ -20002,8 +20797,8 @@
     "type": "ITEM",
     "copy-from": "denim_overalls",
     "name": {
-      "str": "denim overalls",
-      "str_pl": "denim overalls"
+      "str": "<color_cyan><</color> denim overalls",
+      "str_pl": "<color_cyan><</color> denim overalls"
     },
     "variants": []
   },
@@ -20144,8 +20939,8 @@
     "type": "ITEM",
     "copy-from": "technician_coveralls",
     "name": {
-      "str": "work coveralls",
-      "str_pl": "work coveralls"
+      "str": "<color_cyan><</color> work coveralls",
+      "str_pl": "<color_cyan><</color> work coveralls"
     },
     "variants": []
   },
@@ -21019,8 +21814,8 @@
     "type": "ITEM",
     "copy-from": "cleansuit",
     "name": {
-      "str": "cleansuit",
-      "str_pl": "cleansuits"
+      "str": "<color_cyan><</color> cleansuit",
+      "str_pl": "<color_cyan><</color> cleansuits"
     },
     "variants": []
   },
@@ -21029,8 +21824,8 @@
     "type": "ITEM",
     "copy-from": "xedra_artifact_cleansuit",
     "name": {
-      "str": "S02a cleansuit",
-      "str_pl": "S02a cleansuits"
+      "str": "<color_cyan><</color> S02a cleansuit",
+      "str_pl": "<color_cyan><</color> S02a cleansuits"
     },
     "variants": []
   },
@@ -21039,8 +21834,8 @@
     "type": "ITEM",
     "copy-from": "xedra_artifact_cleansuit_on",
     "name": {
-      "str": "S02a cleansuit (on)",
-      "str_pl": "S02a cleansuits (on)"
+      "str": "<color_cyan><</color> S02a cleansuit (on)",
+      "str_pl": "<color_cyan><</color> S02a cleansuits (on)"
     },
     "variants": []
   },
@@ -21099,8 +21894,8 @@
     "type": "ITEM",
     "copy-from": "nomex_suit",
     "name": {
-      "str": "flame-resistant suit",
-      "str_pl": "flame-resistant suits"
+      "str": "<color_cyan><</color> flame-resistant suit",
+      "str_pl": "<color_cyan><</color> flame-resistant suits"
     },
     "variants": []
   },
@@ -21109,8 +21904,8 @@
     "type": "ITEM",
     "copy-from": "xl_nomex_suit",
     "name": {
-      "str": "flame-resistant suit",
-      "str_pl": "flame-resistant suits"
+      "str": "<color_cyan><</color> flame-resistant suit",
+      "str_pl": "<color_cyan><</color> flame-resistant suits"
     },
     "variants": []
   },
@@ -21119,8 +21914,8 @@
     "type": "ITEM",
     "copy-from": "nomex_suit_xs",
     "name": {
-      "str": "flame-resistant suit",
-      "str_pl": "flame-resistant suits"
+      "str": "<color_cyan><</color> flame-resistant suit",
+      "str_pl": "<color_cyan><</color> flame-resistant suits"
     },
     "variants": []
   },
@@ -21992,8 +22787,8 @@
     "type": "ITEM",
     "copy-from": "shark_suit_faraday",
     "name": {
-      "str": "faraday sharksuit",
-      "str_pl": "faraday sharksuits"
+      "str": "<color_cyan><</color> faraday sharksuit",
+      "str_pl": "<color_cyan><</color> faraday sharksuits"
     },
     "variants": []
   },
@@ -22002,8 +22797,8 @@
     "type": "ITEM",
     "copy-from": "xl_shark_suit_faraday",
     "name": {
-      "str": "faraday sharksuit",
-      "str_pl": "faraday sharksuits"
+      "str": "<color_cyan><</color> faraday sharksuit",
+      "str_pl": "<color_cyan><</color> faraday sharksuits"
     },
     "variants": []
   },
@@ -22012,8 +22807,8 @@
     "type": "ITEM",
     "copy-from": "xs_shark_suit_faraday",
     "name": {
-      "str": "faraday sharksuit",
-      "str_pl": "faraday sharksuits"
+      "str": "<color_cyan><</color> faraday sharksuit",
+      "str_pl": "<color_cyan><</color> faraday sharksuits"
     },
     "variants": []
   },
@@ -22022,8 +22817,8 @@
     "type": "ITEM",
     "copy-from": "shark_suit",
     "name": {
-      "str": "sharksuit",
-      "str_pl": "sharksuits"
+      "str": "<color_cyan><</color> sharksuit",
+      "str_pl": "<color_cyan><</color> sharksuits"
     },
     "variants": []
   },
@@ -22032,8 +22827,8 @@
     "type": "ITEM",
     "copy-from": "xl_shark_suit",
     "name": {
-      "str": "sharksuit",
-      "str_pl": "sharksuits"
+      "str": "<color_cyan><</color> sharksuit",
+      "str_pl": "<color_cyan><</color> sharksuits"
     },
     "variants": []
   },
@@ -22042,8 +22837,8 @@
     "type": "ITEM",
     "copy-from": "xs_shark_suit",
     "name": {
-      "str": "sharksuit",
-      "str_pl": "sharksuits"
+      "str": "<color_cyan><</color> sharksuit",
+      "str_pl": "<color_cyan><</color> sharksuits"
     },
     "variants": []
   },
@@ -22122,8 +22917,8 @@
     "type": "ITEM",
     "copy-from": "divemask_full_scuba_notready",
     "name": {
-      "str": "full-face diving mask",
-      "str_pl": "full-face diving masks"
+      "str": "<color_cyan><</color> full-face diving mask",
+      "str_pl": "<color_cyan><</color> full-face diving masks"
     },
     "variants": []
   },
@@ -22132,8 +22927,8 @@
     "type": "ITEM",
     "copy-from": "divemask_full_modular",
     "name": {
-      "str": "modular full-face diving mask",
-      "str_pl": "modular full-face diving masks"
+      "str": "<color_cyan><</color> modular full-face diving mask",
+      "str_pl": "<color_cyan><</color> modular full-face diving masks"
     },
     "variants": []
   },
@@ -22202,8 +22997,8 @@
     "type": "ITEM",
     "copy-from": "armor_lamellar",
     "name": {
-      "str": "leather lamellar cuirass",
-      "str_pl": "leather lamellar cuirasses"
+      "str": "<color_cyan><</color> leather lamellar cuirass",
+      "str_pl": "<color_cyan><</color> leather lamellar cuirasses"
     },
     "variants": []
   },
@@ -22212,8 +23007,8 @@
     "type": "ITEM",
     "copy-from": "xl_armor_lamellar",
     "name": {
-      "str": "leather lamellar cuirass",
-      "str_pl": "leather lamellar cuirasses"
+      "str": "<color_cyan><</color> leather lamellar cuirass",
+      "str_pl": "<color_cyan><</color> leather lamellar cuirasses"
     },
     "variants": []
   },
@@ -22222,8 +23017,8 @@
     "type": "ITEM",
     "copy-from": "xs_armor_lamellar",
     "name": {
-      "str": "leather lamellar cuirass",
-      "str_pl": "leather lamellar cuirasses"
+      "str": "<color_cyan><</color> leather lamellar cuirass",
+      "str_pl": "<color_cyan><</color> leather lamellar cuirasses"
     },
     "variants": []
   },
@@ -22232,8 +23027,8 @@
     "type": "ITEM",
     "copy-from": "armor_lamellar_lc",
     "name": {
-      "str": "mild steel lamellar cuirass",
-      "str_pl": "mild steel lamellar cuirasses"
+      "str": "<color_cyan><</color> mild steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> mild steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22242,8 +23037,8 @@
     "type": "ITEM",
     "copy-from": "xl_armor_lamellar_lc",
     "name": {
-      "str": "mild steel lamellar cuirass",
-      "str_pl": "mild steel lamellar cuirasses"
+      "str": "<color_cyan><</color> mild steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> mild steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22252,8 +23047,8 @@
     "type": "ITEM",
     "copy-from": "xs_armor_lamellar_lc",
     "name": {
-      "str": "mild steel lamellar cuirass",
-      "str_pl": "mild steel lamellar cuirasses"
+      "str": "<color_cyan><</color> mild steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> mild steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22262,8 +23057,8 @@
     "type": "ITEM",
     "copy-from": "armor_lamellar_ch",
     "name": {
-      "str": "hardened steel lamellar cuirass",
-      "str_pl": "hardened steel lamellar cuirasses"
+      "str": "<color_cyan><</color> hardened steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> hardened steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22272,8 +23067,8 @@
     "type": "ITEM",
     "copy-from": "xl_armor_lamellar_ch",
     "name": {
-      "str": "hardened steel lamellar cuirass",
-      "str_pl": "hardened steel lamellar cuirasses"
+      "str": "<color_cyan><</color> hardened steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> hardened steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22282,8 +23077,8 @@
     "type": "ITEM",
     "copy-from": "xs_armor_lamellar_ch",
     "name": {
-      "str": "hardened steel lamellar cuirass",
-      "str_pl": "hardened steel lamellar cuirasses"
+      "str": "<color_cyan><</color> hardened steel lamellar cuirass",
+      "str_pl": "<color_cyan><</color> hardened steel lamellar cuirasses"
     },
     "variants": []
   },
@@ -22292,8 +23087,8 @@
     "type": "ITEM",
     "copy-from": "armor_pipe_vest",
     "name": {
-      "str": "pipe vest",
-      "str_pl": "pipe vests"
+      "str": "<color_cyan><</color> pipe vest",
+      "str_pl": "<color_cyan><</color> pipe vests"
     },
     "variants": []
   },
@@ -22302,8 +23097,8 @@
     "type": "ITEM",
     "copy-from": "makeshift_metal_plate_vest",
     "name": {
-      "str": "makeshift metal plate vest",
-      "str_pl": "makeshift metal plate vests"
+      "str": "<color_cyan><</color> makeshift metal plate vest",
+      "str_pl": "<color_cyan><</color> makeshift metal plate vests"
     },
     "variants": []
   },
@@ -23837,8 +24632,8 @@
     "type": "ITEM",
     "copy-from": "combat_shirt",
     "name": {
-      "str": "combat shirt",
-      "str_pl": "combat shirts"
+      "str": "<color_cyan><</color> combat shirt",
+      "str_pl": "<color_cyan><</color> combat shirts"
     },
     "variants": []
   },
