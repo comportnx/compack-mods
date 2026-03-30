@@ -37,5 +37,6 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "release-cdda-compack-main.zip"
+          replacesArtifacts: true
           tag: "cdda-compack-main"          
 
