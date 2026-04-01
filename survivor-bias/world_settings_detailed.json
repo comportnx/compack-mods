@@ -1,45 +1,6 @@
 [
   {
     "type": "option_slider",
-    "id": "world_cities",
-    "context": "WORLDGEN",
-    "name": "Cities",
-    "default": 1,
-    "levels": [
-      {
-        "level": 0,
-        "name": "Remote",
-        "description": "Cities are basically non-existent. Many locations will be missing from the world, leading to crashes when accepting some quests. Scenarios which start in missing locations will crash on launch.",
-        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 1 }, { "option": "CITY_SPACING", "type": "int", "val": 8 } ]
-      },
-      {
-        "level": 1,
-        "name": "Suburbia",
-        "description": "Cities use default size and distances, with small to large cities separated by large rural areas.",
-        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 8 }, { "option": "CITY_SPACING", "type": "int", "val": 4 } ]
-      },
-      {
-        "level": 2,
-        "name": "Cityscape",
-        "description": "Cities are 50% larger and 25% closer to each other.",
-        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 12 }, { "option": "CITY_SPACING", "type": "int", "val": 3 } ]
-      },
-      {
-        "level": 3,
-        "name": "Megacity",
-        "description": "Cities are nearly continuous, with minimal distance between them.",
-        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 16 }, { "option": "CITY_SPACING", "type": "int", "val": 1 } ]
-      },
-      {
-        "level": 4,
-        "name": "Continuous",
-        "description": "The world is an endless almost unbroken city. World generation will take a long time, scrolling too far on the map may cause application freezes, and many locations will be missing from the world, leading to crashes when accepting some quests. Scenarios which start in missing locations will crash on launch.",
-        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 28 }, { "option": "CITY_SPACING", "type": "int", "val": 0 } ]
-      }      
-    ]
-  },
-  {
-    "type": "option_slider",
     "id": "world_difficulty",
     "context": "WORLDGEN",
     "name": "Evolution Speed",
@@ -252,31 +213,6 @@
   },
   {
     "type": "option_slider",
-    "id": "world_abundance",
-    "context": "WORLDGEN",
-    "name": "Item Abundance",
-    "default": 0,
-    "levels": [
-      {
-        "level": 0,
-        "name": "100%",
-        "description": "Item spawn rates are not altered.",
-        "options": [
-          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 1 }
-        ]
-      },
-      {
-        "level": 1,
-        "name": "150%",
-        "description": "Items are 50% more common.",
-        "options": [
-          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 1.5 }
-        ]
-      }      
-    ]
-  }, 
-  {
-    "type": "option_slider",
     "id": "world_construction",
     "context": "WORLDGEN",
     "name": "Construction Time",
@@ -358,26 +294,26 @@
     "levels": [
       {
         "level": 0,
-        "name": "Where is everyone?",
-        "description": "You are very unlikely to encounter random NPCs.",
+        "name": "Low",
+        "description": "NPCs spawn less than half as often.",
         "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 10 } ]
       },
       {
         "level": 1,
-        "name": "Lonely",
-        "description": "The default: NPCs are rare, but as expected in this ruined world.",
+        "name": "Default",
+        "description": "NPC spawn rates are at the default level.",
         "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 4 } ]
       },
       {
         "level": 2,
-        "name": "Party time",
-        "description": "You are twice as likely to encounter random NPCs.",
+        "name": "Common",
+        "description": "NPC spawn rates are double the default.",
         "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 2 } ]
       },
       {
         "level": 3,
-        "name": "Crowded",
-        "description": "Random NPCs are fairly common.  Go meet some friends!",
+        "name": "High",
+        "description": "NPCs are much more common.",
         "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 1 } ]
       }
     ]
