@@ -26,3 +26,21 @@ jobs:
           artifacts: "release-${{ github.event.inputs.tag }}.zip"
           tag: "${{ github.event.inputs.tag }}"
 
+      - name: Create Master Release
+        uses: TheDoctor0/zip-release@0.7.6
+        with:
+          type: 'zip'
+          filename: "release-cdda-compack-main.zip"
+          exclusions: '*.git* *.zip*'
+
+      - name: Delete Master Release
+        run: gh release delete cdda-compack-main --cleanup-tag
+        env:
+          GH_TOKEN: ${{ github.token }}        
+
+      - name: Upload Master Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          artifacts: "release-cdda-compack-main.zip"
+          tag: "cdda-compack-main"          
+
