@@ -24,18 +24,18 @@
         "description": "A large crate, heavy but with lots of space.",
         "weight": "50000 g",
         "volume": "500 L",
-        "//": "Longest side hack to avoid a crate being put inside things that would fit inside a crate (and other spacetime violations)",
-        "longest_side": "1337 cm",
+        "//": "Longest side hack to avoid the crate being put inside things that would fit inside the crate (and other spacetime violations)",
+        "longest_side": "1000 cm",
         "price": "50 USD",
         "price_postapoc": "10 USD",
-        "//2": "1.15m3 open top",
+        "//2": "0.9 x 0.9 x 1.5 open top",
         "pocket_data": [
             {
                 "pocket_type": "CONTAINER",
                 "rigid": true,
-                "max_contains_volume": "1500 L",
+                "max_contains_volume": "1200 L",
                 "max_contains_weight": "800 kg",
-                "max_item_length": "300 cm"
+                "max_item_length": "250 cm"
             }
         ],
         "material": [
