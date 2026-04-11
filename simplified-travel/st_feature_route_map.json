@@ -100,33 +100,46 @@
         "type": "effect_on_condition",
         "id": "st_eoc_reveal",
         "effect": [
-            { "u_spawn_item": "st_road_map", "suppress_message": true },
-            { 
-                "u_run_inv_eocs": "random",
-                "search_data": [ { "id": "st_road_map" } ],
-                "true_eocs": [ { "id": "st_road_map_activate", "effect": { "u_activate": "reveal_map" } } ]
-            },
-            { "u_consume_item_sum": [ { "item": "st_road_map", "amount": 1 } ] }
+            { "run_eocs": [ "st_eoc_spawnMap" ] },
+            { "u_map_run_item_eocs": "all", "search_data": [ { "id": "st_road_map" } ], "true_eocs": [ 
+                { "id": "st_road_map_activate", "effect": [ { "u_activate": "reveal_map" }, "npc_die" ] }
+            ]}
         ]
     },
+    {
+        "type": "effect_on_condition",
+        "id": "st_eoc_spawnMap",
+        "effect": [
+            { "u_location_variable": { "context_val": "loc" } },
+            { "u_spawn_monster": "st_monster_mapDropper", "real_count": 1, "min_radius": 2, "max_radius": 2, "lifespan": 1, "temporary_drop_items": true },
+            { "u_run_monster_eocs": [ { "id": "st_eoc_killDropper", "effect": [ "u_die" ] } ], "mtype_ids": [ "st_monster_mapDropper" ] },
+            { "u_map_run_item_eocs": "all", "search_data": [ { "id": "st_road_map" } ], "max_radius": 20, "true_eocs": [  
+                { "id": "st_road_map_get", "effect": [ { "npc_teleport": { "context_val": "loc" } } ] }  
+            ] }
+        ]
+    },
+    {
+        "id": "st_monster_mapDropper",
+        "type": "MONSTER",
+        "copy-from": "mon_rabbit",
+        "name": "national map book (page)",
+        "description": "Why do I exist? Just to die?",
+        "flags": [ "PERMANENT_INVISIBILITY" ],
+        "death_function": { "corpse_type": "NO_CORPSE" },
+        "death_drops": { "subtype": "distribution", "items": [ "st_road_map" ] }
+    }, 
     {
         "type": "ITEM",
         "id": "st_road_map",
         "category": "maps",
-        "name": {
-            "str": "road map"
-        },
+        "name": { "str": "road map" },
         "description": "A road map for the local area.",
         "weight": "30 g",
         "volume": "250 ml",
-        "flags": [
-            "PAPER_SHAPED"
-        ],
+        "flags": [ "PAPER_SHAPED", "LOCATION_PRECISE_CLOSEST_CITY", "PRESERVE_SPAWN_LOC", "ALLOWS_REMOTE_USE" ],
         "price": "10 USD",
         "price_postapoc": "10 USD",
-        "material": [
-            "paper"
-        ],
+        "material": [ "paper" ],
         "symbol": ";",
         "color": "yellow",
         "copy-from": "abstractmap",
@@ -134,14 +147,8 @@
             "type": "reveal_map",
             "radius": 90,
             "terrain": [
-                {
-                    "om_terrain": "road",
-                    "om_terrain_match_type": "PREFIX"
-                },
-                {
-                    "om_terrain": "hw",
-                    "om_terrain_match_type": "PREFIX"
-                },
+                { "om_terrain": "road", "om_terrain_match_type": "PREFIX" },
+                { "om_terrain": "hw", "om_terrain_match_type": "PREFIX" },
                 "bridge"
             ],
             "message": "You add the local roads to your map."

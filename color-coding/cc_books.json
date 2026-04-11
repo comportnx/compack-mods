@@ -1,0 +1,5192 @@
+[
+  {
+    "id": "mag_archery",
+    "type": "ITEM",
+    "copy-from": "mag_archery",
+    "name": {
+      "str": "Archery for Kids (1)",
+      "str_pl": "issues of Archery for Kids (1)"
+    },
+    "variants": [
+      {
+        "description": "Will you be able to place the arrow right into the bullseye?  It is not that easy, but once you know how it's done, you will have a lot of fun with archery.",
+        "id": "mag_archery",
+        "name": {
+          "str": "Archery for Kids (1)",
+          "str_pl": "issues of Archery for Kids (1)"
+        }
+      },
+      {
+        "//": "978-1492588344",
+        "description": "\"Become a more consistent and accurate archer!\", The Archery Drill Book covers all aspects of the sport, with 130 of the best drills for developing superior technique, skill, physical stamina, and the focused mindset needed to shoot under pressure.",
+        "id": "mag_archery_1",
+        "name": {
+          "str": "Archery Drill Book (1)",
+          "str_pl": "copies of Archery Drill Book (1)"
+        }
+      },
+      {
+        "//": "978-0811738347",
+        "description": "A beginner's guide to the equipment and shooting fundamentals that new shooters of all ages will benefit from.",
+        "id": "mag_archery_2",
+        "name": {
+          "str": "Archery from A to Z (1)",
+          "str_pl": "copies of Archery from A to Z (1)"
+        }
+      },
+      {
+        "//": "978-1440091070",
+        "description": "\"Anecdotes of Archery - From the Earliest Ages to the Year 1791\" - This vintage book contains a comprehensive guide to archery, with historical details, information on archery in different cultures throughout the ages, anecdotes of notable events and battles, a glossary of archery terms, and much more.",
+        "id": "mag_archery_2",
+        "name": {
+          "str": "Anecdotes of Archery (1)",
+          "str_pl": "copies of Anecdotes of Archery (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_barter",
+    "type": "ITEM",
+    "copy-from": "mag_barter",
+    "name": {
+      "str": "Car Buyer's Guide (1)",
+      "str_pl": "copies of Car Buyer's Guide (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_business",
+    "type": "ITEM",
+    "copy-from": "manual_business",
+    "name": {
+      "str": "How to Succeed in Business (3)",
+      "str_pl": "copies of How to Succeed in Business (3)"
+    },
+    "variants": [
+      {
+        "description": "Useful if you want to get a good deal when purchasing goods.",
+        "id": "manual_business",
+        "name": {
+          "str": "How to Succeed in Business (3)",
+          "str_pl": "copies of How to Succeed in Business (3)"
+        }
+      },
+      {
+        "//": "978-1535585958",
+        "description": "The fundamentals of day trading, and how it differs from other styles of trading and investment, with elaboration on important trading strategies that many traders use every day.",
+        "id": "manual_business_1",
+        "name": {
+          "str": "How To Day Trade For A Living (3)",
+          "str_pl": "copies of How To Day Trade For A Living (3)"
+        }
+      },
+      {
+        "//": "978-1119879589",
+        "description": "A guide to help you develop a mindset to trade on a rapidly changing stock market.  Not very useful in current moment, when the main stock you have is a stock of ammo, or maybe just soup.",
+        "id": "manual_business_2",
+        "name": {
+          "str": "Trading Psychology For Dummies (3)",
+          "str_pl": "copies of Trading Psychology For Dummies (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_business",
+    "type": "ITEM",
+    "copy-from": "textbook_business",
+    "name": {
+      "str": "Advanced Economics (6)",
+      "str_pl": "copies of Advanced Economics (6)"
+    },
+    "variants": [
+      {
+        "description": "A college textbook on economics.",
+        "id": "textbook_business",
+        "name": {
+          "str": "Advanced Economics (6)",
+          "str_pl": "copies of Advanced Economics (6)"
+        }
+      },
+      {
+        "//": "978-3838338194",
+        "description": "In this work, David Cabanillas adopts bartering incentive pattern as an attractive foundation in the age of the internet for a simple and robust form of exchange to reallocate resources.",
+        "id": "textbook_business_1",
+        "name": {
+          "str": "Peer to Peer Bartering (6)",
+          "str_pl": "copies of Peer to Peer Bartering (6)"
+        }
+      },
+      {
+        "//": "978-1118464212",
+        "description": "Comprehensive coverage of most major stock trading styles.",
+        "id": "textbook_business_2",
+        "name": {
+          "str": "Trading Basics (6)",
+          "str_pl": "copies of Trading Basics (6)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_bashing",
+    "type": "ITEM",
+    "copy-from": "mag_bashing",
+    "name": {
+      "str": "Batter Up! (1)",
+      "str_pl": "issues of Batter Up! (1)"
+    },
+    "variants": [
+      {
+        "description": "A baseball magazine that focuses on batting tips.  There are lots of colorful, full-page photos of skilled athletes demonstrating proper form and technique.",
+        "id": "mag_bashing",
+        "name": {
+          "str": "Batter Up! (1)",
+          "str_pl": "issues of Batter Up! (1)"
+        }
+      },
+      {
+        "description": "Written with hard prison slang, this book says a lot about how to use maximum power from your muscles and weight of your weapon.",
+        "id": "mag_bashing_1",
+        "name": {
+          "str": "Bludgeons and Broken Bones: A Reference Guide (1)",
+          "str_pl": "copies of Bludgeons and Broken Bones: A Reference Guide (1)"
+        }
+      },
+      {
+        "description": "A small brochure from an unknown self-defense shop, focused on using bash weapons for self-defense in real-world situations.  It covers topics like assessing threats, using verbal commands and body language to de-escalate situations, and legal considerations for using force in self-defense.  It also includes techniques for using bash weapons to defend against attackers armed with knives, guns, and other weapons.",
+        "id": "mag_bashing_2",
+        "name": {
+          "str": "Bash Weapons for Self-Defense: A Practical Guide (1)",
+          "str_pl": "copies of Bash Weapons for Self-Defense: A Practical Guide (1)"
+        }
+      },
+      {
+        "description": "This book researches the long, international story of ultras - fanatical football fans ready to defend the prestige of their football team in any possible way, including with brutal violence and heavy bats.",
+        "id": "mag_bashing_3",
+        "name": {
+          "str": "Ultra Tactics: The Ways of the Modern Warrior (1)",
+          "str_pl": "copies of Ultra Tactics: the Ways of the Modern Warrior (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_bashing",
+    "type": "ITEM",
+    "copy-from": "manual_bashing",
+    "name": {
+      "str": "tactical baton defense manual (3)",
+      "str_pl": "copies of tactical baton defense manual (3)"
+    },
+    "variants": [
+      {
+        "description": "An informative guide to self-defense using clubs and batons.  Aimed at the law enforcement and military market, it is packed with time tested, no-nonsense information and written to be understandable for beginners.",
+        "id": "manual_bashing",
+        "name": {
+          "str": "tactical baton defense manual (3)",
+          "str_pl": "copies of tactical baton defense manual (3)"
+        }
+      },
+      {
+        "//": "978-1594397332",
+        "description": "A non-style specific guide to fighting with the short stick, with a few levels of instructions from easy to master, and a lot of photos showing movements with motion arrows.",
+        "id": "manual_bashing_1",
+        "name": {
+          "str": "The Art and Science of Stick Fighting (3)",
+          "str_pl": "copies of The Art and Science of Stick Fighting (3)"
+        }
+      },
+      {
+        "description": "A comprehensive guide on how to do demolition on your own piece of land - from replacing the pavement to total house deconstruction - using only common instruments.  Surprisingly not so hard, as you just need to know how and when hit the thing.",
+        "id": "manual_bashing_2",
+        "name": {
+          "str": "Demolition Man (3)",
+          "str_pl": "copies of Demolition Man (3)"
+        }
+      },
+      {
+        "//": "978-1941845738",
+        "description": "\"The Authoritative Guide to Using the Cane or Walking Stick for Self-Defense\", this book provides plenty of ways to use an everyday tool as a sturdy weapon.",
+        "id": "manual_bashing_3",
+        "name": {
+          "str": "Cane Fighting (3)",
+          "str_pl": "copies of Cane Fighting (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "adv_chemistry",
+    "type": "ITEM",
+    "copy-from": "adv_chemistry",
+    "name": {
+      "str": "Advanced Physical Chemistry (7)",
+      "str_pl": "copies of Advanced Physical Chemistry (7)"
+    },
+    "variants": [
+      {
+        "description": "A university-level textbook on advanced principles of physical chemistry and all its branches: thermochemistry, electrochemistry, solid-state chemistry, photochemistry, quantum chemistry et cetera.",
+        "id": "adv_chemistry",
+        "name": {
+          "str": "Advanced Physical Chemistry (7)",
+          "str_pl": "copies of Advanced Physical Chemistry (7)"
+        }
+      },
+      {
+        "//": "978-0136056065",
+        "description": "Fifth Edition of a best-selling book about using physical chemistry in various branches, with real examples.",
+        "id": "adv_chemistry_1",
+        "name": {
+          "str": "Physical Chemistry: Principles and Applications (7)",
+          "str_pl": "copies of Physical Chemistry: Principles and Applications (7)"
+        }
+      },
+      {
+        "//": "978-8184959888",
+        "description": "A textbook that covers more specialized topics in physical chemistry, including quantum chemistry, statistical mechanics, and surface science.",
+        "id": "adv_chemistry_2",
+        "name": {
+          "str": "Physical Chemistry: A Molecular Approach (7)",
+          "str_pl": "copies of Physical Chemistry: A Molecular Approach (7)"
+        }
+      },
+      {
+        "description": "This book provides a comprehensive introduction to the principles of physical chemistry, covering topics such as quantum mechanics, thermodynamics, and statistical mechanics.",
+        "id": "adv_chemistry_3",
+        "name": {
+          "str": "Physical Chemistry: From Quantum Mechanics to Statistical Thermodynamics (7)",
+          "str_pl": "copies of Physical Chemistry: From Quantum Mechanics to Statistical Thermodynamics (7)"
+        }
+      },
+      {
+        "description": "This book is designed for students in engineering and the physical sciences who are interested in applying physical chemistry concepts to real-world problems.  It covers topics such as thermodynamics, statistical mechanics, and transport phenomena, and includes examples and problems drawn from engineering and scientific applications.",
+        "id": "adv_chemistry_4",
+        "name": {
+          "str": "Physical Chemistry for Scientists and Engineers (7)",
+          "str_pl": "copies of Physical Chemistry for Scientists and Engineers (7)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "modern_tanner",
+    "type": "ITEM",
+    "copy-from": "modern_tanner",
+    "name": {
+      "str": "The Modern Tanner (4)",
+      "str_pl": "copies of The Modern Tanner (4)"
+    },
+    "variants": [
+      {
+        "description": "An in-depth and easy to read guide that details a very modern take on the ancient art of leather tanning.",
+        "id": "modern_tanner",
+        "name": {
+          "str": "The Modern Tanner (4)",
+          "str_pl": "copies of The Modern Tanner (4)"
+        }
+      },
+      {
+        "//": "978-0764360398",
+        "description": "A guide by Nigel Armitage offering traditional leatherworking techniques with modern applications, creating durable goods able to last generations.",
+        "id": "modern_tanner_1",
+        "name": {
+          "str": "Leathercraft: Traditional Handcrafted Leatherwork Skills and Projects (4)",
+          "str_pl": "copies of Leathercraft: Traditional Handcrafted Leatherwork Skills and Projects (4)"
+        }
+      },
+      {
+        "//": "978-1844034741",
+        "description": "A leatherworking book for amateurs by a top professional, with some key techniques and various projects.",
+        "id": "modern_tanner_2",
+        "name": {
+          "str": "Leatherworking Handbook (4)",
+          "str_pl": "copies of Leatherworking Handbook (4)"
+        }
+      },
+      {
+        "//": "978-3337106478",
+        "description": "This vintage book contains a detailed treatise on the leather industry in late-nineteenth century America, being a dissertation on the methods employed in and the economics of tanning.",
+        "id": "modern_tanner_3",
+        "name": {
+          "str": "The Leather Manufacture in the United States (4)",
+          "str_pl": "copies of The Leather Manufacture in the United States (4)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "recipe_alpha",
+    "type": "ITEM",
+    "copy-from": "recipe_alpha",
+    "name": {
+      "str": "PE050 \"Alpha\": Preliminary Report (7)",
+      "str_pl": "copies of PE050 \"Alpha\": Preliminary Report (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_animal",
+    "type": "ITEM",
+    "copy-from": "recipe_animal",
+    "name": {
+      "str": "lab journal-Dionne (7)",
+      "str_pl": "lab journals-Dionne (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_chimera",
+    "type": "ITEM",
+    "copy-from": "recipe_chimera",
+    "name": {
+      "str": "PE065 \"Chimera\": Best Practices (7)",
+      "str_pl": "copies of PE065 \"Chimera\": Best Practices (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_creepy",
+    "type": "ITEM",
+    "copy-from": "recipe_creepy",
+    "name": {
+      "str": "lab journal-Smythe (7)",
+      "str_pl": "lab journals-Smythe (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_elfa",
+    "type": "ITEM",
+    "copy-from": "recipe_elfa",
+    "name": {
+      "str": "standpipe maintenance log (0)",
+      "str_pl": "standpipe maintenance logs (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_labchem",
+    "type": "ITEM",
+    "copy-from": "recipe_labchem",
+    "name": {
+      "str": "chemical reference-CLASSIFIED (7)",
+      "str_pl": "chemical references-CLASSIFIED (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_maiar",
+    "type": "ITEM",
+    "copy-from": "recipe_maiar",
+    "name": {
+      "str": "lab journal-x-|xp (7)",
+      "str_pl": "lab journals-x-|xp (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_medicalmut",
+    "type": "ITEM",
+    "copy-from": "recipe_medicalmut",
+    "name": {
+      "str": "PE023 \"Medical\": Application and Findings (7)",
+      "str_pl": "copies of PE023 \"Medical\": Application and Findings (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_raptor",
+    "type": "ITEM",
+    "copy-from": "recipe_raptor",
+    "name": {
+      "str": "PE070 \"Raptor\": Proposal (0)",
+      "str_pl": "copies of PE070 \"Raptor\": Proposal (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_serum",
+    "type": "ITEM",
+    "copy-from": "recipe_serum",
+    "name": {
+      "str": "Best Practices for Compound Delivery (8)",
+      "str_pl": "copies of Best Practices for Compound Delivery (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "reference_cooking",
+    "type": "ITEM",
+    "copy-from": "reference_cooking",
+    "name": {
+      "str": "CRC-Merck Handbook, 4th edition (0)",
+      "str_pl": "copies of CRC-Merck Handbook, 4th edition (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_chemistry",
+    "type": "ITEM",
+    "copy-from": "textbook_chemistry",
+    "name": {
+      "str": "chemistry textbook (6)",
+      "str_pl": "copies of chemistry textbook (6)"
+    },
+    "variants": [
+      {
+        "description": "A college textbook on chemistry.",
+        "id": "textbook_chemistry",
+        "name": {
+          "str": "chemistry textbook (6)",
+          "str_pl": "copies of chemistry textbook (6)"
+        }
+      },
+      {
+        "//": "978-1119591146",
+        "description": "Invaluable quick reference guide to the fundamentals of chemistry for students.",
+        "id": "textbook_chemistry_1",
+        "name": {
+          "str": "Chemistry Essentials For Dummies (6)",
+          "str_pl": "copies of Chemistry Essentials For Dummies (6)"
+        }
+      },
+      {
+        "//": "978-0486656229",
+        "description": "The revised third edition of a classic first-year text by Nobel laureate.  Covers atomic and molecular structure, quantum mechanics, statistical mechanics, and thermodynamics correlated with descriptive chemistry problems.",
+        "id": "textbook_chemistry_2",
+        "name": {
+          "str": "General Chemistry (6)",
+          "str_pl": "copies of General Chemistry (6)"
+        }
+      },
+      {
+        "//": "978-0554023557",
+        "description": "A giant, almost 1000 page book that covers anything a student may want (and may not want) to know about chemistry, from foundations to an intermediate level.",
+        "id": "textbook_chemistry_3",
+        "name": {
+          "str": "Modern Chemistry: Student Edition (6)",
+          "str_pl": "copies of Modern Chemistry: Student Edition (6)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_extraction",
+    "type": "ITEM",
+    "copy-from": "textbook_extraction",
+    "name": {
+      "str": "The Essential Oil Enthusiasts Handbook (6)",
+      "str_pl": "copies of The Essential Oil Enthusiasts Handbook (6)"
+    },
+    "variants": [
+      {
+        "description": "A heavy hardback book explaining the process of essential oil making, with schematics for the equipment to do it.  Good luck, and don't blow yourself up!",
+        "id": "textbook_extraction",
+        "name": {
+          "str": "The Essential Oil Enthusiasts Handbook (6)",
+          "str_pl": "copies of The Essential Oil Enthusiasts Handbook (6)"
+        }
+      },
+      {
+        "//": "978-0815370963",
+        "description": "This book presents the development, use and marketing of essential oils, with a wide range of topics, sources, as well as production and analysis techniques.",
+        "id": "textbook_extraction_1",
+        "name": {
+          "str": "Handbook of Essential Oils: Science, Technology, and Applications (6)",
+          "str_pl": "copies of Handbook of Essential Oils: Science, Technology, and Applications (6)"
+        }
+      },
+      {
+        "description": "This book provides a detailed guide to the process of distilling essential oils, including information on equipment and processes for extracting them from plant materials.  It also includes tips for selecting and storing essential oils, as well as using the byproducts of manufacturing.",
+        "id": "textbook_extraction_2",
+        "name": {
+          "str": "Essential Oil Distillation (6)",
+          "str_pl": "copies of Essential Oil Distillation (6)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_gaswarfare",
+    "type": "ITEM",
+    "copy-from": "textbook_gaswarfare",
+    "name": {
+      "str": "Art and Science of Chemical Warfare (6)",
+      "str_pl": "copies of Art and Science of Chemical Warfare (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "basic_chemistry",
+    "type": "ITEM",
+    "copy-from": "basic_chemistry",
+    "name": {
+      "str": "Chemistry for Kids: Awesome Science Experiments that Really Work (3)",
+      "str_pl": "copies of Chemistry for Kids: Awesome Science Experiments that Really Work (3)"
+    },
+    "variants": [
+      {
+        "description": "A book with comprehensive and accurate step-by-step illustrated instructions for many scientific experiments, for young researchers and anyone else who wants to delve into the amazing world of chemistry.",
+        "id": "basic_chemistry",
+        "name": {
+          "str": "Chemistry for Kids: Awesome Science Experiments that Really Work (3)",
+          "str_pl": "copies of Chemistry for Kids: Awesome Science Experiments that Really Work (3)"
+        }
+      },
+      {
+        "//": "978-0241515549",
+        "description": "Short, pithy explanations of some of the most historic moments in science, from the birth of alchemy to modern chemistry state.  Simple graphics, such as flowcharts and mind maps, support the text and make the explanation of key concepts easy to follow.",
+        "id": "basic_chemistry_1",
+        "name": {
+          "str": "The Chemistry Book: Big Ideas Simply Explained (3)",
+          "str_pl": "copies of The Chemistry Book: Big Ideas Simply Explained (3)"
+        }
+      },
+      {
+        "//": "978-0134138046",
+        "description": "The fifth edition of a textbook to help students master math and problem solving they will use in their future chemistry classes.",
+        "id": "basic_chemistry_2",
+        "name": {
+          "str": "Basic Chemistry (3)",
+          "str_pl": "copies of Basic Chemistry (3)"
+        }
+      },
+      {
+        "//": "978-1439813379",
+        "description": "This book communicates the fundamentals of chemistry in a practical, down-to-earth manner, with simple language and detailed images.",
+        "id": "basic_chemistry_3",
+        "name": {
+          "str": "Basic Chemistry Concepts and Exercises (3)",
+          "str_pl": "copies of Basic Chemistry Concepts and Exercises (3)"
+        }
+      },
+      {
+        "//": "978-1523504251",
+        "description": "This book provides plenty of info about high school-level chemistry, with lot of additional tables and formulas, though lacking many additional pictures.",
+        "id": "basic_chemistry_4",
+        "name": {
+          "str": "Everything You Need to Ace Chemistry in One Big Fat Notebook (3)",
+          "str_pl": "copies of Everything You Need to Ace Chemistry in One Big Fat Notebook (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "catalytic_cracking_handbook",
+    "type": "ITEM",
+    "copy-from": "catalytic_cracking_handbook",
+    "name": {
+      "str": "Catalytic Cracking at Home for Solarpunks (7)",
+      "str_pl": "copies of Catalytic Cracking at Home for Solarpunks (7)"
+    },
+    "variants": [
+      {
+        "description": "A colorful textbook that proclaims to teach one how to bootstrap kerosene and diesel production from waste products.  Despite the hip title, the information contained within is highly advanced and technical.",
+        "id": "catalytic_cracking_handbook",
+        "name": {
+          "str": "Catalytic Cracking at Home for Solarpunks (7)",
+          "str_pl": "copies of Catalytic Cracking at Home for Solarpunks (7)"
+        }
+      },
+      {
+        "//": "978-3659713538",
+        "description": "Describing the problems that may occur while refining oil, this book is an excellent reference and teaching material for students and researchers in chemical engineering and chemistry.",
+        "id": "catalytic_cracking_handbook_1",
+        "name": {
+          "str": "Modeling and Simulation of Fluid Catalytic Cracking Riser (7)",
+          "str_pl": "copies of Modeling and Simulation of Fluid Catalytic Cracking Riser (7)"
+        }
+      },
+      {
+        "description": "This handbook provides practical information and tools that engineers can use to maximize the profitability and reliability of their fluid catalytic cracking operations.",
+        "id": "catalytic_cracking_handbook_2",
+        "name": {
+          "str": "Fluid Catalytic Cracking Handbook (7)",
+          "str_pl": "copies of Fluid Catalytic Cracking Handbook (7)"
+        }
+      },
+      {
+        "//": "978-1523389322",
+        "description": "This book describes cold petroleum cracking - a type of process that occurs below the freezing point, compared the common process that occurs at nearly 400 centigrade.  You can't really use this type of process without a lot of additional equipment, but the book provides plenty of information about common methods that you can do by hand.",
+        "id": "catalytic_cracking_handbook_3",
+        "name": {
+          "str": "A Literature Review on Cold Cracking of Petroleum Crude Oil (7)",
+          "str_pl": "copies of A Literature Review on Cold Cracking of Petroleum Crude Oil (7)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_biodiesel",
+    "type": "ITEM",
+    "copy-from": "textbook_biodiesel",
+    "name": {
+      "str": "Biodiesel: Renewable Fuel Resource (6)",
+      "str_pl": "copies of Biodiesel: Renewable Fuel Resource (6)"
+    },
+    "variants": [
+      {
+        "description": "A large textbook for college students about biodiesel.",
+        "id": "textbook_biodiesel",
+        "name": {
+          "str": "Biodiesel: Renewable Fuel Resource (6)",
+          "str_pl": "copies of Biodiesel: Renewable Fuel Resource (6)"
+        }
+      },
+      {
+        "//": "978-0784415344",
+        "description": "Sponsored by the American Society of Civil Engineers, this book presents approaches, technologies, and source materials for biodiesel production, as well as socioeconomic and political impacts of its applications.  You surely don't need the second part anymore.",
+        "id": "textbook_biodiesel_1",
+        "name": {
+          "str": "Biodiesel Production: Technologies, Challenges, and Future Prospects (6)",
+          "str_pl": "copies of Biodiesel Production: Technologies, Challenges, and Future Prospects (6)"
+        }
+      },
+      {
+        "//": "978-1893997622",
+        "description": "A big, 500-page book that provides plenty of info about the history of different fuels, methods to apply them, and properties required for each.  It's mainly centered on biodiesel and another biofuels.",
+        "id": "textbook_biodiesel_2",
+        "name": {
+          "str": "The Biodiesel Handbook (6)",
+          "str_pl": "copies of The Biodiesel Handbook (6)"
+        }
+      },
+      {
+        "//": "978-1846289941",
+        "description": "A small book offering insights into plant-based fuels, with detailed analyses of biodiesel types, and possible scenarios for their implementation.  Sadly most of the book just repeats itself, writing the same text over and over again, which makes you feel you stuck in a constant loop.",
+        "id": "textbook_biodiesel_3",
+        "name": {
+          "str": "Biodiesel: a Realistic Fuel Alternative for Diesel Engines (6)",
+          "str_pl": "copies of Biodiesel: a Realistic Fuel Alternative for Diesel Engines (6)"
+        }
+      },
+      {
+        "//": "978-1845695910",
+        "description": "This book contains different techniques for producing biofuels in different scales - from home-made work in your backyard to large manufacturing - with different issues you may meet in the process, and ways to resolve them.",
+        "id": "textbook_biodiesel_4",
+        "name": {
+          "str": "Biodiesel Science and Technology: From Soil to Oil (6)",
+          "str_pl": "copies of Biodiesel Science and Technology: From Soil to Oil (6)"
+        }
+      },
+      {
+        "//": "978-1505404630",
+        "description": "A comprehensive guide by William Kemp to produce biodiesel at small scale while avoiding common failures of fuel quality and byproduct waste management, with accuracies of data and process backed by government or university verification.",
+        "id": "textbook_biodiesel_5",
+        "name": {
+          "str": "Biodiesel Basics and Beyond: A Comprehensive Guide to Production and Use for the Home and Farm (6)",
+          "str_pl": "copies of Biodiesel Basics and Beyond: A Comprehensive Guide to Production and Use for the Home and Farm (6)"
+        }
+      },
+      {
+        "//": "978-0323911931",
+        "description": "A book about different types of biofuels, issues in their production and application, and different processes and technologies that are used in their manufacturing.",
+        "id": "textbook_biodiesel_6",
+        "name": {
+          "str": "Handbook of Biofuels Production: Process and Technologies (6)",
+          "str_pl": "copies of Handbook of Biofuels Production: Process and Technologies (6)"
+        }
+      },
+      {
+        "description": "The original cover of this book was replaced with a white sheet of paper with a hand-made \"Bean Diesel\" label and simplified image of Vin Diesel, drawn in pen.  Excluding this, it is a pretty mundane handbook about biofuel production.",
+        "id": "textbook_biodiesel_7",
+        "name": {
+          "str": "Bean Diesel (6)",
+          "str_pl": "copies of Bean Diesel (6)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "SICP",
+    "type": "ITEM",
+    "copy-from": "SICP",
+    "name": {
+      "str": "SICP (8)",
+      "str_pl": "copies of SICP (8)"
+    },
+    "variants": [
+      {
+        "description": "A classic text, \"The Structure and Interpretation of Computer Programs.\" Written with examples in LISP, but applicable to any language.",
+        "id": "SICP",
+        "name": {
+          "str": "SICP (8)",
+          "str_pl": "copies of SICP (8)"
+        }
+      },
+      {
+        "//": "978-0262046305",
+        "description": "Also known as CLRS - a letter for the last names of each author - this book contains deep explanations for a range of algorithms divided across several self-contained chapters, with pseudocode presentation.",
+        "id": "SICP_1",
+        "name": {
+          "str": "Introduction to Algorithms (8)",
+          "str_pl": "copies of Introduction to Algorithms (8)"
+        }
+      },
+      {
+        "//": "978-0137935109",
+        "description": "A huge reference manual about fundamental algorithms, with a lot of examples and math.",
+        "id": "SICP_2",
+        "name": {
+          "str": "The Art of Computer Programming, Vol. 1 (8)",
+          "str_pl": "copies of The Art of Computer Programming, Vol. 1 (8)"
+        }
+      },
+      {
+        "//": "978-0137935109",
+        "description": "A huge reference manual about sorting and searching algorithms, with a lot of examples and math.",
+        "id": "SICP_3",
+        "name": {
+          "str": "The Art of Computer Programming, Vol. 3 (8)",
+          "str_pl": "copies of The Art of Computer Programming, Vol. 3 (8)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "computer_science",
+    "type": "ITEM",
+    "copy-from": "computer_science",
+    "name": {
+      "str": "Computer Science 301 (5)",
+      "str_pl": "copies of Computer Science 301 (5)"
+    },
+    "variants": [
+      {
+        "description": "A college textbook on computer science.",
+        "id": "computer_science",
+        "name": {
+          "str": "Computer Science 301 (5)",
+          "str_pl": "copies of Computer Science 301 (5)"
+        }
+      },
+      {
+        "//": "978-1292263427",
+        "description": "The 13th edition, this book gives a bottom-up, concrete-to-abstract foundation in the subject, and encourages a practical and realistic understanding of computer science.",
+        "id": "computer_science_1",
+        "name": {
+          "str": "Computer Science: An Overview (5)",
+          "str_pl": "copies of Computer Science: An Overview (5)"
+        }
+      },
+      {
+        "//": "978-0761196761",
+        "description": "Not as big as the back cover suggests, this book still contains lots of information for the reader about key concepts, definitions, diagrams, and doodles about computer science.",
+        "id": "computer_science_2",
+        "name": {
+          "str": "Everything You Need to Ace Computer Science and Coding in One Big Fat Notebook (5)",
+          "str_pl": "copies of Everything You Need to Ace Computer Science and Coding in One Big Fat Notebook (5)"
+        }
+      },
+      {
+        "//": "978-1119724414",
+        "description": "A nice workbook that contains information about computer science beyond the common college program, with lots of practical examples and additional tools.",
+        "id": "computer_science_3",
+        "name": {
+          "str": "The Self-Taught Computer Scientist (5)",
+          "str_pl": "copies of The Self-Taught Computer Scientist (5)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "howto_computer",
+    "type": "ITEM",
+    "copy-from": "howto_computer",
+    "name": {
+      "str": "How to Browse the Web (2)",
+      "str_pl": "copies of How to Browse the Web (2)"
+    },
+    "variants": [
+      {
+        "description": "Very beginner-level information about computers.",
+        "id": "howto_computer",
+        "name": {
+          "str": "How to Browse the Web (2)",
+          "str_pl": "copies of How to Browse the Web (2)"
+        }
+      },
+      {
+        "//": "978-0273729174",
+        "description": "A colorful book with lots of images detailing how to perform simple tasks in a computer system.",
+        "id": "howto_computer_1",
+        "name": {
+          "str": "Computer Basics For The Over 50s (2)",
+          "str_pl": "copies of Computer Basics For The Over 50s (2)"
+        }
+      },
+      {
+        "//": "978-3844333176",
+        "description": "A small book that describes the very foundations of how computers and the internet work, with relevant examples.",
+        "id": "howto_computer_2",
+        "name": {
+          "str": "Hand Book On Computer Basics (2)",
+          "str_pl": "copies of Hand Book On Computer Basics (2)"
+        }
+      },
+      {
+        "//": "978-1119849605",
+        "description": "A simple guide to computers that'll show you what all the fuss is about.",
+        "id": "howto_computer_3",
+        "name": {
+          "str": "Computers For Seniors For Dummies (2)",
+          "str_pl": "copies of Computers For Seniors For Dummies (2)"
+        }
+      },
+      {
+        "//": "978-0713679175",
+        "description": "This workbook is designed to help non-native English speakers improve their knowledge and understanding of core computing and IT terminology, with definitions and some examples.",
+        "id": "howto_computer_4",
+        "name": {
+          "str": "Check Your English Vocabulary for Computers and Information Technology (2)",
+          "str_pl": "copies of Check Your English Vocabulary for Computers and Information Technology (2)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_computer",
+    "type": "ITEM",
+    "copy-from": "mag_computer",
+    "name": {
+      "str": "Computer World (1)",
+      "str_pl": "issues of Computer World (1)"
+    },
+    "variants": [
+      {
+        "description": "An informative magazine all about computers, both hardware and software.",
+        "id": "mag_computer",
+        "name": {
+          "str": "Computer World (1)",
+          "str_pl": "issues of Computer World (1)"
+        }
+      },
+      {
+        "description": "An old, shabby magazine about hardware and software.  The last page says this is the last printed issue, as they are going all digital.",
+        "id": "mag_computer_1",
+        "name": {
+          "str": "PCMag (1)",
+          "str_pl": "issues of PCMag (1)"
+        }
+      },
+      {
+        "description": "A shiny scientific journal that reviews fresh literature in the computer science field.",
+        "id": "mag_computer_2",
+        "name": {
+          "str": "ACM Computing Reviews (1)",
+          "str_pl": "issues of ACM Computing Reviews (1)"
+        }
+      },
+      {
+        "description": "Journal that cover lot of aspects of software engineering, processes, and practices.",
+        "id": "mag_computer_3",
+        "name": {
+          "str": "IEEE Software (1)",
+          "str_pl": "issues of IEEE Software (1)"
+        }
+      },
+      {
+        "description": "A practitioner-oriented magazine issued to all members of the society, containing articles and columns about different computing-related issues.",
+        "id": "mag_computer_4",
+        "name": {
+          "str": "\"Computer\" (1)",
+          "str_pl": "issues of \"Computer\" (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_computer",
+    "type": "ITEM",
+    "copy-from": "manual_computer",
+    "name": {
+      "str": "Computer Science 101 (3)",
+      "str_pl": "copies of Computer Science 101 (3)"
+    },
+    "variants": [
+      {
+        "description": "An entry-level textbook about computers.",
+        "id": "manual_computer",
+        "name": {
+          "str": "Computer Science 101 (3)",
+          "str_pl": "copies of Computer Science 101 (3)"
+        }
+      },
+      {
+        "//": "978-1590282755",
+        "description": "An introduction into computer world, based on simple computer language.  It guides the reader toward deep computer world.",
+        "id": "manual_computer_1",
+        "name": {
+          "str": "An Introduction to Computer Science (3)",
+          "str_pl": "copies of An Introduction to Computer Science (3)"
+        }
+      },
+      {
+        "description": "Printouts, held together by a staple, that explain work in different applications, multimedia, the web, and basic work with hardware.",
+        "id": "manual_computer_2",
+        "name": {
+          "str": "Multimedia Computing (3)",
+          "str_pl": "copies of Multimedia Computing (3)"
+        }
+      },
+      {
+        "//": "978-1138238060",
+        "description": "A practical book for teachers about how to plan lessons and what they need to teach scholars about computer science.",
+        "id": "manual_computer_3",
+        "name": {
+          "str": "Teaching Computing in Secondary Schools (3)",
+          "str_pl": "copies of Teaching Computing in Secondary Schools (3)"
+        }
+      },
+      {
+        "//": "978-0262539807",
+        "description": "A book that describes how computers works, how they break big tasks into smaller and simpler tasks, and teaches how you can do the same.",
+        "id": "manual_computer_4",
+        "name": {
+          "str": "The Elements of Computing Systems (3)",
+          "str_pl": "copies of The Elements of Computing Systems (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_computer",
+    "type": "ITEM",
+    "copy-from": "textbook_computer",
+    "name": {
+      "str": "Principles of Advanced Programming (6)",
+      "str_pl": "copies of Principles of Advanced Programming (6)"
+    },
+    "variants": [
+      {
+        "description": "A heavy textbook dedicated to advanced-level software design, written for several different programming languages.",
+        "id": "textbook_computer",
+        "name": {
+          "str": "Principles of Advanced Programming (6)",
+          "str_pl": "copies of Principles of Advanced Programming (6)"
+        }
+      },
+      {
+        "//": "978-0137314911",
+        "description": "This book illuminates durable principles at the heart of effective software development, with historic examples and personal experience.",
+        "id": "textbook_computer_1",
+        "name": {
+          "str": "Modern Software Engineering (6)",
+          "str_pl": "copies of Modern Software Engineering (6)"
+        }
+      },
+      {
+        "//": "978-1492043454",
+        "description": "This book examines different architecture patterns and components of good application.",
+        "id": "textbook_computer_2",
+        "name": {
+          "str": "Fundamentals of Software Architecture (6)",
+          "str_pl": "copies of Fundamentals of Software Architecture (6)"
+        }
+      },
+      {
+        "//": "978-0134667607",
+        "description": "Author research how computer game works, how they build, and how to make proper gameplay parts and prototypes, with examples of real code.",
+        "id": "textbook_computer_3",
+        "name": {
+          "str": "Advanced Game Design: A Systems Approach (6)",
+          "str_pl": "copies of Advanced Game Design: A Systems Approach (6)"
+        }
+      },
+      {
+        "//": "978-0132350884",
+        "description": "This book describes the key features of popular computer languages with features you can use to enhance your working environment and experience, as well as your code.",
+        "id": "textbook_computer_4",
+        "name": {
+          "str": "Clean Code (6)",
+          "str_pl": "copies of Clean Code (6)"
+        }
+      },
+      {
+        "//": "978-1800200920",
+        "description": "This book shows the most common pitfalls inexperienced programmers may meet in their work, and different solutions one can use to resolve or avoid them.",
+        "id": "textbook_computer_5",
+        "name": {
+          "str": "Mastering Apex Programming (6)",
+          "str_pl": "copies of Mastering Apex Programming (6)"
+        }
+      },
+      {
+        "//": "978-1009098489",
+        "description": "A guide for scientists and engineers describing how to use modern computer systems and methods in their work.",
+        "id": "textbook_computer_6",
+        "name": {
+          "str": "Data-Driven Science and Engineering (6)",
+          "str_pl": "copies of Data-Driven Science and Engineering (6)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "webbasics_computer",
+    "type": "ITEM",
+    "copy-from": "webbasics_computer",
+    "name": {
+      "str": "Web Design Basics (3)",
+      "str_pl": "copies of Web Design Basics (3)"
+    },
+    "variants": [
+      {
+        "description": "A thick glossy paperback instructional manual for aspiring web designers that includes a teaching guide for young students.",
+        "id": "webbasics_computer",
+        "name": {
+          "str": "Web Design Basics (3)",
+          "str_pl": "copies of Web Design Basics (3)"
+        }
+      },
+      {
+        "//": "978-0763692766",
+        "description": "A comics-like manual explaining how to perform simple code tasks, targeted at kids.",
+        "id": "webbasics_computer_1",
+        "name": {
+          "str": "Get Coding! (3)",
+          "str_pl": "copies of Get Coding! (3)"
+        }
+      },
+      {
+        "//": "979-8490556817",
+        "description": "A book that tries to teach the reader the most common programming activities - planning the work, making comfortable workarounds, designing the code schemes, and writing them in the right way.",
+        "id": "webbasics_computer_2",
+        "name": {
+          "str": "Computer Programming: Fundamentals for Absolute Beginners (3)",
+          "str_pl": "copies of Computer Programming: Fundamentals for Absolute Beginners (3)"
+        }
+      },
+      {
+        "//": "978-0596802370",
+        "description": "This handbook describes the very basics of coding - creating and using variables, loops, decisions, objects - and examples of how and where to use them.",
+        "id": "webbasics_computer_3",
+        "name": {
+          "str": "Head First Programming (3)",
+          "str_pl": "copies of Head First Programming (3)"
+        }
+      },
+      {
+        "//": "978-1719439558",
+        "description": "A small book that explains different skills a programmer needs to be able to code, in simple terms and with samples.",
+        "id": "webbasics_computer_4",
+        "name": {
+          "str": "Computer Programming for Beginners: Fundamentals (3)",
+          "str_pl": "copies of Computer Programming for Beginners: Fundamentals (3)"
+        }
+      },
+      {
+        "//": "978-0794539504",
+        "description": "A beginner's guide to coding, with step-by-step instructions how to get started and write a simple program.",
+        "id": "webbasics_computer_5",
+        "name": {
+          "str": "Coding for Beginners (3)",
+          "str_pl": "copies of Coding for Beginners (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hackerman_computer",
+    "type": "ITEM",
+    "copy-from": "hackerman_computer",
+    "name": {
+      "str": "Pro Hacker Secrets (4)",
+      "str_pl": "copies of Pro Hacker Secrets (4)"
+    },
+    "variants": [
+      {
+        "description": "A thinly veiled attempt at teaching kids coding skills.  Not nearly as exciting as the authors might have hoped, but there's some real knowledge in here.",
+        "id": "hackerman_computer",
+        "name": {
+          "str": "Pro Hacker Secrets (4)",
+          "str_pl": "copies of Pro Hacker Secrets (4)"
+        }
+      },
+      {
+        "//": "978-1526315779",
+        "description": "A tiny book with childish images of a robot, that explains what functional decomposition is, and how to use it properly.",
+        "id": "hackerman_computer_1",
+        "name": {
+          "str": "First Steps in Coding: What's Decomposition? (4)",
+          "str_pl": "copies of First Steps in Coding: What's Decomposition? (4)"
+        }
+      },
+      {
+        "//": "978-1913565541",
+        "description": "A shiny book with lot of useful information about using code for different tasks inside the computer.  Sadly some big chunks of information are hidden behind QR code links, which you can't open.",
+        "id": "hackerman_computer_2",
+        "name": {
+          "str": "Let's Get Coding (4)",
+          "str_pl": "copies of Let's Get Coding (4)"
+        }
+      },
+      {
+        "//": "978-1617292231",
+        "description": "A fully illustrated, friendly guide describing how different algorithms are used to solve practical problems - both in real life and in programming.",
+        "id": "hackerman_computer_3",
+        "name": {
+          "str": "Grokking Algorithms (4)",
+          "str_pl": "copies of Grokking Algorithms (4)"
+        }
+      },
+      {
+        "//": "978-1536205411",
+        "description": "A tiny book that describe how games are created, alongside simple projects to make your own simple games, with lot of illustrations and funny facts.",
+        "id": "hackerman_computer_4",
+        "name": {
+          "str": "Get Coding 2! (4)",
+          "str_pl": "copies of Get Coding 2! (4)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "brewing_cookbook",
+    "type": "ITEM",
+    "copy-from": "brewing_cookbook",
+    "name": {
+      "str": "The Homebrewer's Bible (4)",
+      "str_pl": "copies of The Homebrewer's Bible (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook",
+    "type": "ITEM",
+    "copy-from": "cookbook",
+    "name": {
+      "str": "Cooking on a Budget (3)",
+      "str_pl": "copies of Cooking on a Budget (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_human",
+    "type": "ITEM",
+    "copy-from": "cookbook_human",
+    "name": {
+      "str": "To Serve Man (4)",
+      "str_pl": "copies of To Serve Man (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_italian",
+    "type": "ITEM",
+    "copy-from": "cookbook_italian",
+    "name": {
+      "str": "Cucina Italiana (4)",
+      "str_pl": "copies of Cucina Italiana (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_mexican",
+    "type": "ITEM",
+    "copy-from": "cookbook_mexican",
+    "name": {
+      "str": "La Vida Deliciosa: Definitive Mexican Cuisine (4)",
+      "str_pl": "copies of La Vida Deliciosa: Definitive Mexican Cuisine (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_sushi",
+    "type": "ITEM",
+    "copy-from": "cookbook_sushi",
+    "name": {
+      "str": "Sushi Made Easy (4)",
+      "str_pl": "copies of Sushi Made Easy (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "family_cookbook",
+    "type": "ITEM",
+    "copy-from": "family_cookbook",
+    "name": {
+      "str": "family cookbook (5)",
+      "str_pl": "family cookbooks (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_cooking",
+    "type": "ITEM",
+    "copy-from": "mag_cooking",
+    "name": {
+      "str": "Bon Appetit (1)",
+      "str_pl": "issues of Bon Appetit (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_glam",
+    "type": "ITEM",
+    "copy-from": "mag_glam",
+    "name": {
+      "str": "Glamopolitan (1)",
+      "str_pl": "issues of Glamopolitan (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "scots_cookbook",
+    "type": "ITEM",
+    "copy-from": "scots_cookbook",
+    "name": {
+      "str": "Ye Scots Beuk o Cuikery (4)",
+      "str_pl": "copies of Ye Scots Beuk o Cuikery (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "vinegar_maker",
+    "type": "ITEM",
+    "copy-from": "vinegar_maker",
+    "name": {
+      "str": "The Vinegar Maker's Handbook (3)",
+      "str_pl": "copies of Vinegar Maker's Handbook (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "preserving_juice",
+    "type": "ITEM",
+    "copy-from": "preserving_juice",
+    "name": {
+      "str": "Drink the Harvest (4)",
+      "str_pl": "copies of Drink the Harvest (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "offalcooking",
+    "type": "ITEM",
+    "copy-from": "offalcooking",
+    "name": {
+      "str": "Offal Holiday Cooking (3)",
+      "str_pl": "copies of Offal Holiday Cooking (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "dairy_book",
+    "type": "ITEM",
+    "copy-from": "dairy_book",
+    "name": {
+      "str": "Things to Do with Milk (5)",
+      "str_pl": "copies of Things to Do with Milk (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_liverforkids",
+    "type": "ITEM",
+    "copy-from": "cookbook_liverforkids",
+    "name": {
+      "str": "Liver-Licious Recipes Your Kids Will Love (2)",
+      "str_pl": "copies of Liver-Licious Recipes (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_bloodforgood",
+    "type": "ITEM",
+    "copy-from": "cookbook_bloodforgood",
+    "name": {
+      "str": "Blood for the Greater Good (2)",
+      "str_pl": "copies of Blood for the Greater Good (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_daintydishes",
+    "type": "ITEM",
+    "copy-from": "cookbook_daintydishes",
+    "name": {
+      "str": "Dainty Dishes Fit for a King (3)",
+      "str_pl": "copies of Dainty Dishes (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_eatyrway",
+    "type": "ITEM",
+    "copy-from": "cookbook_eatyrway",
+    "name": {
+      "str": "Eat Your Way to a Fit Physique (1)",
+      "str_pl": "copies of Eat Your Way (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_foodfashions",
+    "type": "ITEM",
+    "copy-from": "cookbook_foodfashions",
+    "name": {
+      "str": "Food Fashions for Young Moderns (4)",
+      "str_pl": "copies of Food Fashions (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "winemaking_beginner",
+    "type": "ITEM",
+    "copy-from": "winemaking_beginner",
+    "name": {
+      "str": "Winemaking for Beginners (2)",
+      "str_pl": "copies of Winemaking for Beginners (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_canning",
+    "type": "ITEM",
+    "copy-from": "manual_canning",
+    "name": {
+      "str": "You Can Can at Home (1)",
+      "str_pl": "copies of You Can Can at Home (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_sealing",
+    "type": "ITEM",
+    "copy-from": "manual_sealing",
+    "name": {
+      "str": "Can Sealer Instructions (1)",
+      "str_pl": "copies of Can Sealer Instructions (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "vacuum_sealing",
+    "type": "ITEM",
+    "copy-from": "vacuum_sealing",
+    "name": {
+      "str": "Vacuum Sealer Instructions (1)",
+      "str_pl": "copies of Vacuum Sealer Instructions (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "baking_book",
+    "type": "ITEM",
+    "copy-from": "baking_book",
+    "name": {
+      "str": "The Baker's Companion (5)",
+      "str_pl": "copies of The Baker's Companion (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "fermenting_book",
+    "type": "ITEM",
+    "copy-from": "fermenting_book",
+    "name": {
+      "str": "Fermenting Culture (6)",
+      "str_pl": "copies of Fermenting Culture (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "distilling_cookbook",
+    "type": "ITEM",
+    "copy-from": "distilling_cookbook",
+    "name": {
+      "str": "Out of the Holler and into the Home: A guide to home distillation (5)",
+      "str_pl": "copies of Out of the Holler (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "sweets_book",
+    "type": "ITEM",
+    "copy-from": "sweets_book",
+    "name": {
+      "str": "Sweets for your Sweet Child (2)",
+      "str_pl": "copies of Sweets for Sweet (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_indian",
+    "type": "ITEM",
+    "copy-from": "cookbook_indian",
+    "name": {
+      "str": "Tasting India (3)",
+      "str_pl": "copies of Tasting India (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_native",
+    "type": "ITEM",
+    "copy-from": "cookbook_native",
+    "name": {
+      "str": "The Sioux Chef (3)",
+      "str_pl": "copies of The Sioux Chef (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "cookbook_turkish",
+    "type": "ITEM",
+    "copy-from": "cookbook_turkish",
+    "name": {
+      "str": "The Turkish Cookbook (2)",
+      "str_pl": "copies of The Turkish Cookbook (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_cutting",
+    "type": "ITEM",
+    "copy-from": "mag_cutting",
+    "name": {
+      "str": "All About Swords (1)",
+      "str_pl": "issues of All About Swords (1)"
+    },
+    "variants": [
+      {
+        "description": "An interesting magazine that contains information about swords and sword fighting techniques from all across the world.",
+        "id": "mag_cutting",
+        "name": {
+          "str": "All About Swords (1)",
+          "str_pl": "issues of All About Swords (1)"
+        }
+      },
+      {
+        "//": "978-9526793481",
+        "description": "Answers for questions you may have if you've never held a sword in your hands.",
+        "id": "mag_cutting_1",
+        "name": {
+          "str": "Swordfighting, for Writers, Game Designers, and Martial Artists (1)",
+          "str_pl": "copies of Swordfighting, for Writers, Game Designers, and Martial Artists (1)"
+        }
+      },
+      {
+        "//": "978-0897501781",
+        "description": "Based on different Europeans' martial arts, this book describes the main principles of swordsmanship.",
+        "id": "mag_cutting_2",
+        "name": {
+          "str": "The Beginner's Guide to the Long Sword (1)",
+          "str_pl": "copies of The Beginner's Guide to the Long Sword (1)"
+        }
+      },
+      {
+        "//": "978-1612331720",
+        "description": "Foundation of using single handed sword on stage and on screen, with different tricks how to make a good show of it.",
+        "id": "mag_cutting_3",
+        "name": {
+          "str": "Basics Of Stage Combat (1)",
+          "str_pl": "copies of Basics Of Stage Combat (1)"
+        }
+      },
+      {
+        "//": "978-1784382858",
+        "description": "An ancient fencing manual with updated illustrations of techniques.  Sometimes it just looks silly, describing how to fight if you have sword in one hand and a spear in another.",
+        "id": "mag_cutting_4",
+        "name": {
+          "str": "Medieval Combat in Colour (1)",
+          "str_pl": "copies of Medieval Combat in Colour (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_cutting",
+    "type": "ITEM",
+    "copy-from": "manual_cutting",
+    "name": {
+      "str": "knife fighter's notes (3)",
+      "str_pl": "collections of knife fighter's notes (3)"
+    },
+    "variants": [
+      {
+        "description": "It seems to be a guide to edged weapon combat, poorly photocopied and released on spiral-bound paper.  Still, there are lots of useful tips for beginners.",
+        "id": "manual_cutting",
+        "name": {
+          "str": "knife fighter's notes (3)",
+          "str_pl": "collections of knife fighter's notes (3)"
+        }
+      },
+      {
+        "//": "978-1937439033",
+        "description": "Principles and guides to Italian dagger combat, with useful drills and advice for novices.",
+        "id": "manual_cutting_1",
+        "name": {
+          "str": "The Medieval Dagger (3)",
+          "str_pl": "copies of The Medieval Dagger (3)"
+        }
+      },
+      {
+        "//": "978-1941845523",
+        "description": "A small book that contain pretty simple and easy to follow movements to use against your enemy or enemies.",
+        "id": "manual_cutting_2",
+        "name": {
+          "str": "Knife Fighting Techniques for the Street (3)",
+          "str_pl": "copies of Knife Fighting Techniques for the Street (3)"
+        }
+      },
+      {
+        "//": "978-1492935391",
+        "description": "Complete methodology for using knives in a real fight, with tips and tricks.",
+        "id": "manual_cutting_3",
+        "name": {
+          "str": "Knife Offense (3)",
+          "str_pl": "copies of Knife Offense (3)"
+        }
+      },
+      {
+        "//": "978-1387035885",
+        "description": "This book combines some different blade methodologies from European, Asian, and American martial arts into a unique style.",
+        "id": "manual_cutting_4",
+        "name": {
+          "str": "Blade Combatives (3)",
+          "str_pl": "copies of Blade Combatives (3)"
+        }
+      },
+      {
+        "//": "978-1480259638",
+        "description": "Lots of knife training methods and techniques for experienced martial artists.",
+        "id": "manual_cutting_5",
+        "name": {
+          "str": "Knife Anatomy (3)",
+          "str_pl": "copies of Knife Anatomy (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_swords",
+    "type": "ITEM",
+    "copy-from": "manual_swords",
+    "name": {
+      "str": "USMC Sword Manual Procedure (4)",
+      "str_pl": "copies of USMC Sword Manual Procedures (4)"
+    },
+    "variants": [
+      {
+        "description": "A text on stationary sword drills in US Marine Corps.  Contains lots of information about how to draw and pose with a sword, but nothing about using it.",
+        "id": "manual_swords",
+        "name": {
+          "str": "USMC Sword Manual Procedure (4)",
+          "str_pl": "copies of USMC Sword Manual Procedure (4)"
+        }
+      },
+      {
+        "//": "978-1838862176",
+        "description": "An old Japanese treatise about swordsmanship, translated and polished, with additional illustrations and detailed explanations.",
+        "id": "manual_swords_1",
+        "name": {
+          "str": "Five Rings Illustrated (4)",
+          "str_pl": "copies of Five Rings Illustrated (4)"
+        }
+      },
+      {
+        "//": "978-0851155661",
+        "description": "Original research about straight two-edged knightly swords of the European middle ages.",
+        "id": "manual_swords_2",
+        "name": {
+          "str": "Records of the Medieval Sword (4)",
+          "str_pl": "copies of Records of the Medieval Sword (4)"
+        }
+      },
+      {
+        "//": "978-1590309865",
+        "description": "An ancient Japanese book of advice about building the proper skills and mind for sword fighting.  Talks too much about Zen, but the sword techniques are worth noting.",
+        "id": "manual_swords_3",
+        "name": {
+          "str": "The Unfettered Mind (4)",
+          "str_pl": "copies of The Unfettered Mind (4)"
+        }
+      },
+      {
+        "//": "978-1526768988",
+        "description": "A grounded work about the history of swordsmanship, ways to teach it, and how to enhance students' experience.",
+        "id": "manual_swords_4",
+        "name": {
+          "str": "The Art of Longsword Fighting (4)",
+          "str_pl": "copies of The Art of Longsword Fighting (4)"
+        }
+      },
+      {
+        "//": "978-1473876750",
+        "description": "Translation of an old German treatise about using a few different cutting weapons in a real fight, with modern comments and clarification.",
+        "id": "manual_swords_5",
+        "name": {
+          "str": "Art of Sword Combat (4)",
+          "str_pl": "copies of Art of Sword Combat (4)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_dodge",
+    "type": "ITEM",
+    "copy-from": "mag_dodge",
+    "name": {
+      "str": "Dance Dance Dance! (1)",
+      "str_pl": "issues of Dance Dance Dance! (1)"
+    },
+    "variants": [
+      {
+        "description": "Learn the moves of the trendiest dances right now.",
+        "id": "mag_dodge",
+        "name": {
+          "str": "Dance Dance Dance! (1)",
+          "str_pl": "issues of Dance Dance Dance! (1)"
+        }
+      },
+      {
+        "//": "9781013330865",
+        "description": "In this book, zoologist Sir James Gray explores the development of different kinds of animal movement, from swimming to crawling to jumping, and then examines the mechanics of the variety of possible movements made by different creatures, illustrated with both sketches and photographs.",
+        "id": "mag_dodge_1",
+        "name": {
+          "str": "How Animals Move (1)",
+          "str_pl": "copies of How Animals Move (1)"
+        }
+      },
+      {
+        "//": "978-0275934194",
+        "description": "A collection of photos of different dance movements of the world.  The images are inspiring, and the movements of the dancers are deep.",
+        "id": "mag_dodge_2",
+        "name": {
+          "str": "The Art of Movement (1)",
+          "str_pl": "copies of The Art of Movement (1)"
+        }
+      },
+      {
+        "//": "978-1583948682",
+        "description": "An old treatise about self defense, with style.",
+        "id": "mag_dodge_3",
+        "name": {
+          "str": "Self-Defense for Gentlemen and Ladies (1)",
+          "str_pl": "copies of Self-Defense for Gentlemen and Ladies (1)"
+        }
+      },
+      {
+        "//": "978-1533113221",
+        "description": "A small guide on self defense for an untrained person - mostly simple tricks and advice like having a knife and how to threaten an enemy into backing down, but contains some more advanced and detailed descriptions of movement techniques.",
+        "id": "mag_dodge_4",
+        "name": {
+          "str": "Self-Defence for Non-Experts: A Book for People Who Can't Fight (1)",
+          "str_pl": "copies of Self-Defence for Non-Experts: A Book for People Who Can't Fight (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_dodge",
+    "type": "ITEM",
+    "copy-from": "manual_dodge",
+    "name": {
+      "str": "The Book of Dances (3)",
+      "str_pl": "copies of The Book of Dances (3)"
+    },
+    "variants": [
+      {
+        "description": "This massive antique book documents dances from all around the world in great detail.  A perceptive reader could learn a lot about defensive footwork from some of the war dances.",
+        "id": "manual_dodge",
+        "name": {
+          "str": "The Book of Dances (3)",
+          "str_pl": "copies of The Book of Dances (3)"
+        }
+      },
+      {
+        "//": "978-1420875485",
+        "description": "A small book from a Physical Education and Health teacher about the simple game of dodgeball, its rules and variations, tricks, and what it can teach students.  Sadly, the book contains surprisingly poor grammar, and the informal conversational tone makes it difficult to follow at times.",
+        "id": "manual_dodge_1",
+        "name": {
+          "str": "The Complete Book about Dodgeball (3)",
+          "str_pl": "copies of The Complete Book about Dodgeball (3)"
+        }
+      },
+      {
+        "//": "978-0989038270",
+        "description": "A comprehensive guide on what to do in dangerous situations on the street and beyond - ways to improve your awareness skills, de-escalate the situation or, if it is not possible, defend yourself and your family in every possible manner, violent or not.",
+        "id": "manual_dodge_2",
+        "name": {
+          "str": "When Seconds Count (3)",
+          "str_pl": "copies of When Seconds Count (3)"
+        }
+      },
+      {
+        "//": "978-1623174439",
+        "description": "This book explores the mechanics, mysteries, and methods of upright walking - why, how, and when.  Includes a big chapter on how different martial arts exploit this mode of movement.",
+        "id": "manual_dodge_3",
+        "name": {
+          "str": "Born to Walk (3)",
+          "str_pl": "copies of Born to Walk (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_dodge_kid",
+    "type": "ITEM",
+    "copy-from": "manual_dodge_kid",
+    "name": {
+      "str": "Break a Leg! (1)",
+      "str_pl": "copies of Break a Leg! (1)"
+    },
+    "variants": [
+      {
+        "description": "\"The Kids' Guide to Acting and Stagecraft\".  This book is packed with engaging outdoor games, complete with rules, strategies, and tips for mastering each activity, along with some simple drills to train skills in an easy way.",
+        "id": "manual_dodge_kid",
+        "name": {
+          "str": "Break a Leg! (1)",
+          "str_pl": "copies of Break a Leg! (1)"
+        }
+      },
+      {
+        "//": "978-0874070248",
+        "description": "A fully-illustrated practical course of simple techniques to defend your child from bullies or predators.  You doubt it will help much for a real child, but you found some interesting info here.",
+        "id": "manual_dodge_kid_1",
+        "name": {
+          "str": "Self-defense for Your Child (1)",
+          "str_pl": "copies of Self-defense for Your Child (1)"
+        }
+      },
+      {
+        "description": "Modern comics about an unnamed Hero that protects people without any superpowers, using only his body and different martial arts.  The artwork is well-illustrated and shows the movement and strategy of each character, but the plot is fairly simple.",
+        "id": "manual_dodge_kid_2",
+        "name": {
+          "str": "Protective Measures: A Graphic Novel (1)",
+          "str_pl": "copies of Protective Measures: A Graphic Novel (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "book_nonf_hard_dodge_tlwd",
+    "type": "ITEM",
+    "copy-from": "book_nonf_hard_dodge_tlwd",
+    "name": {
+      "str": "Treasury of Legends about Western Dancing (5)",
+      "str_pl": "copies of Western Dancing (5)"
+    },
+    "variants": [
+      {
+        "description": "Written by Emanuel Nogueira, a constabulario and historian of Nuevo Laredo, this massive book details the movements and cultural legacies of a variety of North American folk dances.",
+        "id": "book_nonf_hard_dodge_tlwd",
+        "name": {
+          "str": "Treasury of Legends about Western Dancing (5)",
+          "str_pl": "copies of Treasury of Legends about Western Dancing (5)"
+        }
+      },
+      {
+        "//": "979-8620742561",
+        "description": "Written by self-defense instructor Neal Martin, this book describe techniques and movesets you need to train to avoid being a victim, as well as avoid trouble with the law in the aftermath.",
+        "id": "book_nonf_hard_dodge_tlwd_1",
+        "name": {
+          "str": "A Guide To Making Yourself A Hard Target (5)",
+          "str_pl": "copies of A Guide To Making Yourself A Hard Target (5)"
+        }
+      },
+      {
+        "//": "978-1497530201",
+        "description": "This book contains a lot of info about awareness, prevention, and defense in unarmed fights.",
+        "id": "book_nonf_hard_dodge_tlwd_2",
+        "name": {
+          "str": "The Ultimate Guide to Unarmed Self Defense (5)",
+          "str_pl": "copies of The Ultimate Guide to Unarmed Self Defense (5)"
+        }
+      },
+      {
+        "//": "978-0897500227",
+        "description": "A small manual about skills you need to defend yourself in armed street fights.",
+        "id": "book_nonf_hard_dodge_tlwd_3",
+        "name": {
+          "str": "Knife Self-Defense for Combat (5)",
+          "str_pl": "copies of Knife Self-Defense for Combat (5)"
+        }
+      },
+      {
+        "//": "978-1941845134",
+        "description": "A dark book with a barbarian on the cover, this guide talks about how to obtain skills for the streets, battlefields and… playing fields?",
+        "id": "book_nonf_hard_dodge_tlwd_4",
+        "name": {
+          "str": "Invincible (5)",
+          "str_pl": "copies of Invincible (5)"
+        }
+      },
+      {
+        "//": "978-0981872100",
+        "description": "\"How to Transform Yourself Into A Vicious And Deadly Street Fighter\".  This book, despite having a gladiator on the cover, describes pretty practical ways to obtain the psychology, physiology, and combat potential of a real warrior, ancient or modern.",
+        "id": "book_nonf_hard_dodge_tlwd_5",
+        "name": {
+          "str": "War Machine (5)",
+          "str_pl": "copies of War Machine (5)"
+        }
+      },
+      {
+        "//": "978-1623176570",
+        "description": "A full color, updated overview of the structure of the feet, with essential info about its functions, demonstrating how the foot relates to and interacts with the rest of the body during movement.",
+        "id": "book_nonf_hard_dodge_tlwd_6",
+        "name": {
+          "str": "Understanding the Human Foot (5)",
+          "str_pl": "copies of Understanding the Human Foot (5)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "decoy_anarch",
+    "type": "ITEM",
+    "copy-from": "decoy_anarch",
+    "name": {
+      "str": "AAA Guide (3)",
+      "str_pl": "copies of AAA Guide (3)"
+    },
+    "variants": [
+      {
+        "description": "A tourist-centric guide to points of interest throughout the country.  Though it focuses on the north-central US, the driving sections contain some practical tips on proper driving techniques.",
+        "id": "decoy_anarch",
+        "name": {
+          "str": "AAA Guide (3)",
+          "str_pl": "copies of AAA Guide (3)"
+        }
+      },
+      {
+        "//": "978-1638607175",
+        "description": "A travelogue about a group of teenagers in the late nineties.",
+        "id": "decoy_anarch_1",
+        "name": {
+          "str": "Driving Around (3)",
+          "str_pl": "copies of Driving Around (3)"
+        }
+      },
+      {
+        "//": "978-3899555943",
+        "description": "A notebook about living off-the-grid, with a wide collection of stories, examples, tips, and advice.",
+        "id": "decoy_anarch_2",
+        "name": {
+          "str": "Off The Road (3)",
+          "str_pl": "copies of Off The Road (3)"
+        }
+      },
+      {
+        "//": "978-0307277190",
+        "description": "A big research book that talks about how roads are built, why they're built in such a manner, and what we can do to improve it.",
+        "id": "decoy_anarch_3",
+        "name": {
+          "str": "Traffic: Why We Drive the Way We Do (3)",
+          "str_pl": "copies of Traffic: Why We Drive the Way We Do (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_cars",
+    "type": "ITEM",
+    "copy-from": "mag_cars",
+    "name": {
+      "str": "Top Gear magazine (1)",
+      "str_pl": "Top Gear magazines (1)"
+    },
+    "variants": [
+      {
+        "description": "Lots of articles about cars and driving techniques.",
+        "id": "mag_cars",
+        "name": {
+          "str": "Top Gear (1)",
+          "str_pl": "issues of Top Gear (1)"
+        }
+      },
+      {
+        "description": "A nice-looking magazine about the automobile industry, with shiny images and long articles.  Dated 2019.",
+        "id": "mag_cars_1",
+        "name": {
+          "str": "Automobile (1)",
+          "str_pl": "issues of Automobile (1)"
+        }
+      },
+      {
+        "description": "A monthly report about recent changes in the transport industry.",
+        "id": "mag_cars_2",
+        "name": {
+          "str": "Automotive Industries (1)",
+          "str_pl": "issues of Automotive Industries (1)"
+        }
+      },
+      {
+        "description": "A shabby magazine about new and old cars, automobile reviews, general motorsports, and DIY.",
+        "id": "mag_cars_3",
+        "name": {
+          "str": "Autoweek (1)",
+          "str_pl": "issues of Autoweek (1)"
+        }
+      },
+      {
+        "description": "An absolutely generic monthly magazine about the automotive industry.",
+        "id": "mag_cars_4",
+        "name": {
+          "str": "Car and Driver (1)",
+          "str_pl": "issues of Car and Driver (1)"
+        }
+      },
+      {
+        "description": "Flashy journal about cars, racing, and mechanics.",
+        "id": "mag_cars_5",
+        "name": {
+          "str": "Car Craft (1)",
+          "str_pl": "issues of Car Craft (1)"
+        }
+      },
+      {
+        "description": "An automotive magazine, focused on heavily modifying trucks, SUVs, and cars powered by diesel.",
+        "id": "mag_cars_6",
+        "name": {
+          "str": "Diesel Power (1)",
+          "str_pl": "issues of Diesel Power (1)"
+        }
+      },
+      {
+        "description": "A really old issue about classic car maintenance and restoration.",
+        "id": "mag_cars_7",
+        "name": {
+          "str": "Cruisin' Style Magazine (1)",
+          "str_pl": "issues of Cruisin' Style Magazine (1)"
+        }
+      },
+      {
+        "description": "Monthly magazine about hot rodding, drag racing, and muscle cars.",
+        "id": "mag_cars_8",
+        "name": {
+          "str": "Hot Rod (1)",
+          "str_pl": "issues of Hot Rod (1)"
+        }
+      },
+      {
+        "description": "Boring automobile magazine with a big shiny label.",
+        "id": "mag_cars_9",
+        "name": {
+          "str": "Motor Trend (1)",
+          "str_pl": "issues of Motor Trend (1)"
+        }
+      },
+      {
+        "description": "It seems to be a car magazine, but you can only understand the images, as the text is written in another language.",
+        "id": "mag_cars_10",
+        "name": {
+          "str": "Quatro Rodas (1)",
+          "str_pl": "issues of Quatro Rodas (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_driving",
+    "type": "ITEM",
+    "copy-from": "manual_driving",
+    "name": {
+      "str": "The Rules of the Road (3)",
+      "str_pl": "copies of The Rules of the Road (3)"
+    },
+    "variants": [
+      {
+        "description": "A thick textbook for beginning drivers.  It contains chapters on laws, safe vehicle operation, and defensive driving concepts.",
+        "id": "manual_driving",
+        "name": {
+          "str": "The Rules of the Road (3)",
+          "str_pl": "copies of The Rules of the Road (3)"
+        }
+      },
+      {
+        "//": "978-1789630473",
+        "description": "A thick, heavy book about every thing you may be asked in your driving exam.  The biggest part of the book contains a 'theory test' with detailed answers, and many how-to's related to driving overall.",
+        "id": "manual_driving_1",
+        "name": {
+          "str": "Guide to Passing the Driving Test (3)",
+          "str_pl": "copies of Guide to Passing the Driving Test (3)"
+        }
+      },
+      {
+        "//": "978-0115537011",
+        "description": "This book is packed with comprehensive information about driving, how to do it properly, and take joy in it.  You wonder how this manual made it here, as DVSA is a British organization, and the book contains information about specific British driving rules.",
+        "id": "manual_driving_2",
+        "name": {
+          "str": "The official DVSA guide to driving (3)",
+          "str_pl": "copies of The official DVSA guide to driving (3)"
+        }
+      },
+      {
+        "//": "978-0367265595",
+        "description": "This book explains the technologies and approaches of advanced driving systems, how they are designed, and why it is hard to get a good result.  It is difficult to understand sometimes, but it shows driving from a perspective an average driver wouldn't think about.",
+        "id": "manual_driving_3",
+        "name": {
+          "str": "Automated Driving and Driver Assistance Systems (3)",
+          "str_pl": "copies of Automated Driving and Driver Assistance Systems (3)"
+        }
+      },
+      {
+        "//": "978-1398602786",
+        "description": "Detailed textbook about how to provide driving lessons, what may be discussed, and how to prevent dangerous situations and collisions.",
+        "id": "manual_driving_4",
+        "name": {
+          "str": "The Driving Instructor's Handbook (3)",
+          "str_pl": "copies of The Driving Instructor's Handbook (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "textbook_anarch",
+    "type": "ITEM",
+    "copy-from": "textbook_anarch",
+    "name": {
+      "str": "AAA Guide (4)",
+      "str_pl": "copies of AAA Guide (4)"
+    },
+    "variants": [
+      {
+        "description": "A tourist-centric guide to points of interest throughout the country.  This particular copy is apparently the Anonymous Anarchist's Annual: the cover conceals a wealth of ways to help stick it to The Man, along with plenty of advice for avoiding police.",
+        "id": "textbook_anarch",
+        "name": {
+          "str": "AAA Guide (4)",
+          "str_pl": "copies of AAA Guide (4)"
+        }
+      },
+      {
+        "//": "really? you don't know how to find the anarchist cookbook?",
+        "description": "Classic illegal manual about making weapons and explosives.  The first page contains a quote from its author William Powell, that describes it as \"a youthful indiscretion or mistake that can haunt someone during their early years or even longer\".",
+        "id": "textbook_anarch_1",
+        "name": {
+          "str": "The Anarchist Cookbook (4)",
+          "str_pl": "copies of The Anarchist Cookbook (4)"
+        }
+      },
+      {
+        "//": "978-0879472115",
+        "description": "A small, shabby book about making explosives, poisons, and weapons with resources you may find in your backyard.",
+        "id": "textbook_anarch_2",
+        "name": {
+          "str": "Science of Revolutionary Warfare (4)",
+          "str_pl": "copies of Science of Revolutionary Warfare (4)"
+        }
+      },
+      {
+        "//": "978-0879472306",
+        "description": "A collection of American paramilitary knowledge throughout history, containing a lot of information about how to make dangerous weapons and explosives in pretty dry language.",
+        "id": "textbook_anarch_3",
+        "name": {
+          "str": "The Poor Man's James Bond (4)",
+          "str_pl": "copies of The Poor Man's James Bond (4)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_electronics",
+    "type": "ITEM",
+    "copy-from": "advanced_electronics",
+    "name": {
+      "str": "Advanced Electronics (5)",
+      "str_pl": "copies of Advanced Electronics (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "arduino_experiments",
+    "type": "ITEM",
+    "copy-from": "arduino_experiments",
+    "name": {
+      "str": "Arduino Experiments (4)",
+      "str_pl": "copies of Arduino Experiments (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_electronics",
+    "type": "ITEM",
+    "copy-from": "mag_electronics",
+    "name": {
+      "str": "Ham Radio Illustrated (1)",
+      "str_pl": "issues of Ham Radio Illustrated (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_electronics",
+    "type": "ITEM",
+    "copy-from": "manual_electronics",
+    "name": {
+      "str": "What's a Transistor? (3)",
+      "str_pl": "copies of What's a Transistor? (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "ic_reference_electronics",
+    "type": "ITEM",
+    "copy-from": "ic_reference_electronics",
+    "name": {
+      "str": "101 Important Integrated Circuits (0)",
+      "str_pl": "copies of 101 Important Integrated Circuits (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "radio_book",
+    "type": "ITEM",
+    "copy-from": "radio_book",
+    "name": {
+      "str": "Amateur Home Radio for Enthusiasts (8)",
+      "str_pl": "copies of Amateur Home Radio for Enthusiasts (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_atomic_battery",
+    "type": "ITEM",
+    "copy-from": "recipe_atomic_battery",
+    "name": {
+      "str": "computer printout (0)",
+      "str_pl": "computer printouts (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_augs",
+    "type": "ITEM",
+    "copy-from": "recipe_augs",
+    "name": {
+      "str": "The Role of Robotics in Modern Day Manufacturing (5)",
+      "str_pl": "copies of The Role of Robotics in Modern Day Manufacturing (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_lab_elec",
+    "type": "ITEM",
+    "copy-from": "recipe_lab_elec",
+    "name": {
+      "str": "lab journal-Herrera (8)",
+      "str_pl": "lab journals-Herrera (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_mil_augs",
+    "type": "ITEM",
+    "copy-from": "recipe_mil_augs",
+    "name": {
+      "str": "2XI design binder-CLASSIFIED (7)",
+      "str_pl": "2XI design binders-CLASSIFIED (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "repeater_mod_guide",
+    "type": "ITEM",
+    "copy-from": "repeater_mod_guide",
+    "name": {
+      "str": "plans for a radio repeater mod (0)",
+      "str_pl": "plans for a radio repeater mod (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_electronics",
+    "type": "ITEM",
+    "copy-from": "textbook_electronics",
+    "name": {
+      "str": "Electronic Circuit Theory (6)",
+      "str_pl": "copies of Electronic Circuit Theory (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_robots",
+    "type": "ITEM",
+    "copy-from": "textbook_robots",
+    "name": {
+      "str": "Robots for Fun & Profit (10)",
+      "str_pl": "copies of Robots for Fun & Profit (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "robofac_yrax_trifacet_deactivation_manual",
+    "type": "ITEM",
+    "copy-from": "robofac_yrax_trifacet_deactivation_manual",
+    "name": {
+      "str": "trifacet handling procedures (6)",
+      "str_pl": "trifacet handling procedures (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "exodii_wiring_kit_reference",
+    "type": "ITEM",
+    "copy-from": "exodii_wiring_kit_reference",
+    "name": {
+      "str": "CBM interface wiring reference (4)",
+      "str_pl": "CBM interface wiring reference (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "glassblowing_book",
+    "type": "ITEM",
+    "copy-from": "glassblowing_book",
+    "name": {
+      "str": "The Art of Glassblowing (7)",
+      "str_pl": "copies of The Art of Glassblowing (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "plastics_book",
+    "type": "ITEM",
+    "copy-from": "plastics_book",
+    "name": {
+      "str": "Plastics & Polymers: Projects for the Classroom (7)",
+      "str_pl": "copies of Plastics & Polymers: Projects for the Classroom (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "metal_casting_book",
+    "type": "ITEM",
+    "copy-from": "metal_casting_book",
+    "name": {
+      "str": "metal casting reference manual (7)",
+      "str_pl": "metal casting reference manuals (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "alloy_book",
+    "type": "ITEM",
+    "copy-from": "alloy_book",
+    "name": {
+      "str": "alloying reference manual (7)",
+      "str_pl": "alloying reference manuals (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "bronze_book",
+    "type": "ITEM",
+    "copy-from": "bronze_book",
+    "name": {
+      "str": "The Bronze Age Encyclopedia (7)",
+      "str_pl": "copies of The Bronze Age Encyclopedia (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "bronze_mag",
+    "type": "ITEM",
+    "copy-from": "bronze_mag",
+    "name": {
+      "str": "Historic Warfare: The Bronze Age (4)",
+      "str_pl": "copies of Historic Warfare: The Bronze Age (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "theater_props",
+    "type": "ITEM",
+    "copy-from": "theater_props",
+    "name": {
+      "str": "The Prop Builder's Molding and Casting Handbook (4)",
+      "str_pl": "copies of The Prop Builder's Molding and Casting Handbook (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "jewelry_book",
+    "type": "ITEM",
+    "copy-from": "jewelry_book",
+    "name": {
+      "str": "Antique Adornments (7)",
+      "str_pl": "copies of Antique Adornments (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_fabrication",
+    "type": "ITEM",
+    "copy-from": "mag_fabrication",
+    "name": {
+      "str": "Crafty Crafter's Quarterly (1)",
+      "str_pl": "Crafty Crafter's Quarterlies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_fabrication",
+    "type": "ITEM",
+    "copy-from": "manual_fabrication",
+    "name": {
+      "str": "101 Crafts for Beginners (3)",
+      "str_pl": "copies of 101 Crafts for Beginners (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_arrows",
+    "type": "ITEM",
+    "copy-from": "recipe_arrows",
+    "name": {
+      "str": "The Fletcher's Friend (4)",
+      "str_pl": "copies of The Fletcher's Friend (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_bows",
+    "type": "ITEM",
+    "copy-from": "recipe_bows",
+    "name": {
+      "str": "The Bowyer's Buddy (5)",
+      "str_pl": "copies of The Bowyer's Buddy (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_bullets",
+    "type": "ITEM",
+    "copy-from": "recipe_bullets",
+    "name": {
+      "str": "The Handloader's Helper (6)",
+      "str_pl": "copies of The Handloader's Helper (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_caseless",
+    "type": "ITEM",
+    "copy-from": "recipe_caseless",
+    "name": {
+      "str": "Rivtech design binder (7)",
+      "str_pl": "Rivtech design binders (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_lab_cvd",
+    "type": "ITEM",
+    "copy-from": "recipe_lab_cvd",
+    "name": {
+      "str": "lab journal-Gustav (10)",
+      "str_pl": "lab journals-Gustav (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_melee",
+    "type": "ITEM",
+    "copy-from": "recipe_melee",
+    "name": {
+      "str": "The Streetfighter's Sidekick (6)",
+      "str_pl": "copies of The Streetfighter's Sidekick (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_armeast",
+    "type": "ITEM",
+    "copy-from": "textbook_armeast",
+    "name": {
+      "str": "The Art of Japanese Armormaking (10)",
+      "str_pl": "copies of The Art of Japanese Armormaking (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_armschina",
+    "type": "ITEM",
+    "copy-from": "textbook_armschina",
+    "name": {
+      "str": "Arms and Armor of Imperial China (10)",
+      "str_pl": "copies of Arms and Armor of Imperial China (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_weparabic",
+    "type": "ITEM",
+    "copy-from": "textbook_weparabic",
+    "name": {
+      "str": "Tools of Warfare in the Arabic World (10)",
+      "str_pl": "copies of Tools of Warfare in the Arabic World (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_armwest",
+    "type": "ITEM",
+    "copy-from": "textbook_armwest",
+    "name": {
+      "str": "Studies in Historic Armorsmithing (10)",
+      "str_pl": "copies of Studies in Historic Armorsmithing (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_mesoam",
+    "type": "ITEM",
+    "copy-from": "textbook_mesoam",
+    "name": {
+      "str": "The Art of Warfare in Precolumbian Mesoamericas (8)",
+      "str_pl": "copies of The Art of Warfare in Precolumbian Mesoamericas (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_fabrication",
+    "type": "ITEM",
+    "copy-from": "textbook_fabrication",
+    "name": {
+      "str": "DIY Compendium (6)",
+      "str_pl": "copies of DIY Compendium (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_fireman",
+    "type": "ITEM",
+    "copy-from": "textbook_fireman",
+    "name": {
+      "str": "A History of Firefighting (9)",
+      "str_pl": "copies of A History of Firefighting (9)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_weapeast",
+    "type": "ITEM",
+    "copy-from": "textbook_weapeast",
+    "name": {
+      "str": "The Swords of the Samurai (10)",
+      "str_pl": "copies of The Swords of the Samurai (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_weapwest",
+    "type": "ITEM",
+    "copy-from": "textbook_weapwest",
+    "name": {
+      "str": "The Historic Weaponsmith (10)",
+      "str_pl": "copies of The Historic Weaponsmith (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "welding_book",
+    "type": "ITEM",
+    "copy-from": "welding_book",
+    "name": {
+      "str": "Welding and Metallurgy (7)",
+      "str_pl": "copies of Welding and Metallurgy (7)"
+    },
+    "variants": []
+  },
+  {
+    "id": "101_carpentry",
+    "type": "ITEM",
+    "copy-from": "101_carpentry",
+    "name": {
+      "str": "101 Home Repairs (2)",
+      "str_pl": "copies of 101 Home Repairs (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "carpentry_book",
+    "type": "ITEM",
+    "copy-from": "carpentry_book",
+    "name": {
+      "str": "The Complete Home Repair Guide (8)",
+      "str_pl": "copies of The Complete Home Repair Guide (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_carpentry",
+    "type": "ITEM",
+    "copy-from": "mag_carpentry",
+    "name": {
+      "str": "Birdhouse Monthly (1)",
+      "str_pl": "Birdhouse Monthlies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_carpentry",
+    "type": "ITEM",
+    "copy-from": "manual_carpentry",
+    "name": {
+      "str": "Building for Beginners (3)",
+      "str_pl": "copies of Building for Beginners (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_carpentry",
+    "type": "ITEM",
+    "copy-from": "textbook_carpentry",
+    "name": {
+      "str": "Engineering 301 (6)",
+      "str_pl": "copies of Engineering 301 (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "reference_fabrication1",
+    "type": "ITEM",
+    "copy-from": "reference_fabrication1",
+    "name": {
+      "str": "Machinery's Handbook (0)",
+      "str_pl": "copies of Machinery's Handbook (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "concrete_book",
+    "type": "ITEM",
+    "copy-from": "concrete_book",
+    "name": {
+      "str": "Concrete Constructions (4)",
+      "str_pl": "copies of Concrete Constructions (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_migo_plate",
+    "type": "ITEM",
+    "copy-from": "recipe_migo_plate",
+    "name": {
+      "str": "WX010 Living Armor Observations (0)",
+      "str_pl": "copies of WX010 Living Armor Observations (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "ballista_book",
+    "type": "ITEM",
+    "copy-from": "ballista_book",
+    "name": {
+      "str": "Artillery of the Ancients (6)",
+      "str_pl": "copies of Artillery of the Ancients (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_dave_manual",
+    "type": "ITEM",
+    "copy-from": "recipe_dave_manual",
+    "name": {
+      "str": "Dino Dave's cardboard notebook (3)",
+      "str_pl": "copies of Dino Dave's cardboard notebook (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "emergency_book",
+    "type": "ITEM",
+    "copy-from": "emergency_book",
+    "name": {
+      "str": "Guide to Advanced Emergency Care (8)",
+      "str_pl": "copies of Guide to Advanced Emergency Care (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_firstaid",
+    "type": "ITEM",
+    "copy-from": "mag_firstaid",
+    "name": {
+      "str": "Paramedics (1)",
+      "str_pl": "issues of Paramedics (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_first_aid",
+    "type": "ITEM",
+    "copy-from": "manual_first_aid",
+    "name": {
+      "str": "The Big Book of First Aid (3)",
+      "str_pl": "copies of The Big Book of First Aid (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "pocket_firstaid",
+    "type": "ITEM",
+    "copy-from": "pocket_firstaid",
+    "name": {
+      "str": "Pocket Guide to First Aid (2)",
+      "str_pl": "copies of Pocket Guide to First Aid (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_firstaid",
+    "type": "ITEM",
+    "copy-from": "textbook_firstaid",
+    "name": {
+      "str": "First Responder Handbook (6)",
+      "str_pl": "copies of First Responder Handbook (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "booklet_firstaid",
+    "type": "ITEM",
+    "copy-from": "booklet_firstaid",
+    "name": {
+      "str": "First Aid Kit Instruction Booklet (1)",
+      "str_pl": "copies of First Aid Kit Instruction Booklet (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "reference_firstaid1",
+    "type": "ITEM",
+    "copy-from": "reference_firstaid1",
+    "name": {
+      "str": "Physicians' Desk Reference (0)",
+      "str_pl": "copies of Physicians' Desk Reference (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "reference_firstaid2",
+    "type": "ITEM",
+    "copy-from": "reference_firstaid2",
+    "name": {
+      "str": "Merck Veterinary Manual (0)",
+      "str_pl": "copies of Merck Veterinary Manual (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_toxicology",
+    "type": "ITEM",
+    "copy-from": "textbook_toxicology",
+    "name": {
+      "str": "Textbook of Advanced Toxicology (6)",
+      "str_pl": "copies of Textbook of Advanced Toxicology (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_guns",
+    "type": "ITEM",
+    "copy-from": "mag_guns",
+    "name": {
+      "str": "Guns n Ammo (1)",
+      "str_pl": "issues of Guns n Ammo (1)"
+    },
+    "variants": [
+      {
+        "description": "Reviews of firearms, and various useful tips about their use.",
+        "id": "mag_guns",
+        "name": {
+          "str": "Guns n Ammo (1)",
+          "str_pl": "issues of Guns n Ammo (1)"
+        }
+      },
+      {
+        "description": "Annual magazine about firearms, weapon collections, self-defense, same as some practical and legal advices.",
+        "id": "mag_guns_1",
+        "name": {
+          "str": "Gun Digest (1)",
+          "str_pl": "issues of Gun Digest (1)"
+        }
+      },
+      {
+        "description": "A modern magazine about handguns, tactical weapons, knives, and shooting activities.  It says there is a fold-out target, but someone took it off.",
+        "id": "mag_guns_2",
+        "name": {
+          "str": "Recoil (1)",
+          "str_pl": "issues of Recoil (1)"
+        }
+      },
+      {
+        "description": "\"Special Weapons And Tactics for the prepared American\", this magazine contains info about firearms, law enforcement, and related interests, with a focus on SWAT police officers.",
+        "id": "mag_guns_3",
+        "name": {
+          "str": "SWAT (1)",
+          "str_pl": "issues of SWAT (1)"
+        }
+      },
+      {
+        "description": "Small magazine about ammo and firearms, and how to choose, use, and maintain them properly.",
+        "id": "mag_guns_4",
+        "name": {
+          "str": "Bullet Point (1)",
+          "str_pl": "issues of Bullet Point (1)"
+        }
+      },
+      {
+        "description": "Modern magazine for young people about firearms, self-defense, different competitions, and reviews.",
+        "id": "mag_guns_5",
+        "name": {
+          "str": "Trigger Happy (1)",
+          "str_pl": "issues of Trigger Happy (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_gun",
+    "type": "ITEM",
+    "copy-from": "manual_gun",
+    "name": {
+      "str": "The Gun Owner's Handbook (3)",
+      "str_pl": "copies of The Gun Owner's Handbook (3)"
+    },
+    "variants": [
+      {
+        "description": "A thick soft-cover book that claims to be a complete guide to safely operating, maintaining, and repairing firearms.",
+        "id": "manual_gun",
+        "name": {
+          "str": "The Gun Owner's Handbook (3)",
+          "str_pl": "copies of The Gun Owner's Handbook (3)"
+        }
+      },
+      {
+        "description": "Official U.S. Army manual about basics and tactics of moving and attacking a target - how to shoot, how to hide, how to retreat, and how to defend.",
+        "id": "manual_gun_1",
+        "name": {
+          "str": "FM 3-90-1: Offense And Defense (3)",
+          "str_pl": "copies of FM 3-90-1: Offense And Defense (3)"
+        }
+      },
+      {
+        "//": "978-1736672723",
+        "description": "A journal about modern and old firearms, their style, manufacturing, and usage.",
+        "id": "manual_gun_2",
+        "name": {
+          "str": "Surplus Military (3)",
+          "str_pl": "issues of Surplus Military (3)"
+        }
+      },
+      {
+        "//": "979-8519992862",
+        "description": "Essential handbook detailing how to own, use, and properly maintain a modern-day firearm.",
+        "id": "manual_gun_3",
+        "name": {
+          "str": "Owning a Modern Firearm (3)",
+          "str_pl": "copies of Owning a Modern Firearm (3)"
+        }
+      },
+      {
+        "//": "979-8593500014",
+        "description": "Step-by-step instructions on how to use a gun, with lot of drills for each level.",
+        "id": "manual_gun_4",
+        "name": {
+          "str": "Practical Shooting Training (3)",
+          "str_pl": "copies of Practical Shooting Training (3)"
+        }
+      },
+      {
+        "//": "978-1951115142",
+        "description": "A reference book that contains hundreds of images of firearms inside, with lot of comments from professionals and information about each model.",
+        "id": "manual_gun_5",
+        "name": {
+          "str": "The Illustrated History of Firearms (3)",
+          "str_pl": "copies of The Illustrated History of Firearms (3)"
+        }
+      },
+      {
+        "//": "978-1518654725",
+        "description": "\"The Complete Beginner's Guide to Precision Rifle Shooting\", this book contains information about shooting equipment, terminology, principles, and covers the theory of long-range shooting.  It has a lot of practical advice about marksmanship.",
+        "id": "manual_gun_6",
+        "name": {
+          "str": "Long Range Shooting Handbook (3)",
+          "str_pl": "copies of Long Range Shooting Handbook (3)"
+        }
+      },
+      {
+        "//": "978-1480115736",
+        "description": "\"A Practical Treatise on the Enfield-Pritchett Rifle, Recently Adopted in the British Service\".  This is a practical guide to using the newly adopted P-1853 Enfield Rifle-Musket.  Despite being written in 1854, it still has lot of useful information about shooting, as well as information about how to maintain this antique rifle.",
+        "id": "manual_gun_7",
+        "name": {
+          "str": "The Rifle-Musket (3)",
+          "str_pl": "copies of The Rifle-Musket (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pocket_firearms",
+    "type": "ITEM",
+    "copy-from": "pocket_firearms",
+    "name": {
+      "str": "Pocket Guide to Firearm Safety (2)",
+      "str_pl": "copies of Pocket Guide to Firearm Safety (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "text_gunsmith",
+    "type": "ITEM",
+    "copy-from": "text_gunsmith",
+    "name": {
+      "str": "Ballistics: Theory, Design, and Application (2)",
+      "str_pl": "copies of Ballistics: Theory, Design, and Application (2)"
+    },
+    "variants": [
+      {
+        "description": "This hefty, hardbound textbook is written in obtuse, complex language.  If you already knew a bit about engineering and fabrication, it might be a useful reference on gunsmithing and design, but without that knowledge it'd be better used to prop up a table.",
+        "id": "text_gunsmith",
+        "name": {
+          "str": "Ballistics: Theory, Design, and Application (2)",
+          "str_pl": "copies of Ballistics: Theory, Design, and Application (2)"
+        }
+      },
+      {
+        "//": "978-1632202697",
+        "description": "This fairly old book is a highly detailed and essential reference for any gun enthusiast, and covers everything from the use of proper tools to how to get a gunsmithing job.",
+        "id": "text_gunsmith_1",
+        "name": {
+          "str": "The Complete Guide to Gunsmithing (2)",
+          "str_pl": "copies of The Complete Guide to Gunsmithing (2)"
+        }
+      },
+      {
+        "//": "978-1163156063",
+        "description": "A guide for gun shop owners, this book contains lots of information about weapons and weapon maintenance.",
+        "id": "text_gunsmith_2",
+        "name": {
+          "str": "Professional Gunsmithing (2)",
+          "str_pl": "copies of Professional Gunsmithing (2)"
+        }
+      },
+      {
+        "//": "978-1946267467",
+        "description": "The book contains step-by-step instructions to repair and maintain all major rifle types, from the AR-15 and AK-47 to the M1 Garand.  It also details many different projects and enhancements for gun owners.",
+        "id": "text_gunsmith_3",
+        "name": {
+          "str": "Gunsmithing - Rifles (2)",
+          "str_pl": "copies of Gunsmithing - Rifles (2)"
+        }
+      },
+      {
+        "//": "978-1614272373",
+        "description": "This book contains extremely precise instructions for fixing different issues with your gun.  Having lots of modern photos is a huge advantage, though the fact that it's a reprint of a book from the 1950s is not.",
+        "id": "text_gunsmith_4",
+        "name": {
+          "str": "Gunsmithing: A Manual of Firearm Design, Construction, Alteration and Remodeling (2)",
+          "str_pl": "copies of Gunsmithing: A Manual of Firearm Design, Construction, Alteration and Remodeling (2)"
+        }
+      },
+      {
+        "//": "978-1982129224",
+        "description": "A major biography of John Moses Browning, \"the Thomas Edison of guns\", this book describes his story, and the inventions he made, as well as decisions behind their development, processes, manufacturing, and usage.",
+        "id": "text_gunsmith_5",
+        "name": {
+          "str": "The Guns of John Moses Browning (2)",
+          "str_pl": "copies of The Guns of John Moses Browning (2)"
+        }
+      },
+      {
+        "//": "978-1732132764",
+        "description": "A big magazine about different gunsmithing projects, from tuning your gun to making a brand new one using common techniques.",
+        "id": "text_gunsmith_6",
+        "name": {
+          "str": "DIY Guns: Easy DIY Gunsmithing Projects (2)",
+          "str_pl": "issues of DIY Guns: Easy DIY Gunsmithing Projects (2)"
+        }
+      },
+      {
+        "//": "978-0486287201",
+        "description": "This book details the long story of crossbows - a devastating weapon which improved medieval distance warfare drastically - with lot of illustrations and information about additional weapons, like ballistae and catapults.",
+        "id": "text_gunsmith_7",
+        "name": {
+          "str": "The Book of the Crossbow (2)",
+          "str_pl": "copies of The Book of the Crossbow (2)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_launcher",
+    "type": "ITEM",
+    "copy-from": "mag_launcher",
+    "name": {
+      "str": "High Explosives Quarterly (1)",
+      "str_pl": "issues of High Explosives Quarterly (1)"
+    },
+    "variants": [
+      {
+        "description": "An interesting quarterly report about rocket launchers and recoilless rifles.  There are lots of large, exciting photos of explosions and weaponry.",
+        "id": "mag_launcher",
+        "name": {
+          "str": "High Explosives Quarterly (1)",
+          "str_pl": "issues of High Explosives Quarterly (1)"
+        }
+      },
+      {
+        "//": "978-1631594274",
+        "description": "DIY guide about different ballistic launchers, how they work, and how to build one.",
+        "id": "mag_launcher_1",
+        "name": {
+          "str": "Launchers, Lobbers and Rockets Engineer (1)",
+          "str_pl": "copies of Launchers, Lobbers and Rockets Engineer (1)"
+        }
+      },
+      {
+        "//": "978-1472810861",
+        "description": "This book shows the history of Soviet Multiple Rocket Launcher systems, developed in a late 1930s, the reasons to use it, problems solved while designing them, and tactics for using them.",
+        "id": "mag_launcher_2",
+        "name": {
+          "str": "Katyusha (1)",
+          "str_pl": "copies of Katyusha (1)"
+        }
+      },
+      {
+        "//": "978-1849081535",
+        "description": "Part of a big series about different small arms, this book details RPGs - how they were created, how they were used, and how they are used now in modern times.",
+        "id": "mag_launcher_3",
+        "name": {
+          "str": "The Rocket Propelled Grenade (1)",
+          "str_pl": "copies of The Rocket Propelled Grenade (1)"
+        }
+      },
+      {
+        "description": "A professional magazine about artillery, published by the US Field Artillery Corps.  Lots of articles analyze using modern artillery in different wars, modern and future technologies, and the most recent discoveries in ballistics and field engineering.",
+        "id": "mag_launcher_4",
+        "name": {
+          "str": "Field Artillery (1)",
+          "str_pl": "issues of Field Artillery (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_launcher",
+    "type": "ITEM",
+    "copy-from": "manual_launcher",
+    "name": {
+      "str": "Jane's Mortars and Rocket Launchers (3)",
+      "str_pl": "copies of Jane's Mortars and Rocket Launchers (3)"
+    },
+    "variants": [
+      {
+        "description": "An incredibly detailed guide to modern rockets, mortars, grenade launchers, and recoilless weaponry.  Lavishly illustrated with color photographs, it contains a wealth of information.",
+        "id": "manual_launcher",
+        "name": {
+          "str": "Jane's Mortars and Rocket Launchers (3)",
+          "str_pl": "copies of Jane's Mortars and Rocket Launchers (3)"
+        }
+      },
+      {
+        "//": "978-1472819529",
+        "description": "Part of a big series about different small arms, this book tells about the M79.  Created to fill the gap between hand grenade and light mortar, this weapon became an iconic symbol of the Vietnam War, and still serves its role perfectly.",
+        "id": "manual_launcher_1",
+        "name": {
+          "str": "U.S. Grenade Launchers (3)",
+          "str_pl": "copies of U.S. Grenade Launchers (3)"
+        }
+      },
+      {
+        "//": "978-1940453101",
+        "description": "A giant, comprehensive list of every U.S. Army weapon, munition, and piece of equipment that was used during World War II, with small, but detailed information about each of them.  Volume 3 describes light weapons like grenade launchers, recoilless rifles, man-portable anti-tank and air-defense missiles and mortars, and Volume 4 describes different heavy ammunition from 20mm to 16 inch hand and rifle grenades.",
+        "id": "manual_launcher_2",
+        "name": {
+          "str": "Catalogue of Standard Ordnance Items: Volume 3 & 4 (3)",
+          "str_pl": "copies of Catalogue of Standard Ordnance Items: Volume 3 & 4 (3)"
+        }
+      },
+      {
+        "//": "979-8642959404",
+        "description": "Official U.S. Army manual about principles and functions for fire support elements and field artillery.  Most of it is about the functions and operations of artillery, alongside some ballistic calculations.",
+        "id": "manual_launcher_3",
+        "name": {
+          "str": "FM 3-09: Fire Support and Field Artillery Operations (3)",
+          "str_pl": "copies of FM 3-09: Fire Support and Field Artillery Operations (3)"
+        }
+      },
+      {
+        "description": "Official U.S. Army manual about using different light weapons - M203, ITAS M41, TOW and Javelins.",
+        "id": "manual_launcher_4",
+        "name": {
+          "str": "FM 3-22.3: Stryker Gunnery (3)",
+          "str_pl": "copies of FM 3-22.3: Stryker Gunnery (3)"
+        }
+      },
+      {
+        "//": "979-8538902606",
+        "description": "Official U.S. Army manual for using the M67 anti-tank rifle - theory, practice, and essential information.",
+        "id": "manual_launcher_5",
+        "name": {
+          "str": "FM 23-11: 90mm Recoilless Rifle, M67 (3)",
+          "str_pl": "copies of FM 23-11: 90mm Recoilless Rifle, M67 (3)"
+        }
+      },
+      {
+        "description": "A detailed, full-colored guide to flamethrowers, incendiary weapons, and napalm.  It builds off of information provided in its sister book, Jane's Mortars and Rocket Launchers, and so it's mostly incomprehensible to anyone without prior knowledge.",
+        "id": "manual_launcher_5",
+        "name": {
+          "str": "Jane's Flamethrowers and Firestarters (3)",
+          "str_pl": "copies of Jane's Flamethrowers and Firestarters (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "book_lockpick",
+    "type": "ITEM",
+    "copy-from": "book_lockpick",
+    "name": {
+      "str": "MIT Guide to Lock Picking (2)",
+      "str_pl": "copies of MIT Guide to Lock Picking (2)"
+    },
+    "variants": [
+      {
+        "description": "A home-made booklet with large black-and-white pictures of several types of modern locks and general information on how to crack them open.",
+        "id": "book_lockpick",
+        "name": {
+          "str": "MIT Guide to Lock Picking (2)",
+          "str_pl": "copies of MIT Guide to Lock Picking (2)"
+        }
+      },
+      {
+        "//": "978-1420957556",
+        "description": "It says it is a reproduction of the United States Central Intelligence Agency's Field Operative Training Manual that describes how to lockpick.  For such a big name it has a surprisingly small amount of information, only covering the topic on a very basic level.",
+        "id": "book_lockpick_1",
+        "name": {
+          "str": "The CIA Lockpicking Manual (2)",
+          "str_pl": "copies of The CIA Lockpicking Manual (2)"
+        }
+      },
+      {
+        "//": "978-1597499835",
+        "description": "This book contain lots of information for experienced lockpickers, like possible tools that can be used, different types of locks that were produced, and even some tips to avoid lockpicking - sometimes it's easier to break a lock, door, or even wall itself.",
+        "id": "book_lockpick_2",
+        "name": {
+          "str": "Keys To The Kingdom (2)",
+          "str_pl": "copies of Keys To The Kingdom (2)"
+        }
+      },
+      {
+        "//": "no info",
+        "description": "The combined experience of a few different locksmiths of how to do it properly, what skillset is required, and where it is legal to use it.  It says it comes with a DVD, but you can't find it anywhere nearby.",
+        "id": "book_lockpick_3",
+        "name": {
+          "str": "E-Z Picking Manual (2)",
+          "str_pl": "copies of E-Z Picking Manual (2)"
+        }
+      },
+      {
+        "//": "0-398-07079-2",
+        "description": "This book is a reference work intended for criminal investigators, locksmiths, security personnel, and similar professionals.  It details the history, development, and design of various forms of locks, keys, and other security equipment.",
+        "id": "book_lockpick_4",
+        "name": {
+          "str": "Locks, Safes, and Security (2)",
+          "str_pl": "copies of Locks, Safes, and Security (2)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_aikido",
+    "type": "ITEM",
+    "copy-from": "manual_aikido",
+    "name": {
+      "str": "< The Spirit of Aikido",
+      "str_pl": "< copies of The Spirit of Aikido"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_barbaran",
+    "type": "ITEM",
+    "copy-from": "manual_barbaran",
+    "name": {
+      "str": "< Las Nueve Reglas de la Montante",
+      "str_pl": "< copies of Las Nueve Reglas de la Montante"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_boxing",
+    "type": "ITEM",
+    "copy-from": "manual_boxing",
+    "name": {
+      "str": "< Practical Pugilism",
+      "str_pl": "< copies of Practical Pugilism"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_capoeira",
+    "type": "ITEM",
+    "copy-from": "manual_capoeira",
+    "name": {
+      "str": "< Capoeira 100",
+      "str_pl": "< copies of Capoeira 100"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_crane",
+    "type": "ITEM",
+    "copy-from": "manual_crane",
+    "name": {
+      "str": "< The Red Crane",
+      "str_pl": "< copies of The Red Crane"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_dragon",
+    "type": "ITEM",
+    "copy-from": "manual_dragon",
+    "name": {
+      "str": "< The Jade Dragon",
+      "str_pl": "< copies of The Jade Dragon"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_eskrima",
+    "type": "ITEM",
+    "copy-from": "manual_eskrima",
+    "name": {
+      "str": "< Practical Eskrima",
+      "str_pl": "< copies of Practical Eskrima"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_fencing",
+    "type": "ITEM",
+    "copy-from": "manual_fencing",
+    "name": {
+      "str": "< The Modern Swordsman",
+      "str_pl": "< copies of The Modern Swordsman"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_judo",
+    "type": "ITEM",
+    "copy-from": "manual_judo",
+    "name": {
+      "str": "< Kodokan Judo",
+      "str_pl": "< copies of Kodokan Judo"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_karate",
+    "type": "ITEM",
+    "copy-from": "manual_karate",
+    "name": {
+      "str": "< The Shōtōkan Karate Handbook",
+      "str_pl": "< copies of The Shōtōkan Karate Handbook"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_bojutsu",
+    "type": "ITEM",
+    "copy-from": "manual_bojutsu",
+    "name": {
+      "str": "< Bōjutsu The Matsumoto System",
+      "str_pl": "< copies of Bōjutsu The Matsumoto System"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_kickboxing",
+    "type": "ITEM",
+    "copy-from": "manual_kickboxing",
+    "name": {
+      "str": "< The Ultimate Guide to Kickboxing",
+      "str_pl": "< copies of Ultimate Guide to Kickboxing"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_krav_maga",
+    "type": "ITEM",
+    "copy-from": "manual_krav_maga",
+    "name": {
+      "str": "< Complete Krav Maga",
+      "str_pl": "< copies of Complete Krav Maga"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_leopard",
+    "type": "ITEM",
+    "copy-from": "manual_leopard",
+    "name": {
+      "str": "< The Deaf Leopard",
+      "str_pl": "< copies of The Deaf Leopard"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_muay_thai",
+    "type": "ITEM",
+    "copy-from": "manual_muay_thai",
+    "name": {
+      "str": "< Ultimate Muay Thai",
+      "str_pl": "< copies of Ultimate Muay Thai"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_ninjutsu",
+    "type": "ITEM",
+    "copy-from": "manual_ninjutsu",
+    "name": {
+      "str": "< Essence of Ninjutsu",
+      "str_pl": "< copies of Essence of Ninjutsu"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_niten",
+    "type": "ITEM",
+    "copy-from": "manual_niten",
+    "name": {
+      "str": "< The Book of Five Rings",
+      "str_pl": "< copies of The Book of Five Rings"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_pankration",
+    "type": "ITEM",
+    "copy-from": "manual_pankration",
+    "name": {
+      "str": "< The Modern Pankratiast",
+      "str_pl": "< copies of The Modern Pankratiast"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_silat",
+    "type": "ITEM",
+    "copy-from": "manual_silat",
+    "name": {
+      "str": "< The Indonesian Warrior",
+      "str_pl": "< copies of The Indonesian Warrior"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_snake",
+    "type": "ITEM",
+    "copy-from": "manual_snake",
+    "name": {
+      "str": "< The Black Snake",
+      "str_pl": "< copies of The Black Snake"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_taekwondo",
+    "type": "ITEM",
+    "copy-from": "manual_taekwondo",
+    "name": {
+      "str": "< Official Taekwondo Training Manual",
+      "str_pl": "< copies of Official Taekwondo Training Manual"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_tai_chi",
+    "type": "ITEM",
+    "copy-from": "manual_tai_chi",
+    "name": {
+      "str": "< Becoming One with the Tao",
+      "str_pl": "< copies of Becoming One with the Tao"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_tiger",
+    "type": "ITEM",
+    "copy-from": "manual_tiger",
+    "name": {
+      "str": "< The White Tiger",
+      "str_pl": "< copies of The White Tiger"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_zui_quan",
+    "type": "ITEM",
+    "copy-from": "manual_zui_quan",
+    "name": {
+      "str": "< Zui Quan and You",
+      "str_pl": "< copies of Zui Quan and You"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_sojutsu",
+    "type": "ITEM",
+    "copy-from": "manual_sojutsu",
+    "name": {
+      "str": "< The Way of the Spear",
+      "str_pl": "< copies of The Way of the Spear"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_wingchun",
+    "type": "ITEM",
+    "copy-from": "manual_wingchun",
+    "name": {
+      "str": "< Beautiful Springtime",
+      "str_pl": "< copies of Beautiful Springtime"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_medievalpole",
+    "type": "ITEM",
+    "copy-from": "manual_medievalpole",
+    "name": {
+      "str": "< Fior Di Battaglia",
+      "str_pl": "< copies of Fior Di Battaglia"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_swordsmanship",
+    "type": "ITEM",
+    "copy-from": "manual_swordsmanship",
+    "name": {
+      "str": "< Historic European Swordfighting",
+      "str_pl": "< copies of Historic European Swordfighting"
+    },
+    "variants": []
+  },
+  {
+    "id": "book_icef",
+    "type": "ITEM",
+    "copy-from": "book_icef",
+    "name": {
+      "str": "Internal Combustion Fundamentals (8)",
+      "str_pl": "copies of Internal Combustion Fundamentals (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "book_pneumatics",
+    "type": "ITEM",
+    "copy-from": "book_pneumatics",
+    "name": {
+      "str": "Pneumatic Pnowledge (8)",
+      "str_pl": "copies of Pneumatic Pnowledge (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_fieldrepair",
+    "type": "ITEM",
+    "copy-from": "mag_fieldrepair",
+    "name": {
+      "str": "army improvised field repairs manual (0)",
+      "str_pl": "army improvised field repairs manuals (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_mechanics",
+    "type": "ITEM",
+    "copy-from": "mag_mechanics",
+    "name": {
+      "str": "Popular Mechanics (1)",
+      "str_pl": "issues of Popular Mechanics (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_makerspace",
+    "type": "ITEM",
+    "copy-from": "manual_makerspace",
+    "name": {
+      "str": "makerspace kit instructions (0)",
+      "str_pl": "copies of makerspace kit instructions (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_robotics_kit",
+    "type": "ITEM",
+    "copy-from": "manual_robotics_kit",
+    "name": {
+      "str": "robotics kit instructions (0)",
+      "str_pl": "copies of robotics kit instructions (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_engine_kit",
+    "type": "ITEM",
+    "copy-from": "manual_engine_kit",
+    "name": {
+      "str": "Stirling engine kit instructions (0)",
+      "str_pl": "copies of Stirling engine instructions (0)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_mechanics",
+    "type": "ITEM",
+    "copy-from": "manual_mechanics",
+    "name": {
+      "str": "Under the Hood (3)",
+      "str_pl": "copies of Under the Hood (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_mechanics_car_owner",
+    "type": "ITEM",
+    "copy-from": "manual_mechanics_car_owner",
+    "name": {
+      "str": "car owner manual (2)",
+      "str_pl": "car owner manuals (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_atomic_lab",
+    "type": "ITEM",
+    "copy-from": "textbook_atomic_lab",
+    "name": {
+      "str": "lab journal-Curie (10)",
+      "str_pl": "lab journals-Curie (10)"
+    },
+    "variants": []
+  },
+  {
+    "id": "book_nonf_soft_mechnic_hotrod",
+    "type": "ITEM",
+    "copy-from": "book_nonf_soft_mechnic_hotrod",
+    "name": {
+      "str": "Hot Rod Chassis & Suspension Handbook (8)",
+      "str_pl": "copies of Hot Rod Handbook (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_mechanics",
+    "type": "ITEM",
+    "copy-from": "textbook_mechanics",
+    "name": {
+      "str": "Mechanical Mastery (6)",
+      "str_pl": "copies of Mechanical Mastery (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_melee",
+    "type": "ITEM",
+    "copy-from": "mag_melee",
+    "name": {
+      "str": "CQB Monthly (1)",
+      "str_pl": "issues of CQB Monthly (1)"
+    },
+    "variants": [
+      {
+        "description": "An in-depth look at various styles of close quarters fighting.  There's an amusing essay about dirty tricks in the front section.",
+        "id": "mag_melee",
+        "name": {
+          "str": "CQB Monthly (1)",
+          "str_pl": "issues of CQB Monthly (1)"
+        }
+      },
+      {
+        "//": "978-1941845073",
+        "description": "A barbaric guide detailing how to win a fight in the worst possible scenarios - mostly about how to retreat from such a fight, but it still has some information in case you have no another way.",
+        "id": "mag_melee_1",
+        "name": {
+          "str": "Savage Street Fighting (1)",
+          "str_pl": "copies of Savage Street Fighting (1)"
+        }
+      },
+      {
+        "//": "978-1941845011",
+        "description": "This book teaches how to predict enemy attacks, with a nice explanation of how to react to each of them - both defense and counterattacks.",
+        "id": "mag_melee_2",
+        "name": {
+          "str": "Maximum Damage (1)",
+          "str_pl": "copies of Maximum Damage (1)"
+        }
+      },
+      {
+        "//": "978-0989038201",
+        "description": "This book shows lot of techniques to defeat an experienced martial artist - brutal and dirty.",
+        "id": "mag_melee_3",
+        "name": {
+          "str": "Out of the Cage (1)",
+          "str_pl": "copies of Out of the Cage (1)"
+        }
+      },
+      {
+        "//": "978-1941845677",
+        "description": "An illustrated handbook about the human body, how it works, and how to destroy it with fairly easy steps.",
+        "id": "mag_melee_4",
+        "name": {
+          "str": "Combat Pressure Points (1)",
+          "str_pl": "copies of Combat Pressure Points (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_melee",
+    "type": "ITEM",
+    "copy-from": "manual_melee",
+    "name": {
+      "str": "Close Quarter Fighting Manual (3)",
+      "str_pl": "copies of Close Quarter Fighting Manual (3)"
+    },
+    "variants": [
+      {
+        "description": "A well-thumbed hardbound book which illustrates simple strategies and techniques for close quarters combat encounters.",
+        "id": "manual_melee",
+        "name": {
+          "str": "Close Quarter Fighting Manual (3)",
+          "str_pl": "copies of Close Quarter Fighting Manual (3)"
+        }
+      },
+      {
+        "//": "978-1941845417",
+        "description": "\"Will You Be The Last One Standing?\", asks the author on the first page.  You don't know the answer, but this book contains plenty of info to reach this target.",
+        "id": "manual_melee_1",
+        "name": {
+          "str": "Survival Weapons (3)",
+          "str_pl": "copies of Survival Weapons (3)"
+        }
+      },
+      {
+        "//": "978-1594392139",
+        "description": "Different techniques to end the fight fast, easy, and without going to prison.  Luckily no one can imprison you anymore!",
+        "id": "manual_melee_2",
+        "name": {
+          "str": "Facing Violence (3)",
+          "str_pl": "copies of Facing Violence (3)"
+        }
+      },
+      {
+        "//": "978-1594392139",
+        "description": "This book contains professional instructions to prepare and prevail in dangerous situations, both physically and psychologically.",
+        "id": "manual_melee_3",
+        "name": {
+          "str": "Training for Sudden Violence (3)",
+          "str_pl": "copies of Training for Sudden Violence (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_pistol",
+    "type": "ITEM",
+    "copy-from": "mag_pistol",
+    "name": {
+      "str": "Tactical Handgun Digest (1)",
+      "str_pl": "issues of Tactical Handgun Digest (1)"
+    },
+    "variants": [
+      {
+        "description": "A glossy magazine all about handguns and shooting.  There is a good article about proper sighting near the middle.",
+        "id": "mag_pistol",
+        "name": {
+          "str": "Tactical Handgun Digest (1)",
+          "str_pl": "issues of Tactical Handgun Digest (1)"
+        }
+      },
+      {
+        "//": "978-0764358371",
+        "description": "Simple beginner's guide to shooting handguns safely and effectively; simple and effective rules with some key information about handguns themselves.",
+        "id": "mag_pistol_1",
+        "name": {
+          "str": "Shooting Handguns (1)",
+          "str_pl": "copies of Shooting Handguns (1)"
+        }
+      },
+      {
+        "//": "978-0996085342",
+        "description": "A practical guide for one who want to buy a gun - how they differ, how to choose the right ammo, shooting techniques, and lot of another info.",
+        "id": "mag_pistol_2",
+        "name": {
+          "str": "The Practical Guide to Guns and Shooting, Handgun Edition (1)",
+          "str_pl": "copies of The Practical Guide to Guns and Shooting, Handgun Edition (1)"
+        }
+      },
+      {
+        "//": "9781438948928",
+        "description": "This book takes carrying handguns seriously, and delivers lots of information a user may need to know, including self defense concepts, using deadly force, analyzing confrontation, as well as handgun tactics and techniques.",
+        "id": "mag_pistol_3",
+        "name": {
+          "str": "Defensive Handgun for the Armed Citizen (1)",
+          "str_pl": "copies of Defensive Handgun for the Armed Citizen (1)"
+        }
+      },
+      {
+        "//": "978-1440218125",
+        "description": "This book covers all aspects of the double-action revolver: shooting, handling, carrying, maintaining, and accessorizing - everything you need to know to operate the quintessential American handgun.",
+        "id": "mag_pistol_4",
+        "name": {
+          "str": "The Gun Digest Book of the Revolver (1)",
+          "str_pl": "copies of The Gun Digest Book of the Revolver (1)"
+        }
+      },
+      {
+        "description": "A shiny magazine about handguns and activities around them - handgun hunting, competition shooting, reloading, new brands and gear, ammo, and other similar things.",
+        "id": "mag_pistol_5",
+        "name": {
+          "str": "American Handgunner (1)",
+          "str_pl": "issues of American Handgunner (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_pistol",
+    "type": "ITEM",
+    "copy-from": "manual_pistol",
+    "name": {
+      "str": "The Tao of the Handgun (3)",
+      "str_pl": "copies of The Tao of the Handgun (3)"
+    },
+    "variants": [
+      {
+        "description": "This introspective volume covers proper usage of handguns, from safety and stance, to maintenance and proper sighting technique.",
+        "id": "manual_pistol",
+        "name": {
+          "str": "The Tao of the Handgun (3)",
+          "str_pl": "copies of The Tao of the Handgun (3)"
+        }
+      },
+      {
+        "description": "The most current, up to date, full color manual anywhere on the TT-33 Tokarev pistol, from former Special Forces instructor.  Surprisingly easy to follow.",
+        "id": "manual_pistol_1",
+        "name": {
+          "str": "Practical Guide to the Operational Use of the TT-33 Tokarev Pistol (3)",
+          "str_pl": "copies of Practical Guide to the Operational Use of the TT-33 Tokarev Pistol (3)"
+        }
+      },
+      {
+        "//": "978-0989038232",
+        "description": "A book for a responsible gun owner, it highlights using weapons in the civil world, with lot of rules and legal recommendations, alongside how to avoid harm for the gun user and their environment.",
+        "id": "manual_pistol_2",
+        "name": {
+          "str": "Gun Safety: For Home Defense And Concealed Carry (3)",
+          "str_pl": "copies of Gun Safety: For Home Defense And Concealed Carry (3)"
+        }
+      },
+      {
+        "//": "978-1782741503",
+        "description": "The book contains a long, detailed history of handguns - from the very first hand cannons to the latest automatics and machine pistols, with photos, technical specifications, and some artwork.",
+        "id": "manual_pistol_3",
+        "name": {
+          "str": "Pistols & Revolvers: From 1400 to the Present Day (3)",
+          "str_pl": "copies of Pistols & Revolvers: From 1400 to the Present Day (3)"
+        }
+      },
+      {
+        "//": "9780912412122",
+        "description": "A complete guide to maintaining handguns - lots of information about components, reloading, bullet types, and ballistics.",
+        "id": "manual_pistol_4",
+        "name": {
+          "str": "Pistol & Revolver Handbook (3)",
+          "str_pl": "copies of Pistol & Revolver Handbook (3)"
+        }
+      },
+      {
+        "//": "978-1951115500",
+        "description": "A giant, 1000-page manual of with step-by-step instructions for the disassembly of automatic pistols.  Over 100 models are covered, with clear photos and procedure tips.",
+        "id": "manual_pistol_5",
+        "name": {
+          "str": "Gun Digest Book of Automatic Pistols Assembly/Disassembly (3)",
+          "str_pl": "copies of Gun Digest Book of Automatic Pistols Assembly/Disassembly (3)"
+        }
+      },
+      {
+        "//": "978-1946267498",
+        "description": "A 700-page instructional manual of different revolver disassembly processes, with photos, detailed steps, and additional info.",
+        "id": "manual_pistol_6",
+        "name": {
+          "str": "Book of Revolvers Assembly/Disassembly (3)",
+          "str_pl": "copies of Book of Revolvers Assembly/Disassembly (3)"
+        }
+      },
+      {
+        "description": "Official U.S. Army manual detailing how M9 and M11 handguns work, and how to use them safely and effectively.",
+        "id": "manual_pistol_7",
+        "name": {
+          "str": "FM 3-23.35: Combat Training With Pistols, M9 And M11 (3)",
+          "str_pl": "copies of FM 3-23.35: Combat Training With Pistols, M9 And M11 (3)"
+        }
+      },
+      {
+        "description": "This hardcover book, aimed at the gun nut, provides an illustrated, concise history of the handgun throughout history, including technical specifications and use techniques.  It's difficult to follow without a passing knowledge in pistols, but an experienced handgun user could glean much from it.",
+        "id": "manual_pistol_8",
+        "name": {
+          "str": "Black Powder to Berettas (3)",
+          "str_pl": "copies of Black Powder to Berettas (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_rifle",
+    "type": "ITEM",
+    "copy-from": "mag_rifle",
+    "name": {
+      "str": "Modern Rifleman (1)",
+      "str_pl": "issues of Modern Rifleman (1)"
+    },
+    "variants": [
+      {
+        "description": "An informative magazine all about rifles and shooting.  There is an excellent article about proper maintenance in this issue.",
+        "id": "mag_rifle",
+        "name": {
+          "str": "Modern Rifleman (1)",
+          "str_pl": "issues of Modern Rifleman (1)"
+        }
+      },
+      {
+        "description": "A monthly shooting and firearms publication, with a lot of articles and comments.",
+        "id": "mag_rifle_1",
+        "name": {
+          "str": "American Rifleman (1)",
+          "str_pl": "issues of American Rifleman (1)"
+        }
+      },
+      {
+        "description": "An annual magazine for marksmen, with lots of articles and papers, as well as reviews of new rifles, optics, and mods.",
+        "id": "mag_rifle_2",
+        "name": {
+          "str": "Shooting Stars (1)",
+          "str_pl": "issues of Shooting Stars (1)"
+        }
+      },
+      {
+        "description": "A dedicated journal about various firearms, their usage, and news about them.  Different articles review new firearm models, old models, new attachments, hunting, maintenance, and a lot of other topics.",
+        "id": "mag_rifle_3",
+        "name": {
+          "str": "The Precisionist (1)",
+          "str_pl": "issues of The Precisionist (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_rifle",
+    "type": "ITEM",
+    "copy-from": "manual_rifle",
+    "name": {
+      "str": "FM 23-16 Army marksmanship manual (3)",
+      "str_pl": "FM 23-16 Army marksmanship manuals (3)"
+    },
+    "variants": [
+      {
+        "description": "A hefty military field manual about automatic rifle usage and techniques which improve marksmanship and proper weapons-handling.",
+        "id": "manual_rifle",
+        "name": {
+          "str": "FM 23-16 Army marksmanship manual (3)",
+          "str_pl": "copies of FM 23-16 Army marksmanship manual (3)"
+        }
+      },
+      {
+        "//": "978-1493036752",
+        "description": "An unofficial guide about the work and skills of British and NATO snipers.  There are a lot of photos of weapons and equipment, but it has a huge lack of details - the most important information is just mentioned or described without any value.",
+        "id": "manual_rifle_1",
+        "name": {
+          "str": "SAS and Elite Forces Guide Sniper (3)",
+          "str_pl": "copies of SAS and Elite Forces Guide Sniper (3)"
+        }
+      },
+      {
+        "//": "978-1951115104",
+        "description": "A small book about the use of a rifle as a marksman's tool.  There is plenty of information, but it is too general, and the author talks more about his experience as a sniper than sniping itself.",
+        "id": "manual_rifle_2",
+        "name": {
+          "str": "Precision Rifle Marksmanship: The Fundamentals (3)",
+          "str_pl": "copies of Precision Rifle Marksmanship: The Fundamentals (3)"
+        }
+      },
+      {
+        "//": "978-1979598699",
+        "description": "A book about the basics of long-range shooting, written in fairly simple language.",
+        "id": "manual_rifle_3",
+        "name": {
+          "str": "Precision Long Range Shooting And Hunting (3)",
+          "str_pl": "copies of Precision Long Range Shooting And Hunting (3)"
+        }
+      },
+      {
+        "//": "978-1792182938",
+        "description": "The Official (or at least so it says) marksmanship guide for scout snipers.  With lots of essential info, it gives a pretty good foundation to anyone who knows how to use a rifle.",
+        "id": "manual_rifle_4",
+        "name": {
+          "str": "The Marine Sniping Handbook (3)",
+          "str_pl": "copies of The Marine Sniping Handbook (3)"
+        }
+      },
+      {
+        "//": "978-0267853731",
+        "description": "A reprint of a 1917 book about rifle shooting and maintenance.  It is surprisingly detailed, and contains lots of information, even if the language is fairly old-fashioned.",
+        "id": "manual_rifle_5",
+        "name": {
+          "str": "How to Shoot (3)",
+          "str_pl": "copies of How to Shoot (3)"
+        }
+      },
+      {
+        "//": "979-8355590895",
+        "description": "A guide to shooting sports that explains the basics of equipment usage, judging distance, aiming, breathing, movement, and trigger discipline alongside a lot of other essential info.",
+        "id": "manual_rifle_6",
+        "name": {
+          "str": "Rifle Shooting for Beginners (3)",
+          "str_pl": "copies of Rifle Shooting for Beginners (3)"
+        }
+      },
+      {
+        "//": "978-1510731691",
+        "description": "A history of some of the most exquisite rifles made in the twentieth century, written with a lot of love and attention to detail.",
+        "id": "manual_rifle_7",
+        "name": {
+          "str": "Great Hunting Rifles: Victorian to the Present (3)",
+          "str_pl": "copies of Great Hunting Rifles: Victorian to the Present (3)"
+        }
+      },
+      {
+        "description": "An official U.S. Army manual that provides guidance for the planning and execution of training with the 5.56mm M16-series rifle and M4 carbine.",
+        "id": "manual_rifle_8",
+        "name": {
+          "str": "FM 3-22.9: Rifle Marksmanship M16-/M4- Series (3)",
+          "str_pl": "copies of FM 3-22.9: Rifle Marksmanship M16-/M4- Series (3)"
+        }
+      },
+      {
+        "description": "An official U.S. Army manual which is a comprehensive guide about using the M240 and M249 crew-served machine guns, with excellent examples and a lot of theory.",
+        "id": "manual_rifle_9",
+        "name": {
+          "str": "FM 3-22.68: Crew-Served Machine Guns 5.56-mm And 7.62-mm (3)",
+          "str_pl": "copies of FM 3-22.68: Crew-Served Machine Guns 5.56-mm And 7.62-mm (3)"
+        }
+      },
+      {
+        "//": "979-8360280453",
+        "description": "A book containing different training methods for carbine users from world champion shooters, aimed toward civilians, law enforcement, and military shooters.",
+        "id": "manual_gun_10",
+        "name": {
+          "str": "Adaptive Rifle (3)",
+          "str_pl": "copies of Adaptive Rifle (3)"
+        }
+      },
+      {
+        "//": "978-1581605921",
+        "description": "This book covers the fundamentals of rifle shooting, including stance, grip, sight alignment, and trigger control.",
+        "id": "manual_gun_11",
+        "name": {
+          "str": "The Art of the Rifle (3)",
+          "str_pl": "copies of The Art of the Rifle (3)"
+        }
+      },
+      {
+        "//": "978-1510760042",
+        "description": "A comprehensive guide to the principles of rifle ballistics, including information on bullet types, trajectory, and wind drift.",
+        "id": "manual_gun_12",
+        "name": {
+          "str": "Shooter's Bible Guide to Rifle Ballistics (3)",
+          "str_pl": "copies of Shooter's Bible Guide to Rifle Ballistics (3)"
+        }
+      },
+      {
+        "//": "978-0743270762",
+        "description": "A giant, 500-page history about the AK-47—the most popular firearm in the world—and the information around it: the mechanics of the weapon, its usage, maintenance, modifications, and its impact on global conflicts.",
+        "id": "manual_gun_13",
+        "name": {
+          "str": "The Gun (3)",
+          "str_pl": "copies of The Gun (3)"
+        }
+      },
+      {
+        "//": "978-0743270762",
+        "description": "A history book penned by an anonymous author.  Starting from its design by John Garand and ending with the Vietnam War, it provides a detailed run-down of the M1 Garand rifle's use throughout history as well as its design and quirks with the weapon.",
+        "id": "manual_gun_14",
+        "name": {
+          "str": "America's Rifle (3)",
+          "str_pl": "copies of America's Rifle (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "retool_instructions",
+    "type": "ITEM",
+    "copy-from": "retool_instructions",
+    "name": {
+      "str": "retool instructions (1)",
+      "str_pl": "copies of retool instructions (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_shotgun",
+    "type": "ITEM",
+    "copy-from": "mag_shotgun",
+    "name": {
+      "str": "Trap and Field (1)",
+      "str_pl": "issues of Trap and Field (1)"
+    },
+    "variants": [
+      {
+        "description": "An in-depth magazine all about shotguns and shooting.  There is an informative article about proper shooting stance in the back pages.",
+        "id": "mag_shotgun",
+        "name": {
+          "str": "Trap and Field (1)",
+          "str_pl": "issues of Trap and Field (1)"
+        }
+      },
+      {
+        "//": "978-1440240683",
+        "description": "A training guide for anyone who never used a shotgun, with simple explanations and drills.",
+        "id": "mag_shotgun_1",
+        "name": {
+          "str": "Gun Digest Shooter's Guide to Shotguns (1)",
+          "str_pl": "copies of Gun Digest Shooter's Guide to Shotguns (1)"
+        }
+      },
+      {
+        "description": "A modern magazine, published in South Africa, it contains various information about hunting and shooting.  This particular issue has a lot of information about shotguns and drills with them.",
+        "id": "mag_shotgun_2",
+        "name": {
+          "str": "Man Magnum (1)",
+          "str_pl": "issues of Man Magnum (1)"
+        }
+      },
+      {
+        "description": "Published by Texas Parks and Wildlife Department, this book contains lots of information and photos about nature and recreation in Texas's fields.  This exact issue is about hunting and gun safety.",
+        "id": "mag_shotgun_3",
+        "name": {
+          "str": "Texas Parks and Wildlife (1)",
+          "str_pl": "issues of Texas Parks and Wildlife (1)"
+        }
+      },
+      {
+        "description": "An annual magazine about bird hunting, including species identification, hunting techniques, and equipment recommendations.",
+        "id": "mag_shotgun_4",
+        "name": {
+          "str": "The Wingshooter's Diary (1)",
+          "str_pl": "issues of The Wingshooter's Diary (1)"
+        }
+      },
+      {
+        "description": "A small guide to skeet shooting, including rules, equipment, tips, and techniques for improving accuracy and performance.",
+        "id": "mag_shotgun_5",
+        "name": {
+          "str": "The Skeet Shooter's Logbook (1)",
+          "str_pl": "copies of The Skeet Shooter's Logbook (1)"
+        }
+      },
+      {
+        "//": "978-0976020400",
+        "description": "The beginner's guide to clay shooting, with lots of advice, instructions, and drills.",
+        "id": "mag_shotgun_6",
+        "name": {
+          "str": "If It Ain't Broke, Fix It! (1)",
+          "str_pl": "copies of If It Ain't Broke, Fix It! (1)"
+        }
+      },
+      {
+        "//": "978-0976020417",
+        "description": "A bird and clay shooting manual, this book contains lots of information about proper shotgun shooting like stances, aim, and ballistics.",
+        "id": "mag_shotgun_7",
+        "name": {
+          "str": "Sporting Clays Consistency (1)",
+          "str_pl": "copies of Sporting Clays Consistency (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_shotgun",
+    "type": "ITEM",
+    "copy-from": "manual_shotgun",
+    "name": {
+      "str": "Shotguns: The Art and Science (3)",
+      "str_pl": "copies of Shotguns: The Art and Science (3)"
+    },
+    "variants": [
+      {
+        "description": "This book claims to address every problem the shotgunner is likely to face, and offers solutions to ensure that shooters can make every shot count.",
+        "id": "manual_shotgun",
+        "name": {
+          "str": "Shotguns: The Art and Science (3)",
+          "str_pl": "copies of Shotguns: The Art and Science (3)"
+        }
+      },
+      {
+        "//": "978-1616080891",
+        "description": "This book shows the history, science and art of the most beautiful shotguns in the world - single and double barrel, combination, hammer shotguns, paired shotguns, special-use guns, and small-bore shotguns from around the world, with detailed information about each of them, and their usage.",
+        "id": "manual_shotgun_1",
+        "name": {
+          "str": "Fine Shotguns (3)",
+          "str_pl": "copies of Fine Shotguns (3)"
+        }
+      },
+      {
+        "//": "978-1939473219",
+        "description": "Detailed manual about buying, owning, and shooting a shotgun, with additional information like cleaning, safety, and training.",
+        "id": "manual_shotgun_2",
+        "name": {
+          "str": "Shotguns: A Comprehensive Guide (3)",
+          "str_pl": "copies of Shotguns: A Comprehensive Guide (3)"
+        }
+      },
+      {
+        "//": "9781510709249",
+        "description": "An illustrated chronicle of every model designed and produced under the Winchester name, with a wealth of facts, figures, and historically relevant information.",
+        "id": "manual_shotgun_3",
+        "name": {
+          "str": "Winchester Shotguns (3)",
+          "str_pl": "copies of Winchester Shotguns (3)"
+        }
+      },
+      {
+        "//": "978-1940453712",
+        "description": "Part of a 1942 army manual, this book contains lots of information about the proper usage and maintenance of all shotguns that were adopted by the U.S. military, including the Winchester M97 and M12, Stevens M620, M620A and M520, the Ithaca M37, the Remington M31, M11, and Browning Automatic 5.",
+        "id": "manual_shotgun_4",
+        "name": {
+          "str": "Ordnance Maintenance Shotguns, All Types (3)",
+          "str_pl": "copies of Ordnance Maintenance Shotguns, All Types (3)"
+        }
+      },
+      {
+        "//": "978-1581604368",
+        "description": "A comprehensive book about combat shotguns, covering single- and double-barreled, slide-action, semi-auto and rotary-cylinder shotguns, their usage, service, and tactics.",
+        "id": "manual_shotgun_5",
+        "name": {
+          "str": "Streetsweepers (3)",
+          "str_pl": "copies of Streetsweepers (3)"
+        }
+      },
+      {
+        "//": "978-0924357480",
+        "description": "This book has lot of fundamental information about shotguns, their workmanship, engineering, and art, along with lot of practical trainings for them.",
+        "id": "manual_shotgun_6",
+        "name": {
+          "str": "Shotguns and Shooting (3)",
+          "str_pl": "copies of Shotguns and Shooting (3)"
+        }
+      },
+      {
+        "//": "978-1905124862",
+        "description": "An old magazine about shotguns: their history, models, cartridges, ballistics, accessories, and shooting, along with an appendix on shotgun data and tables.",
+        "id": "manual_shotgun_7",
+        "name": {
+          "str": "Shotguns - Their History and Development (3)",
+          "str_pl": "copies of Shotguns - Their History and Development (3)"
+        }
+      },
+      {
+        "//": "978-0892727742",
+        "description": "A good guide for both sportsmen and gun collectors, this book contains information about classic shotguns and their usage.",
+        "id": "manual_shotgun_8",
+        "name": {
+          "str": "Vintage British Shotguns (3)",
+          "str_pl": "copies of Vintage British Shotguns (3)"
+        }
+      },
+      {
+        "description": "A pocket-sized book printed in 2000 by the United States Marine Corps for official use.  It describes the operation, repair, and cleaning of the Benelli M1014 shotgun.  Though specific to the M4, it can provide a wealth of information to the trained eye.",
+        "id": "manual_shotgun_9",
+        "name": {
+          "str": "USMC M1014 technical manual (3)",
+          "str_pl": "USMC M1014 technical manuals (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_smg",
+    "type": "ITEM",
+    "copy-from": "mag_smg",
+    "name": {
+      "str": "Submachine Gun Enthusiast (1)",
+      "str_pl": "issues of Submachine Gun Enthusiast (1)"
+    },
+    "variants": [
+      {
+        "description": "An in-depth magazine about submachine guns and shooting.  There is an exhaustive article about close quarter combat techniques in the front.",
+        "id": "mag_smg",
+        "name": {
+          "str": "Submachine Gun Enthusiast (1)",
+          "str_pl": "issues of Submachine Gun Enthusiast (1)"
+        }
+      },
+      {
+        "//": "978-1782009177",
+        "description": "A small, shiny journal about the most famous machine gun in the world, H&K MP5, and how it is used currently.",
+        "id": "mag_smg_1",
+        "name": {
+          "str": "The MP5 Submachine Gun (1)",
+          "str_pl": "copies of The MP5 Submachine Gun (1)"
+        }
+      },
+      {
+        "description": "A relatively old magazine about modern automatic firearms police may use.  This issue talks about submachine guns and the brand new KRISS Super V .45 ACP specifically.",
+        "id": "mag_smg_2",
+        "name": {
+          "str": "Guns & Weapons for Law Enforcement (1)",
+          "str_pl": "issues of Guns & Weapons for Law Enforcement (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_smg",
+    "type": "ITEM",
+    "copy-from": "manual_smg",
+    "name": {
+      "str": "The Submachine Gun Handbook (3)",
+      "str_pl": "copies of The Submachine Gun Handbook (3)"
+    },
+    "variants": [
+      {
+        "description": "This concise guide details the proper care and operation of most forms of machine pistols and submachine guns currently used by regular armed and reserve forces, as well as several obsolete weapons.",
+        "id": "manual_smg",
+        "name": {
+          "str": "The Submachine Gun Handbook (3)",
+          "str_pl": "copies of The Submachine Gun Handbook (3)"
+        }
+      },
+      {
+        "//": "978-0982391815",
+        "description": "The full story of Gordon Ingram and his revolutionary machine gun designs: the Model 6, MAC-10, MAC-11, and SWD.",
+        "id": "manual_smg_1",
+        "name": {
+          "str": "The Mac Man (3)",
+          "str_pl": "copies of The Mac Man (3)"
+        }
+      },
+      {
+        "//": "978-1847972934",
+        "description": "A comprehensive study of the development and use of the sub-machine gun since World War I, including a country-by-country survey of equipment used, with lots of illustrations and precise information.",
+        "id": "manual_smg_2",
+        "name": {
+          "str": "The Development of Sub-Machine Guns and their Ammunition from World War 1 to the Present Day (3)",
+          "str_pl": "copies of The Development of Sub-Machine Guns and their Ammunition from World War 1 to the Present Day (3)"
+        }
+      },
+      {
+        "//": "978-0764354847",
+        "description": "A fully illustrated book about famous submachine guns, their design, construction, and testing, as well as their accessories such as magazines, ammunition, webbing, and cleaning kits.",
+        "id": "manual_smg_3",
+        "name": {
+          "str": "American Submachine Guns 1919–1950 (3)",
+          "str_pl": "copies of American Submachine Guns 1919–1950 (3)"
+        }
+      },
+      {
+        "//": "978-1493673346",
+        "description": "Part of a big series about weapons and their complexity, this issue describes the long history of the M1A1 Thompson Submachine gun - when it was created, why, and why it is iconic now.",
+        "id": "manual_smg_4",
+        "name": {
+          "str": "Firearm Anatomy (3)",
+          "str_pl": "copies of Firearm Anatomy (3)"
+        }
+      },
+      {
+        "//": "979-8730435377",
+        "description": "A 200-page collector's manual advising how to buy a real, old Tommy Gun, with detailed info on each model, info about maintenance and shooting, and stories about its usage in the St. Louis Police Department.",
+        "id": "manual_smg_5",
+        "name": {
+          "str": "An Amateur's Guide for the Colt's Thompson Submachine Gun (3)",
+          "str_pl": "copies of An Amateur's Guide for the Colt's Thompson Submachine Gun (3)"
+        }
+      },
+      {
+        "//": "978-1940453118",
+        "description": "Part of an old army field manual, this book explains the usage and maintenance of the M3 and M3A1, and how it was adopted into U.S. Army service in 1942.",
+        "id": "manual_smg_6",
+        "name": {
+          "str": "Submachine Guns Caliber .45 (3)",
+          "str_pl": "copies of Submachine Guns Caliber .45 (3)"
+        }
+      },
+      {
+        "//": "978-1733005333",
+        "description": "A short manual about the disassembly, reassembly, maintenance, operation, and repair of some old machine guns.  Seems it has lack of some info, but better than nothing.",
+        "id": "manual_smg_7",
+        "name": {
+          "str": "Maintenance on the MP40, PPSH41, M3A1, and Sten MKII Submachine Guns (3)",
+          "str_pl": "copies of Maintenance on the MP40, PPSH41, M3A1, and Sten MKII Submachine Guns (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_tv",
+    "type": "ITEM",
+    "copy-from": "mag_tv",
+    "name": {
+      "str": "US Weekly (1)",
+      "str_pl": "US Weeklies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_speech",
+    "type": "ITEM",
+    "copy-from": "manual_speech",
+    "name": {
+      "str": "Self-Esteem for Dummies (3)",
+      "str_pl": "copies of Self-Esteem for Dummies (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_speech",
+    "type": "ITEM",
+    "copy-from": "textbook_speech",
+    "name": {
+      "str": "Principles of Effective Communication (6)",
+      "str_pl": "copies of Principles of Effective Communication (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "dnd_handbook",
+    "type": "ITEM",
+    "copy-from": "dnd_handbook",
+    "name": {
+      "str": "Dungeon Master's Guide: 6th Edition (5)",
+      "str_pl": "copies of Dungeon Master's Guide: 6th Edition (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "book_nonf_soft_speech_naillaw",
+    "type": "ITEM",
+    "copy-from": "book_nonf_soft_speech_naillaw",
+    "name": {
+      "str": "Nail Your Law Firm Interview (4)",
+      "str_pl": "copies of Nail Your Law Firm Interview (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_stabbing",
+    "type": "ITEM",
+    "copy-from": "mag_stabbing",
+    "name": {
+      "str": "Duelist's Annual (1)",
+      "str_pl": "Duelist's Annuals (1)"
+    },
+    "variants": [
+      {
+        "description": "An annual publication about fencing and dueling.  There are many good illustrations which describe proper technique and form.",
+        "id": "mag_stabbing",
+        "name": {
+          "str": "Duelist's Annual (1)",
+          "str_pl": "issues of Duelist's Annual (1)"
+        }
+      },
+      {
+        "//": "978-1884654770",
+        "description": "A beginner's guide to traditional and sport fencing - rules, proper defense and offense, movement, etc.",
+        "id": "mag_stabbing_1",
+        "name": {
+          "str": "Fencer's Start-Up (1)",
+          "str_pl": "copies of Fencer's Start-Up (1)"
+        }
+      },
+      {
+        "//": "978-1782551133",
+        "description": "A childish book about fencing, where the mascot Foily guides the reader through the different nuances of fencing with lots of photos and images.",
+        "id": "mag_stabbing_2",
+        "name": {
+          "str": "Learning Fencing (1)",
+          "str_pl": "copies of Learning Fencing (1)"
+        }
+      },
+      {
+        "//": "978-1782551119",
+        "description": "A thick book, written by professional fencers, that covers every possible aspect of modern sport fencing.",
+        "id": "mag_stabbing_3",
+        "name": {
+          "str": "The Complete Guide to Fencing (1)",
+          "str_pl": "copies of The Complete Guide to Fencing (1)"
+        }
+      },
+      {
+        "//": "978-1847973054",
+        "description": "A textbook for fence instructors that fulfills every aspect a fencer must know, from the very basics to a master level, from theory to drill training exercises.",
+        "id": "mag_stabbing_4",
+        "name": {
+          "str": "Fencing: Skills, Tactics, Training (1)",
+          "str_pl": "copies of Fencing: Skills, Tactics, Training (1)"
+        }
+      },
+      {
+        "//": "978-0978902230",
+        "description": "This book highlights the modern technologies used in fencing, with new possible techniques and scientific research that underlies the latest training methods.",
+        "id": "mag_stabbing_5",
+        "name": {
+          "str": "Modern Saber Fencing (1)",
+          "str_pl": "copies of Modern Saber Fencing (1)"
+        }
+      },
+      {
+        "//": "978-1599101293",
+        "description": "An ancient treatise explaining the fundamental ideas of fencing that are still used today - distance, time, line, blade opposition, counterattacks, countertime, etc.",
+        "id": "mag_stabbing_6",
+        "name": {
+          "str": "Fencing: A Renaissance Treatise (1)",
+          "str_pl": "copies of Fencing: A Renaissance Treatise (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_stabbing",
+    "type": "ITEM",
+    "copy-from": "manual_stabbing",
+    "name": {
+      "str": "FM 23-25 Army bayonet manual (3)",
+      "str_pl": "FM 23-25 Army bayonet manuals (3)"
+    },
+    "variants": [
+      {
+        "description": "A hefty military field manual about bayonet usage and combat theory.",
+        "id": "manual_stabbing",
+        "name": {
+          "str": "FM 23-25 Army bayonet manual (3)",
+          "str_pl": "copies of FM 23-25 Army bayonet manual (3)"
+        }
+      },
+      {
+        "//": "9780919316386",
+        "description": "Small, but comprehensive introduction to the pole arms of medieval Europe: from the simple pike, through the halberd in its many forms, to the roncone, bardiche, and many others.",
+        "id": "manual_stabbing_1",
+        "name": {
+          "str": "The Halberd and Other European Pole Arms, 1300-1650 (3)",
+          "str_pl": "copies of The Halberd and Other European Pole Arms, 1300-1650 (3)"
+        }
+      },
+      {
+        "//": "978-0917218507",
+        "description": "An all-encompassing study of naval armament under fighting sail.  This volume covers pikes and fighting blades in use between 1626 and 1826.",
+        "id": "manual_stabbing_2",
+        "name": {
+          "str": "Boarders Away: With Steel-Edged Weapons and Polearms (3)",
+          "str_pl": "copies of Boarders Away: With Steel-Edged Weapons and Polearms (3)"
+        }
+      },
+      {
+        "//": "978-1648371059",
+        "description": "The summarized and preserved experience of Paulus Hector Mair, an ancient German fencing master, using spears, lances, halberds, poleaxes, and similar weapons.",
+        "id": "manual_stabbing_3",
+        "name": {
+          "str": "Polearms of Paulus Hector Mair (3)",
+          "str_pl": "copies of Polearms of Paulus Hector Mair (3)"
+        }
+      },
+      {
+        "//": "978-9004144095",
+        "description": "Research about the long history of a huge variety of weapons in medieval times, with lots of illustrations.",
+        "id": "manual_stabbing_4",
+        "name": {
+          "str": "Hafted Weapons in Medieval and Renaissance Europe (3)",
+          "str_pl": "copies of Hafted Weapons in Medieval and Renaissance Europe (3)"
+        }
+      },
+      {
+        "//": "978-1901903560",
+        "description": "A fully illustrated guide to the use of polearms, ranging from the earliest halberds and spears reaching Japan from the Asian mainland to the sophisticated naginata, nagamaki, and various forms of yari used by the Japanese samurai through the medieval period.",
+        "id": "manual_stabbing_5",
+        "name": {
+          "str": "Japanese Spears (3)",
+          "str_pl": "copies of Japanese Spears (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_knives",
+    "type": "ITEM",
+    "copy-from": "manual_knives",
+    "name": {
+      "str": "Spetsnaz Knife Techniques (4)",
+      "str_pl": "copies of Spetsnaz Knife Techniques (4)"
+    },
+    "variants": [
+      {
+        "description": "A classic Soviet text on the art of attacking with a blade.",
+        "id": "manual_knives",
+        "name": {
+          "str": "Spetsnaz Knife Techniques (4)",
+          "str_pl": "copies of Spetsnaz Knife Techniques (4)"
+        }
+      },
+      {
+        "//": "978-1941845646",
+        "description": "Simple, practical and useful martial art techniques to use in a fight.  On the first page the author says they will not be held responsible for any harm caused by using advice from this book.",
+        "id": "manual_knives_1",
+        "name": {
+          "str": "Knife Fighting Targets (4)",
+          "str_pl": "copies of Knife Fighting Targets (4)"
+        }
+      },
+      {
+        "//": "978-1451637557",
+        "description": "Authored by a state trooper and policeman from Michigan, it contains a lot of experience on real fights with a knife and against a knife.",
+        "id": "manual_knives_2",
+        "name": {
+          "str": "Book of Knives (4)",
+          "str_pl": "copies of Book of Knives (4)"
+        }
+      },
+      {
+        "//": "978-1678011840",
+        "description": "This manual teaches the reader to use the Ka-Bar, an iconic knife of the U.S. Army that carries the energy and spirit of soldiers.",
+        "id": "manual_knives_3",
+        "name": {
+          "str": "The Ka-Bar Knife Combat Manual (4)",
+          "str_pl": "copies of The Ka-Bar Knife Combat Manual (4)"
+        }
+      },
+      {
+        "//": "978-0873644846",
+        "description": "\"Knife Fighting Techniques From Folsom Prison\".  This book describe fighting with a shiv in the tight walls of a jail.",
+        "id": "manual_knives_4",
+        "name": {
+          "str": "Put 'Em Down, Take 'Em Out! (4)",
+          "str_pl": "copies of Put 'Em Down, Take 'Em Out! (4)"
+        }
+      },
+      {
+        "description": "A small, femme-oriented manual about self-defense with knife.",
+        "id": "manual_knives_5",
+        "name": {
+          "str": "Queen of Knives (4)",
+          "str_pl": "copies of Queen of Knives (4)"
+        }
+      },
+      {
+        "//": "978-1530527953",
+        "description": "This book aspires to describe and explain the history, design, materials, and demonstrate deployment and drills with the unusual Indonesian weapon known as the karambit knife.  The final impression is disappointing.",
+        "id": "manual_knives_6",
+        "name": {
+          "str": "Secrets of the Karambit (4)",
+          "str_pl": "copies of Secrets of the Karambit (4)"
+        }
+      },
+      {
+        "//": "978-0764348341",
+        "description": "A comprehensive compendium about different types of knives and their usage in various martial arts.",
+        "id": "manual_knives_7",
+        "name": {
+          "str": "Combat Knives and Knife Combat (4)",
+          "str_pl": "copies of Combat Knives and Knife Combat (4)"
+        }
+      },
+      {
+        "//": "979-8667992141",
+        "description": "\"The Art of Knife Fencing & the Chronicles of the Modern Fighting Knife and their Wielders\".  This book teaches the reader how to defend against an aggressor with various weapons.",
+        "id": "manual_knives_8",
+        "name": {
+          "str": "The Silent Bodyguard (4)",
+          "str_pl": "copies of The Silent Bodyguard (4)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "atomic_survival",
+    "type": "ITEM",
+    "copy-from": "atomic_survival",
+    "name": {
+      "str": "Survival Under Atomic Attack (8)",
+      "str_pl": "copies of Survival Under Atomic Attack (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "fun_survival",
+    "type": "ITEM",
+    "copy-from": "fun_survival",
+    "name": {
+      "str": "Through the Lens (3)",
+      "str_pl": "copies of Through the Lens (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_dude",
+    "type": "ITEM",
+    "copy-from": "mag_dude",
+    "name": {
+      "str": "Alpha Male Quarterly (1)",
+      "str_pl": "Alpha Male Quarterlies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_survival",
+    "type": "ITEM",
+    "copy-from": "mag_survival",
+    "name": {
+      "str": "Outdoor Adventures (1)",
+      "str_pl": "issues of Outdoor Adventures (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_survival",
+    "type": "ITEM",
+    "copy-from": "manual_survival",
+    "name": {
+      "str": "Pitching a Tent (3)",
+      "str_pl": "copies of Pitching a Tent (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "pocket_survival",
+    "type": "ITEM",
+    "copy-from": "pocket_survival",
+    "name": {
+      "str": "Pocket Survival Guide (2)",
+      "str_pl": "copies of Pocket Survival Guide (2)"
+    },
+    "variants": []
+  },
+  {
+    "id": "survival_book",
+    "type": "ITEM",
+    "copy-from": "survival_book",
+    "name": {
+      "str": "Autobiography of a Mountain Man (8)",
+      "str_pl": "copies of Autobiography of a Mountain Man (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_survival",
+    "type": "ITEM",
+    "copy-from": "textbook_survival",
+    "name": {
+      "str": "Outdoor Survival Guide (6)",
+      "str_pl": "copies of Outdoor Survival Guide (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_botany",
+    "type": "ITEM",
+    "copy-from": "textbook_botany",
+    "name": {
+      "str": "Introduction to Plant Biology (5)",
+      "str_pl": "copies of Introduction to Plant Biology (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_arthropod",
+    "type": "ITEM",
+    "copy-from": "textbook_arthropod",
+    "name": {
+      "str": "The Wonderful World of Arthropodology (4)",
+      "str_pl": "copies of The Wonderful World of Arthropodology (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "isherwood_herbal_remedies",
+    "type": "ITEM",
+    "copy-from": "isherwood_herbal_remedies",
+    "name": {
+      "str": "Natural Remedies of New England (5)",
+      "str_pl": "copies of Natural Remedies of New England (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_swimming",
+    "type": "ITEM",
+    "copy-from": "mag_swimming",
+    "name": {
+      "str": "Swim Planet (1)",
+      "str_pl": "issues of Swim Planet (1)"
+    },
+    "variants": [
+      {
+        "description": "The world's leading resource about aquatic sports.",
+        "id": "mag_swimming",
+        "name": {
+          "str": "Swim Planet (1)",
+          "str_pl": "issues of Swim Planet (1)"
+        }
+      },
+      {
+        "description": "A shiny magazine about fitness, nutrition, and sports, mostly oriented towards men.",
+        "id": "mag_swimming_1",
+        "name": {
+          "str": "Men's Fitness (1)",
+          "str_pl": "issues of Men's Fitness (1)"
+        }
+      },
+      {
+        "description": "A quarterly issue about natural bodybuilding, weightlifting, and powerlifting.",
+        "id": "mag_swimming_2",
+        "name": {
+          "str": "Iron Man (1)",
+          "str_pl": "issues of Iron Man (1)"
+        }
+      },
+      {
+        "description": "A magazine about mainstream fitness and simple bodybuilding, containing articles about different training techniques, nutrition tips, and doctor recommendations.",
+        "id": "mag_swimming_3",
+        "name": {
+          "str": "Muscle & Fitness (1)",
+          "str_pl": "issues of Muscle & Fitness (1)"
+        }
+      },
+      {
+        "description": "A monthly issue which covers mostly fitness and bodybuilding themes.  Lots of muscular men aggressively poke at you from the cover.",
+        "id": "mag_swimming_4",
+        "name": {
+          "str": "Muscular Development (1)",
+          "str_pl": "issues of Muscular Development (1)"
+        }
+      },
+      {
+        "description": "A small magazine about the bicycle scene, tips about the buying and maintenance of bikes, and different types of training you can do with them.",
+        "id": "mag_swimming_5",
+        "name": {
+          "str": "Bicycling (1)",
+          "str_pl": "issues of Bicycling (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_swimming",
+    "type": "ITEM",
+    "copy-from": "manual_swimming",
+    "name": {
+      "str": "Water Survival Training Field Manual (3)",
+      "str_pl": "copies of Water Survival Training Field Manual (3)"
+    },
+    "variants": [
+      {
+        "description": "A commercially produced survival guide that details swimming and deep water survival techniques tailored to emergency scenarios.",
+        "id": "manual_swimming",
+        "name": {
+          "str": "Water Survival Training Field Manual (3)",
+          "str_pl": "copies of Water Survival Training Field Manual (3)"
+        }
+      },
+      {
+        "//": "978-1735728506",
+        "description": "\"A Science-Based Guide to Healing Painful Joints, Preventing Injuries, and Rebuilding Your Body\".  This book details a way to build your body without painful and exhausting training, with a proper training program and step-by-step instructions.",
+        "id": "manual_swimming_1",
+        "name": {
+          "str": "Built from Broken (3)",
+          "str_pl": "copies of Built from Broken (3)"
+        }
+      },
+      {
+        "//": "978-0241394519",
+        "description": "This book contains comprehensive information about how anatomy and physiology function in running, training plans, and many new exercises for new runners.",
+        "id": "manual_swimming_2",
+        "name": {
+          "str": "Science of Running (3)",
+          "str_pl": "copies of Science of Running (3)"
+        }
+      },
+      {
+        "//": "978-0990873853",
+        "description": "\"A Systematic Approach to Gymnastics and Bodyweight Strength\", this thick book is a gold mine of information about strength-oriented bodyweight workout, including scientific principles, different routines, methods, detail about progression, and a huge variety of exercises and their modifications.",
+        "id": "manual_swimming_3",
+        "name": {
+          "str": "Overcoming Gravity (3)",
+          "str_pl": "copies of Overcoming Gravity (3)"
+        }
+      },
+      {
+        "//": "978-1646111688",
+        "description": "A step-by-step guide about fitness and working out using only your body, with a huge variety of difficulties in exercises.",
+        "id": "manual_swimming_4",
+        "name": {
+          "str": "Calisthenics for Beginners (3)",
+          "str_pl": "copies of Calisthenics for Beginners (3)"
+        }
+      },
+      {
+        "//": "978-1540395429",
+        "description": "200 pages of different squat trainings, with comprehensive info on what each of them is designed to train.",
+        "id": "manual_swimming_5",
+        "name": {
+          "str": "The Squat Bible (3)",
+          "str_pl": "copies of The Squat Bible (3)"
+        }
+      },
+      {
+        "//": "978-1642505030",
+        "description": "The best book for someone who wants to build a better body - from the start to an advanced level.",
+        "id": "manual_swimming_6",
+        "name": {
+          "str": "Functional Training and Beyond (3)",
+          "str_pl": "copies of Functional Training and Beyond (3)"
+        }
+      },
+      {
+        "//": "978-1492530619",
+        "description": "Concepts, methods, exercises and programs for athletes of different sports, with demonstrations, commentary, and analysis of key exercises.",
+        "id": "manual_swimming_7",
+        "name": {
+          "str": "New Functional Training for Sports (3)",
+          "str_pl": "copies of New Functional Training for Sports (3)"
+        }
+      },
+      {
+        "//": "978-0751572544",
+        "description": "\"How to Train for Anything and Everything, Anywhere and Everywhere\", this book contains different types of trainings for everyone.",
+        "id": "manual_swimming_8",
+        "name": {
+          "str": "The World's Fittest Book (3)",
+          "str_pl": "copies of The World's Fittest Book (3)"
+        }
+      },
+      {
+        "//": "978-0008487034",
+        "description": "The cutting-edge training program to make you stronger than ever, from zero to superhuman, in a year.",
+        "id": "manual_swimming_9",
+        "name": {
+          "str": "Blueprint (3)",
+          "str_pl": "copies of Blueprint (3)"
+        }
+      },
+      {
+        "//": "978-0593233757",
+        "description": "A training manual for someone ready to spend lot of time and energy on training, with detailed instructions and comments.",
+        "id": "manual_swimming_10",
+        "name": {
+          "str": "Hard Work Pays Off (3)",
+          "str_pl": "copies of Hard Work Pays Off (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mag_animecon",
+    "type": "ITEM",
+    "copy-from": "mag_animecon",
+    "name": {
+      "str": "Boston AnimeCon magazine (1)",
+      "str_pl": "Sew Awesome Monthlies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_beauty",
+    "type": "ITEM",
+    "copy-from": "mag_beauty",
+    "name": {
+      "str": "Beauty Magazine (1)",
+      "str_pl": "Beauty Magazines (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_tailor",
+    "type": "ITEM",
+    "copy-from": "mag_tailor",
+    "name": {
+      "str": "Sew Awesome Monthly (1)",
+      "str_pl": "Sew Awesome Monthlies (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_tailor",
+    "type": "ITEM",
+    "copy-from": "manual_tailor",
+    "name": {
+      "str": "Sew What? Clothing! (3)",
+      "str_pl": "copies of Sew What? Clothing! (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "tailor_portfolio",
+    "type": "ITEM",
+    "copy-from": "tailor_portfolio",
+    "name": {
+      "str": "clothing designer's portfolio (8)",
+      "str_pl": "clothing designer's portfolios (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "tailor_japanese",
+    "type": "ITEM",
+    "copy-from": "tailor_japanese",
+    "name": {
+      "str": "Traditional Japanese Kimono (6)",
+      "str_pl": "copies of Traditional Japanese Kimono (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "recipe_fauxfur",
+    "type": "ITEM",
+    "copy-from": "recipe_fauxfur",
+    "name": {
+      "str": "Friendly, Humane Fashion (5)",
+      "str_pl": "copies of Friendly, Humane Fashion (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_tailor",
+    "type": "ITEM",
+    "copy-from": "textbook_tailor",
+    "name": {
+      "str": "Sewing Techniques for Designers (6)",
+      "str_pl": "copies of Sewing Techniques for Designers (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "scots_tailor",
+    "type": "ITEM",
+    "copy-from": "scots_tailor",
+    "name": {
+      "str": "Ye Scots Beuk o Tailorin' (5)",
+      "str_pl": "copies of Ye Scots Beuk o Tailorin' (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "dieselpunk_tailor",
+    "type": "ITEM",
+    "copy-from": "dieselpunk_tailor",
+    "name": {
+      "str": "Dieselpunk Designs (5)",
+      "str_pl": "copies of Dieselpunk Designs (5)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_throwing",
+    "type": "ITEM",
+    "copy-from": "mag_throwing",
+    "name": {
+      "str": "Diskobolus (1)",
+      "str_pl": "issues of Diskobolus (1)"
+    },
+    "variants": [
+      {
+        "description": "A biannual magazine devoted to the art and science of discus-throwing.",
+        "id": "mag_throwing",
+        "name": {
+          "str": "Diskobolus (1)",
+          "str_pl": "issues of Diskobolus (1)"
+        }
+      },
+      {
+        "//": "978-0578840550",
+        "description": "This book has pretty good information about ways to throw a hatchet, from a World Axe Throwing Championship champion.  You are surprised there was a championship for axe throwing.",
+        "id": "mag_throwing_1",
+        "name": {
+          "str": "The Perfect Throw (1)",
+          "str_pl": "copies of The Perfect Throw (1)"
+        }
+      },
+      {
+        "//": "978-1478118169",
+        "description": "Illustrated booklet, that covers the basics of knife throwing.",
+        "id": "mag_throwing_2",
+        "name": {
+          "str": "Sergeant Shenk's Comprehensive Book on Knife Throwing (1)",
+          "str_pl": "copies of Sergeant Shenk's Comprehensive Book on Knife Throwing (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_throw",
+    "type": "ITEM",
+    "copy-from": "manual_throw",
+    "name": {
+      "str": "The Complete Guide to Pitching (3)",
+      "str_pl": "copies of The Complete Guide to Pitching (3)"
+    },
+    "variants": [
+      {
+        "description": "A detailed guide for baseball pitchers that combines time-tested techniques and information mixed with a common sense approach to pitching.",
+        "id": "manual_throw",
+        "name": {
+          "str": "The Complete Guide to Pitching (3)",
+          "str_pl": "copies of The Complete Guide to Pitching (3)"
+        }
+      },
+      {
+        "//": "978-1632205308",
+        "description": "A precise handbook for someone who wants to win a throwing tournament.",
+        "id": "manual_throw_1",
+        "name": {
+          "str": "The Ultimate Guide to Knife Throwing (3)",
+          "str_pl": "copies of The Ultimate Guide to Knife Throwing (3)"
+        }
+      },
+      {
+        "//": "978-0764347795",
+        "description": "A small, simple guide on how to throw a projectile, with different techniques, guides, and tricks.",
+        "id": "manual_throw_2",
+        "name": {
+          "str": "Guide to Knife & Ax Throwing (3)",
+          "str_pl": "copies of Guide to Knife & Ax Throwing (3)"
+        }
+      },
+      {
+        "//": "978-0804815420",
+        "description": "A small book on the long history of projectile throwing and the people building the sport.  It serves as a guide for someone who wants to get into it, with useful drills and diagrams.",
+        "id": "manual_throw_3",
+        "name": {
+          "str": "Knife & Tomahawk Throwing: The Art of the Experts (3)",
+          "str_pl": "copies of Knife & Tomahawk Throwing: The Art of the Experts (3)"
+        }
+      },
+      {
+        "//": "978-1510768970",
+        "description": "The author and several experts cover topics like what makes a ball break, bounce, and fly; how material science and physics work together to make the bat function; how hitters use physics, geometry, and force to connect; baseball injuries; and much more.",
+        "id": "manual_throw_4",
+        "name": {
+          "str": "The Science of Baseball (3)",
+          "str_pl": "copies of The Science of Baseball (3)"
+        }
+      },
+      {
+        "//": "978-1886950023",
+        "description": "A tiny, though still comprehensive manual of knife throwing from experienced knifemaker.",
+        "id": "manual_throw_5",
+        "name": {
+          "str": "The Complete Knife Throwing Guide (3)",
+          "str_pl": "copies of The Complete Knife Throwing Guide (3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "howto_traps",
+    "type": "ITEM",
+    "copy-from": "howto_traps",
+    "name": {
+      "str": "How to Trap Anything (4)",
+      "str_pl": "copies of How to Trap Anything (4)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_traps",
+    "type": "ITEM",
+    "copy-from": "mag_traps",
+    "name": {
+      "str": "Trapper's Life (1)",
+      "str_pl": "issues of Trapper's Life (1)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_traps",
+    "type": "ITEM",
+    "copy-from": "manual_traps",
+    "name": {
+      "str": "The Modern Trapper (3)",
+      "str_pl": "copies of The Modern Trapper (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_traps_mil",
+    "type": "ITEM",
+    "copy-from": "manual_traps_mil",
+    "name": {
+      "str": "FM 20-32 Mine/Countermine Operations (6)",
+      "str_pl": "copies of FM 20-32 Mine/Countermine Operations (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "manual_traps_mil_basic",
+    "type": "ITEM",
+    "copy-from": "manual_traps_mil_basic",
+    "name": {
+      "str": "Booby Traps, IEDs, Mines and You: A Primer (3)",
+      "str_pl": "copies of Booby Traps, IEDs, Mines and You: A Primer (3)"
+    },
+    "variants": []
+  },
+  {
+    "id": "textbook_traps",
+    "type": "ITEM",
+    "copy-from": "textbook_traps",
+    "name": {
+      "str": "The Compleat Trapper (6)",
+      "str_pl": "copies of The Compleat Trapper (6)"
+    },
+    "variants": []
+  },
+  {
+    "id": "trappers_companion",
+    "type": "ITEM",
+    "copy-from": "trappers_companion",
+    "name": {
+      "str": "The Trapper's Companion (8)",
+      "str_pl": "copies of The Trapper's Companion (8)"
+    },
+    "variants": []
+  },
+  {
+    "id": "mag_unarmed",
+    "type": "ITEM",
+    "copy-from": "mag_unarmed",
+    "name": {
+      "str": "Boxing Monthly (1)",
+      "str_pl": "issues of Boxing Monthly (1)"
+    },
+    "variants": [
+      {
+        "description": "An exciting monthly magazine about boxing.  There are lots of large, colorful photos of pugilistic exploits.",
+        "id": "mag_unarmed",
+        "name": {
+          "str": "Boxing Monthly (1)",
+          "str_pl": "issues of Boxing Monthly (1)"
+        }
+      },
+      {
+        "//": "978-1941845097",
+        "description": "A brutal book about using dirty tricks to disrupt your enemies, and using this advantage to knockout or even kill them.",
+        "id": "mag_unarmed_1",
+        "name": {
+          "str": "Feral Fighting (1)",
+          "str_pl": "copies of Feral Fighting (1)"
+        }
+      },
+      {
+        "//": "978-1941845059",
+        "description": "\"A Street Warrior's Guide To Tactical Combat Stances\", this book provides plenty of information about how stance changes your movement, and how to use each of them with maximum effect.",
+        "id": "mag_unarmed_2",
+        "name": {
+          "str": "Stand And Deliver (1)",
+          "str_pl": "copies of Stand And Deliver (1)"
+        }
+      },
+      {
+        "//": "978-0985347284",
+        "description": "Despite having a pretty odd name, this book provides a lot of information about fighting techniques, and different tactics and skills you need to obtain to use them properly.",
+        "id": "mag_unarmed_3",
+        "name": {
+          "str": "First Strike: End a Fight in Ten Seconds or Less! (1)",
+          "str_pl": "copies of First Strike: End a Fight in Ten Seconds or Less! (1)"
+        }
+      },
+      {
+        "//": "978-0873645171",
+        "description": "This book contains lot of images showing how to use different attacks in close quarters, but someone has hand-written \"lame\" on the cover.",
+        "id": "mag_unarmed_4",
+        "name": {
+          "str": "Street Lethal: Unarmed Urban Combat (1)",
+          "str_pl": "copies of Street Lethal: Unarmed Urban Combat (1)"
+        }
+      },
+      {
+        "description": "\"Turn your fist into a weapon of mass destruction!\"  This book details different training programs to train your body overall and to temper your hands and nerves into unstoppable forces.",
+        "id": "mag_unarmed_5",
+        "name": {
+          "str": "Nuclear Strike! (1)",
+          "str_pl": "copies of Nuclear Strike! (1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual_brawl",
+    "type": "ITEM",
+    "copy-from": "manual_brawl",
+    "name": {
+      "str": "101 Wrestling Moves (3)",
+      "str_pl": "copies of 101 Wrestling Moves (3)"
+    },
+    "variants": [
+      {
+        "description": "It seems to be a wrestling manual, poorly photocopied and released on spiral-bound paper.  Still, there are lots of useful tips for unarmed combat.",
+        "id": "manual_brawl",
+        "name": {
+          "str": "101 Wrestling Moves (3)",
+          "str_pl": "copies of 101 Wrestling Moves (3)"
+        }
+      },
+      {
+        "description": "A detailed explanation of how to train your hands, arms and fists to crush the heads of your opponents, with lot of photos and instructions.",
+        "id": "manual_brawl_1",
+        "name": {
+          "str": "Turn Your Fists Into Sledgehammers! (3)",
+          "str_pl": "copies of Turn Your Fists Into Sledgehammers! (3)"
+        }
+      },
+      {
+        "//": "978-1941845110",
+        "description": "A book with a creepy image of death with a scythe on the cover, it guides the user on different attacks that can be combined to overwhelm and destroy your enemy in seconds.",
+        "id": "manual_brawl_2",
+        "name": {
+          "str": "Unleash Hell (3)",
+          "str_pl": "copies of Unleash Hell (3)"
+        }
+      },
+      {
+        "//": "978-1941845325",
+        "description": "This book shows how to use sucker punches - fast and unexpected attacks - to take advantage in a street fight.  Not as useful as before, but it still contains solid information about certain skills and trainings.",
+        "id": "manual_brawl_3",
+        "name": {
+          "str": "Knockout: The Ultimate Guide to Sucker Punching (3)",
+          "str_pl": "copies of Knockout: The Ultimate Guide to Sucker Punching (3)"
+        }
+      },
+      {
+        "//": "978-1941845455",
+        "description": "A shabby book about possible street dangers the author met in his long life, ways to deal with them, and the skill set that such situations require.",
+        "id": "manual_brawl_4",
+        "name": {
+          "str": "Killer Instinct: Unarmed Combat for Street Survival (3)",
+          "str_pl": "copies of Killer Instinct: Unarmed Combat for Street Survival (3)"
+        }
+      },
+      {
+        "//": "978-0985347208",
+        "description": "This book explains simple rules that you need to rely on to fight an enemy of different constitution, with techniques and tactics.",
+        "id": "manual_brawl_5",
+        "name": {
+          "str": "The Bigger They Are, The Harder They Fall (3)",
+          "str_pl": "copies of The Bigger They Are, The Harder They Fall (3)"
+        }
+      }
+    ]
+  }
+]

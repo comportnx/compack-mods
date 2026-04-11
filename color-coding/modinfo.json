@@ -2,9 +2,9 @@
     {
         "type": "MOD_INFO",
         "id": "color-coding",
-        "name": "compack: Color-coded Clothing",
+        "name": "compack: More item information",
         "authors": [ "comportnx" ],
-        "description": "Color codes armor and storage for easier looting.",
+        "description": "Adds context characters for armor [, bags &, warm clothes (, and valuable clothes <, and adds the maximum skill achievable from books.",
         "category": "misc",
         "dependencies": [ "dda" ]
     }
