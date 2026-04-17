@@ -1,6 +1,6 @@
 # Compack Mods
 
-All mods are on Default tab under NO CATEGORY:
+All mods are on Default tab under NO CATEGORY and track the CDDA Experimental build.
 
 ### Simplified Travel
 
