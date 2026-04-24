@@ -22,7 +22,7 @@ This helps with transporting large items like fridges that wouldn't normally fit
 
 ### Context Coding: More item information
 
-`Useful and valuable clothing items have cyan names.` `Manuals show their maximums skill level.`
+`Useful and valuable clothing items are marked with special characters.` `Manuals show their maximums skill level.`
 
 This simple mod adds a context symbol to the names of useful clothing so they're easier to see when looting stuffed dressers and wardrobes.
 
