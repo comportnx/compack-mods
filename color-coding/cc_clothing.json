@@ -1478,16 +1478,6 @@
     "variants": []
   },
   {
-    "id": "gloves_bag",
-    "type": "ITEM",
-    "copy-from": "gloves_bag",
-    "name": {
-      "str": "& bag gloves (pair)",
-      "str_pl": "& bag gloves (pair)"
-    },
-    "variants": []
-  },
-  {
     "id": "gloves_fur",
     "type": "ITEM",
     "copy-from": "gloves_fur",
