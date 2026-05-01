@@ -1,6 +1,6 @@
 # Compack Mods
 
-All mods are on Default tab under NO CATEGORY:
+All mods are on Default tab under NO CATEGORY and track the CDDA Experimental build.
 
 ### Simplified Travel
 
@@ -12,15 +12,23 @@ Traveling in this way takes a little longer for the character than walking manua
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
-Also updates the phonebook item so that reading it lets you look up the locations of a wide variety of useful businesses like hardware stores, libraries, recycling centers, and dozens more. After looking up a business its location will be revealed with a quest marker.
+### Simplified Transport
 
-### ~~Color-coded Clothing~~ Context Coding
+`Adds a large crate that can fit in a cargo compartment.`
+
+Adds a large 1200L capacity crate that only has a 500L footprint so it can fit in a vehicle cargo compartment. 
+
+This helps with transporting large items like fridges that wouldn't normally fit in a cargo compartment, or alternatively lots of smaller items.
+
+### Context Coding: More item information
+
+`Useful and valuable clothing items are marked with special characters.` `Manuals show their maximums skill level.`
 
 `Useful and valuable clothing items have special characters in their names.` `Manuals list their maximum skill level in brackets.`
 
-This simple mod adds a context symbol to the names of useful clothing so they're easier to see when looting stuffed dressers and wardrobes. Currently "useful" is defined as: armor, bags, packs, pouches, warm clothes, and otherwise valuable clothing items.
+Currently "useful" is defined as: bags , packs, pouches, and MOLLE items (marked by a &), and very warm clothes (marked by a ( ).
 
-It also adds the maximum level a manual can train its skill to in brackets after the name.
+Books also show the maximum skill level they can help you reach in brackets after the name.
 
 ### Reach3 Patch
 
@@ -49,4 +57,4 @@ This mod keeps fungal monsters much closer to their blooms, shrinking the area o
 
 # Compatibility
 
-Last checked on cdda-experimental-2026-03-14.
+Last checked on cdda-experimental-2026-04-10.
