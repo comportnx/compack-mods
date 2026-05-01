@@ -12,13 +12,17 @@ Traveling in this way takes a little longer for the character than walking manua
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
+Reading a phonebook also lets you look up the location of various nearby businesses. The target is revealed and a quest marker generated.
+
 ### Simplified Transport
 
-`Adds a large crate that can fit in a cargo compartment.`
+`Adds a large crate that can fit in a cargo compartment or be installed as a vehicle part.`
 
-Adds a large 1200L capacity crate that only has a 500L footprint so it can fit in a vehicle cargo compartment. 
+Adds a large 1200L capacity crate that only has a 500L footprint so it can fit in a vehicle cargo compartment.
 
 This helps with transporting large items like fridges that wouldn't normally fit in a cargo compartment, or alternatively lots of smaller items.
+
+It can also be installed directly on a vehicle frame.
 
 ### Context Coding: More item information
 
