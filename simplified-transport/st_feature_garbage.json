@@ -1,0 +1,29 @@
+[
+  {
+    "copy-from": "box_abstract",
+    "id": "integrated_trashcan",
+    "type": "vehicle_part",
+    "name": { "str": "industrial trash can" },
+    "categories": [ "cargo" ],
+    "looks_like": "f_recycle_bin",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "size": "359614 ml",
+    "item": "trashcan_large",
+    "delete": { "flags": [ "CARGO_PASSABLE" ] },
+    "variants_bases": [ { "id": "trash can", "label": "Trash Can" } ],
+    "variants": [ { "symbols": ")", "symbols_broken": "#" } ],
+    "requirements": {
+      "install": { 
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "25 m",
+        "using": [ [ "drilling_standard", 60 ], [ "vehicle_bolt_install", 1 ] ]
+      },
+      "removal": { 
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "10 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      }
+    }
+  }
+]
