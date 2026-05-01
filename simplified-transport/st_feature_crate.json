@@ -15,6 +15,7 @@
         "longest_side": "1000 cm",
         "price": "50 USD",
         "price_postapoc": "10 USD",
+        "flags": ["TARDIS"],
         "//2": "0.9 x 0.9 x 1.5 open top",
         "pocket_data": [
             {
@@ -47,8 +48,8 @@
         "type": "recipe",
         "activity_level": "LIGHT_EXERCISE",
         "result": "st_crate_large",
-        "category": "CC_*",
-        "subcategory": "CSC_*",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_CONTAINERS",
         "skill_used": "fabrication",
         "difficulty": 2,
         "time": "40 m",
