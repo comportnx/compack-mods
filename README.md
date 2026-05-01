@@ -4,7 +4,7 @@ All mods are on Default tab under NO CATEGORY:
 
 ### Simplified Travel
 
-`Characters start with a national map book: a reusable road map & fast-travel tool.`
+`Characters start with a national map book: a reusable road map & fast-travel tool.` `Phonebooks can be used to look up the locations of businesses.`
 
 Adds a "national map book" item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the "explored zone" and travel there automatically, without needing to manually route around hazards. I wanted this as a way to travel between faction camps without a lot of micro-management, but it may have other uses as well. 
 
@@ -12,13 +12,15 @@ Traveling in this way takes a little longer for the character than walking manua
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
-### Color-coded Clothing
+Also updates the phonebook item so that reading it lets you look up the locations of a wide variety of useful businesses like hardware stores, libraries, recycling centers, and dozens more. After looking up a business its location will be revealed with a quest marker.
 
-`Useful and valuable clothing items have cyan names.`
+### ~~Color-coded Clothing~~ Context Coding
 
-This simple mod adds a context symbol to the names of useful clothing so they're easier to see when looting stuffed dressers and wardrobes.
+`Useful and valuable clothing items have special characters in their names.` `Manuals list their maximum skill level in brackets.`
 
-Currently "useful" is defined as: armor, bags, packs, pouches, warm clothes, and otherwise valuable clothing items.
+This simple mod adds a context symbol to the names of useful clothing so they're easier to see when looting stuffed dressers and wardrobes. Currently "useful" is defined as: armor, bags, packs, pouches, warm clothes, and otherwise valuable clothing items.
+
+It also adds the maximum level a manual can train its skill to in brackets after the name.
 
 ### Reach3 Patch
 

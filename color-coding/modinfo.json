@@ -2,7 +2,7 @@
     {
         "type": "MOD_INFO",
         "id": "color-coding",
-        "name": "compack: More item information",
+        "name": "compack: Context Coding: More item information",
         "authors": [ "comportnx" ],
         "description": "Adds context characters for armor [, bags &, warm clothes (, and valuable clothes <, and adds the maximum skill achievable from books.",
         "category": "misc",
