@@ -56,6 +56,12 @@ This mod has the effect of making pulping zombie corpses much faster, with regul
 
 This mod keeps fungal monsters much closer to their blooms, shrinking the area of the overmap they dominate.
 
+### Visible Specials
+
+`Makes many overmap specials visible from a distance.`
+
+Makes a bunch of overmap specials visible from a distance so they can be discovered.
+
 
 # Compatibility
 
