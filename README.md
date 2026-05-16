@@ -28,8 +28,6 @@ It can also be installed directly on a vehicle frame.
 
 `Useful and valuable clothing items are marked with special characters.` `Manuals show their maximums skill level.`
 
-`Useful and valuable clothing items have special characters in their names.` `Manuals list their maximum skill level in brackets.`
-
 Currently "useful" is defined as: bags , packs, pouches, and MOLLE items (marked by a &), and very warm clothes (marked by a ( ).
 
 Books also show the maximum skill level they can help you reach in brackets after the name.
