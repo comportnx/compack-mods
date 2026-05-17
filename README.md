@@ -66,4 +66,4 @@ Makes a bunch of overmap specials visible from a distance so they can be discove
 
 # Compatibility
 
-Last checked on cdda-experimental-2026-04-10.
+Last checked on cdda-experimental-2026-05-01.
