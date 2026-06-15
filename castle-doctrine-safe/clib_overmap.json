@@ -1,0 +1,12 @@
+[
+  {
+    "id": "clib_eoc_getOvermapCoordinates",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_location_variable": { "u_val": "clib_eoc_getOvermapCoordinates" } },
+      { "math": [ "u_clib_eoc_getOvermapCoordinates.x = floor(_loc.x / 24) * 24" ] },
+      { "math": [ "u_clib_eoc_getOvermapCoordinates.y = floor(_loc.y / 24) * 24" ] },
+      { "math": [ "u_clib_eoc_getOvermapCoordinates.z = 0" ] }
+    ]
+  }
+]

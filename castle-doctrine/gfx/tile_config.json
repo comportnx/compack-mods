@@ -1,0 +1,14 @@
+[
+  { 
+    "type": "mod_tileset",
+    "compatibility": [ "Chibi_Ultica", "MshockXottoplus", "Ultica" ],
+    "tiles-new": [        
+      {
+        "file": "./gfx/key.png",
+        "tiles": [
+          { "id": [ "bh_item_key", "cd_item_doorKey" ], "fg": 0 }
+        ]
+      }   
+    ]
+  }    
+]

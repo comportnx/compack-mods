@@ -2,30 +2,23 @@
   {
     "type": "MOD_INFO",
     "id": "fungus-notamongus",
-    "name": "compack: Reduced Fungal Radius",
-    "authors": [
-      "comportnx"
-    ],
-    "description": "Keeps fungal creatures closer to their blooms.",
+    "name": "compack: Reduced Fungal Impact",
+    "authors": [ "comportnx" ],
+    "description": "Keeps fungal creatures and terrain close to their blooms.",
     "category": "misc",
-    "dependencies": [
-      "dda"
-    ]
+    "dependencies": [ "dda" ]
+  },
+  { "type": "overmap_special", "id": "Fungal Bloom", "copy-from": "Fungal Bloom", "spawns": { "group": "GROUP_FUNGI", "population": [ 100, 200 ], "radius": [ 5, 15 ] } },
+  {
+    "type": "region_terrain_furniture",
+    "id": "default_t_region_groundcover",
+    "ter_id": "t_region_groundcover",
+    "replace_with_terrain": [ [ "t_grass", 12000 ], [ "t_grass_dead", 2000 ], [ "t_dirt", 1000 ] ]
   },
   {
-    "type": "overmap_special",
-    "id": "Fungal Bloom",
-    "copy-from": "Fungal Bloom",
-    "spawns": {
-      "group": "GROUP_FUNGI",
-      "population": [
-        100,
-        200
-      ],
-      "radius": [
-        5,
-        15
-      ]
-    }
+    "type": "region_terrain_furniture",
+    "id": "default_t_region_groundcover_swamp",
+    "ter_id": "t_region_groundcover_swamp",
+    "replace_with_terrain": [ [ "t_grass_long", 300 ], [ "t_grass_tall", 100 ], [ "t_moss", 200 ], [ "t_dirt", 200 ] ]
   }
 ]

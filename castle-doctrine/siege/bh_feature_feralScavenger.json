@@ -1,0 +1,89 @@
+[
+  { "id": "cd_monsterGroup_feralScavenger", "type": "monstergroup", "monsters": [ { "monster": "bh_monster_feralScavenger", "weight": 100 } ] },
+  { "name": "fargone", "type": "MONSTER_FACTION", "base_faction": "zombie", "hate": [ "delicious_food" ] },
+  {
+    "//1": "A type of feral who is adept at tracking and will walk into buildings looking for food.",
+    "//2": "This works by making the monster hallucinate a slice of pizza inside a nearby building, which it wants to go and destroy.",
+    "//3": "Other than that they're weakened by hunger and not a huge threat.",
+    "id": "bh_monster_feralScavenger",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_pipe",
+    "looks_like": "mon_feral_human_pipe",
+    "name": "feral scavenger",
+    "description": "This thin, sickly-looking human stalks the perimiter of buildings, rattling doors and peering through windows.",
+    "default_faction": "fargone",
+    "scents_tracked": [ "sc_human", "sc_fetid" ],
+    "morale": 10,
+    "hp": 25,
+    "fear_triggers": [ "FRIEND_DIED", "FIRE", "HURT" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER", "DROPS_AMMO", "WIELDED_WEAPON", "EATS" ],
+    "special_attacks": [
+      [ "BROWSE", 100 ],
+      [ "EAT_FOOD", 100 ],
+      [ "EAT_CARRION", 100 ],
+      { "id": "bh_attack_feral_imaginePizza", "type": "spell", "spell_data": { "id": "bh_spell_feral_imaginePizza" }, "cooldown": [ 40, 60 ], "monster_message": "", "allow_no_target": true }
+    ]
+  },
+  {
+    "//": "Creates a hallucinated slice of pizza somehwere indoors nearby",
+    "id": "bh_spell_feral_imaginePizza",
+    "type": "SPELL",
+    "name": "Imagine Pizza",
+    "description": "Creates a hallucinated slice of pizza to movtivate feral scavengers to go indoors.",
+    "effect": "effect_on_condition",
+    "effect_str": "bh_eoc_hallucinatePizza",
+    "message": "",
+    "shape": "blast",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_SFX" ]
+  },
+  {
+    "id": "bh_eoc_hallucinatePizza",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "npc_spawn_monster": "bh_monster_pizza",
+        "real_count": 1,
+        "min_radius": 10,
+        "max_radius": 60,
+        "indoor_only": true,
+        "summoner_is_beta": true
+      }
+    ]
+  },
+  { "name": "delicious_food", "type": "MONSTER_FACTION", "base_faction": "small_animal" },
+  {
+    "//1": "An imagined slice of pizza to tempt ferals indoors. Only visible to player for a 2 turns as a blank entry in V menu.",
+    "//2": "2 turns is the minimum needed to tempt the feral through a door - pathing to the last seen location isn't strong enough motivation to open doors.",
+    "id": "bh_monster_pizza",
+    "type": "MONSTER",
+    "copy-from": "mon_rabbit",
+    "default_faction": "delicious_food",
+    "name": "",
+    "description": "",
+    "color": "brown",
+    "symbol": " ",
+    "morale": -100,
+    "flags": [ "ALWAYS_VISIBLE", "IMMOBILE", "CAMOUFLAGE" ],
+    "death_function": { "corpse_type": "NO_CORPSE" },
+    "special_attacks": [ { "type": "spell", "id": "bh_attack_pizza_fadeAway", "spell_data": { "id": "bh_spell_pizza_fadeAway" }, "monster_message": "", "cooldown": 3, "allow_no_target": true } ]
+  },
+  {
+    "//": "Allows a hallucination to fade away silently",
+    "id": "bh_spell_pizza_fadeAway",
+    "type": "SPELL",
+    "name": "Pizza Forgotten",
+    "description": "Allows a 'hallucination' to fade away without a disappearance message.",
+    "effect": "effect_on_condition",
+    "effect_str": "bh_eoc_fadeAway",
+    "message": "",
+    "shape": "blast",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_SFX" ]
+  },
+  {
+    "id": "bh_eoc_fadeAway",
+    "type": "effect_on_condition",
+    "effect": [ { "u_message": "I was only ever a beautiful dream." }, { "u_die": { "remove_from_creature_tracker": true } } ]
+  }
+]

@@ -190,7 +190,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_airsoft", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_airsoft", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_animalpound_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_animalpound_visit" } },
     {
@@ -200,7 +200,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "animalpound", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "animalpound", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_animalshelter_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_animalshelter_visit" } },
     {
@@ -210,7 +210,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "animalshelter", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "animalshelter", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_antique_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_antique_visit" } },
     {
@@ -220,7 +220,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_antique", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_antique", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_arcade_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_arcade_visit" } },
     {
@@ -230,7 +230,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_arcade", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_arcade", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_art_gallery_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_art_gallery_visit" } },
     {
@@ -240,7 +240,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "art_gallery", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "art_gallery", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_bakery_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_bakery_visit" } },
     {
@@ -250,7 +250,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "bakery", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "bakery", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_bar_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_bar_visit" } },
     {
@@ -260,7 +260,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "bar", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "bar", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_barber_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_barber_shop_visit" } },
     {
@@ -270,7 +270,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "barber_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "barber_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_bike_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_bike_shop_visit" } },
     {
@@ -280,7 +280,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_bike_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_bike_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_speedway_1_6_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_speedway_1_6_visit" } },
     {
@@ -290,7 +290,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "speedway_1_6", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "speedway_1_6", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_bookstore_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_bookstore_visit" } },
     {
@@ -300,7 +300,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_bookstore", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_bookstore", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_bowling_alley_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_bowling_alley_visit" } },
     {
@@ -310,7 +310,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "bowling_alley", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "bowling_alley", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_gym_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_gym_visit" } },
     {
@@ -320,7 +320,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "gym", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "gym", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_butcher_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_butcher_visit" } },
     {
@@ -330,7 +330,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_butcher", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_butcher", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_candy_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_candy_shop_visit" } },
     {
@@ -340,7 +340,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "candy_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "candy_shop", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_cs_car_dealership_address",
@@ -354,7 +354,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "cs_car_dealership", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "cs_car_dealership", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_church_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_church_visit" } },
     {
@@ -364,7 +364,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "church", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "church", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_clothes_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_clothes_visit" } },
     {
@@ -374,7 +374,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_clothes", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_clothes", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_s_restaurant_coffee_address",
@@ -388,7 +388,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant_coffee", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant_coffee", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_convention_0_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_convention_0_0_0_visit" } },
     {
@@ -398,7 +398,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "convention_0_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "convention_0_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_cosmetic_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_cosmetic_visit" } },
     {
@@ -408,7 +408,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_cosmetic", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_cosmetic", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_craft_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_craft_shop_visit" } },
     {
@@ -418,7 +418,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "craft_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "craft_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_daycare_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_daycare_visit" } },
     {
@@ -428,7 +428,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_daycare", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_daycare", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_diner_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_diner_visit" } },
     {
@@ -438,7 +438,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_diner", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_diner", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_dispensary_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_dispensary_visit" } },
     {
@@ -448,7 +448,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "dispensary", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "dispensary", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_dive_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_dive_shop_visit" } },
     {
@@ -458,7 +458,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_dive_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_dive_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_dojo_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_dojo_visit" } },
     {
@@ -468,7 +468,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "dojo", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "dojo", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_dollarstore_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_dollarstore_visit" } },
     {
@@ -478,7 +478,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "dollarstore", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "dollarstore", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_car_theater_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_car_theater_0_0_visit" } },
     {
@@ -488,7 +488,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "car_theater_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "car_theater_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_dump_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_dump_visit" } },
     {
@@ -498,7 +498,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "dump", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "dump", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_electronics_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_electronics_visit" } },
     {
@@ -508,7 +508,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_electronics", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_electronics", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_fabricstore_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_fabricstore_visit" } },
     {
@@ -518,7 +518,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_fabricstore", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_fabricstore", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_s_restaurant_fast_address",
@@ -532,7 +532,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant_fast", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant_fast", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_gym_fitness_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_gym_fitness_visit" } },
     {
@@ -542,7 +542,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "gym_fitness", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "gym_fitness", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_furniture_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_furniture_visit" } },
     {
@@ -552,7 +552,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "furniture", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "furniture", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_gambling_hall_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_gambling_hall_visit" } },
     {
@@ -562,7 +562,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "gambling_hall", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "gambling_hall", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_games_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_games_visit" } },
     {
@@ -572,7 +572,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_games", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_games", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_garage_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_garage_visit" } },
     {
@@ -582,7 +582,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_garage", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_garage", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_gardening_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_gardening_visit" } },
     {
@@ -592,7 +592,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_gardening", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_gardening", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_gas_1_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_gas_1_visit" } },
     {
@@ -602,7 +602,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_gas_1", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_gas_1", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_karting_0_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_karting_0_0_0_visit" } },
     {
@@ -612,7 +612,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "karting_0_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "karting_0_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_grocery_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_grocery_visit" } },
     {
@@ -622,7 +622,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_grocery", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_grocery", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_gun_a_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_gun_a_visit" } },
     {
@@ -632,7 +632,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_gun_a", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_gun_a", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_hardware_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_hardware_visit" } },
     {
@@ -642,7 +642,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_hardware", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_hardware", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_headshop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_headshop_visit" } },
     {
@@ -652,7 +652,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "headshop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "headshop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_home_improvement_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_home_improvement_visit" } },
     {
@@ -662,7 +662,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "home_improvement", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "home_improvement", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_hospital_2_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_hospital_2_visit" } },
     {
@@ -672,7 +672,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "hospital_2", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "hospital_2", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_hotel_tower_roof_1_4_address",
@@ -686,7 +686,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "hotel_tower_roof_1_4", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "hotel_tower_roof_1_4", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_hunting_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_hunting_visit" } },
     {
@@ -696,7 +696,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_hunting", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_hunting", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_icecream_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_icecream_shop_visit" } },
     {
@@ -706,7 +706,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "icecream_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "icecream_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_cs_internet_cafe_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_cs_internet_cafe_visit" } },
     {
@@ -716,7 +716,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "cs_internet_cafe", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "cs_internet_cafe", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_jewelry_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_jewelry_visit" } },
     {
@@ -726,7 +726,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_jewelry", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_jewelry", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_junkyard_1a_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_junkyard_1a_visit" } },
     {
@@ -736,7 +736,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "junkyard_1a", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "junkyard_1a", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_lancenter_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_lancenter_visit" } },
     {
@@ -746,7 +746,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "lancenter", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "lancenter", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_landscapingsupplyco_1a_address",
@@ -760,7 +760,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "landscapingsupplyco_1a", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "landscapingsupplyco_1a", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_laundromat_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_laundromat_visit" } },
     {
@@ -770,7 +770,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_laundromat", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_laundromat", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_library_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_library_visit" } },
     {
@@ -780,7 +780,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_library", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_library", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_liquor_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_liquor_visit" } },
     {
@@ -790,7 +790,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_liquor", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_liquor", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_lumbermill_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_lumbermill_0_0_visit" } },
     {
@@ -800,7 +800,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "lumbermill_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "lumbermill_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_megastore_0_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_megastore_0_0_0_visit" } },
     {
@@ -810,7 +810,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "megastore_0_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "megastore_0_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_mil_surplus_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_mil_surplus_visit" } },
     {
@@ -820,7 +820,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "mil_surplus", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "mil_surplus", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_miniaturerailway_0_0_0_address",
@@ -834,7 +834,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "miniaturerailway_0_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "miniaturerailway_0_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_movietheater_0_0_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_movietheater_0_0_visit" } },
     {
@@ -844,7 +844,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "movietheater_0_0", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "movietheater_0_0", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_museum_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_museum_visit" } },
     {
@@ -854,7 +854,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_music_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_music_visit" } },
     {
@@ -864,7 +864,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_music", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_music", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_music_venue_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_music_venue_visit" } },
     {
@@ -874,7 +874,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "music_venue", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "music_venue", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_camping_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_camping_visit" } },
     {
@@ -884,7 +884,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_camping", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_camping", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_pawn_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_pawn_visit" } },
     {
@@ -894,7 +894,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "pawn", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "pawn", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_petstore_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_petstore_visit" } },
     {
@@ -904,7 +904,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_petstore", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_petstore", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_pharm_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_pharm_visit" } },
     {
@@ -914,7 +914,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_pharm", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_pharm", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_pizza_parlor_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_pizza_parlor_visit" } },
     {
@@ -924,7 +924,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_pizza_parlor", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_pizza_parlor", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_police_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_police_visit" } },
     {
@@ -934,7 +934,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "police", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "police", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_air_term_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_air_term_visit" } },
     {
@@ -944,7 +944,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_air_term", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_air_term", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_recyclecenter_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_recyclecenter_visit" } },
     {
@@ -954,7 +954,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "recyclecenter", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "recyclecenter", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_waiting_area_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_waiting_area_visit" } },
     {
@@ -964,7 +964,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "waiting_area", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "waiting_area", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_restaurant_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_restaurant_visit" } },
     {
@@ -974,7 +974,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_restaurant", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_salon_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_salon_visit" } },
     {
@@ -984,7 +984,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "salon", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "salon", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_cs_sex_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_cs_sex_shop_visit" } },
     {
@@ -994,7 +994,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "cs_sex_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "cs_sex_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_sports_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_sports_visit" } },
     {
@@ -1004,7 +1004,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_sports", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_sports", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_stadium_0_1_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_stadium_0_1_visit" } },
     {
@@ -1014,7 +1014,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "stadium_0_1", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "stadium_0_1", "reveal_radius": 1, "cant_see": true } }
     },
     {
         "id"    : "st_eoc_large_storage_units_3_address",
@@ -1028,7 +1028,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "large_storage_units_3", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "large_storage_units_3", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_stripclub_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_stripclub_visit" } },
     {
@@ -1038,7 +1038,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "stripclub", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "stripclub", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_strip_mall_1_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_strip_mall_1_visit" } },
     {
@@ -1048,7 +1048,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "strip_mall_1", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "strip_mall_1", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_synagogue_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_synagogue_visit" } },
     {
@@ -1058,7 +1058,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "synagogue", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "synagogue", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_teashop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_teashop_visit" } },
     {
@@ -1068,7 +1068,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_teashop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_teashop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_thrift_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_thrift_visit" } },
     {
@@ -1078,7 +1078,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_thrift", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_thrift", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_cs_tire_shop_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_cs_tire_shop_visit" } },
     {
@@ -1088,7 +1088,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "cs_tire_shop", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "cs_tire_shop", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_vfw_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_vfw_visit" } },
     {
@@ -1098,7 +1098,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_vfw", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_vfw", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_veterinarian_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_veterinarian_visit" } },
     {
@@ -1108,7 +1108,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "veterinarian", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "veterinarian", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_s_weldingstore_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_s_weldingstore_visit" } },
     {
@@ -1118,7 +1118,7 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "s_weldingstore", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "s_weldingstore", "reveal_radius": 1, "cant_see": true } }
     },
     { "id": "st_eoc_zoo_0_1_address", "type": "effect_on_condition", "effect": { "assign_mission": "st_mission_zoo_0_1_visit" } },
     {
@@ -1128,6 +1128,6 @@
         "goal"      : "MGOAL_GO_TO",
         "difficulty": 1,
         "value"     : 0,
-        "start"     : { "assign_mission_target": { "om_terrain": "zoo_0_1", "reveal_radius": 1 } }
+        "start"     : { "assign_mission_target": { "om_terrain": "zoo_0_1", "reveal_radius": 1, "cant_see": true } }
     }
 ]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "bh_terrain_t_ballistic_door_glass_locked",
+    "type": "terrain",
+    "name": "closed ballistic glass door",
+    "copy-from": "t_ballistic_door_glass_c",
+    "looks_like": "t_ballistic_door_glass_c",
+    "description": "A ballistic glass door, consisting of layers of laminated glass.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_ballistic_door_glass_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_ballistic_door_glass_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_bar_locked",
+    "type": "terrain",
+    "name": "closed bar door",
+    "copy-from": "t_door_bar_c",
+    "looks_like": "t_door_bar_c",
+    "description": "A detention door made up of crisscrossed stainless steel bars.  The locking mechanism doesn't appear to be engaged.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_bar_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_bar_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_locked",
+    "type": "terrain",
+    "name": "closed glass door",
+    "copy-from": "t_door_glass_c",
+    "looks_like": "t_door_glass_c",
+    "description": "A sliding glass door, clear enough that an animal or a particularly dumb person could slam right into it.  This one is closed, so don't hurt yourself.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_frosted_locked",
+    "type": "terrain",
+    "name": "closed frosted glass door",
+    "copy-from": "t_door_glass_frosted_c",
+    "looks_like": "t_door_glass_frosted_c",
+    "description": "A sliding door of frosted white glass.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_frosted_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_frosted_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_gray_locked",
+    "type": "terrain",
+    "name": "closed glass door",
+    "copy-from": "t_door_glass_gray_c",
+    "looks_like": "t_door_glass_gray_c",
+    "description": "A sliding glass door, clear enough that an animal or a particularly dumb person could slam right into it.  This one is closed, so don't hurt yourself.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_gray_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_gray_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_green_locked",
+    "type": "terrain",
+    "name": "closed glass door",
+    "copy-from": "t_door_glass_green_c",
+    "looks_like": "t_door_glass_green_c",
+    "description": "A sliding glass door, clear enough that an animal or a particularly dumb person could slam right into it.  This one is closed, so don't hurt yourself.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_green_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_green_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_red_locked",
+    "type": "terrain",
+    "name": "closed glass door",
+    "copy-from": "t_door_glass_red_c",
+    "looks_like": "t_door_glass_red_c",
+    "description": "A sliding glass door, clear enough that an animal or a particularly dumb person could slam right into it.  This one is closed, so don't hurt yourself.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_red_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_red_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_glass_white_locked",
+    "type": "terrain",
+    "name": "closed glass door",
+    "copy-from": "t_door_glass_white_c",
+    "looks_like": "t_door_glass_white_c",
+    "description": "A sliding glass door, clear enough that an animal or a particularly dumb person could slam right into it.  This one is closed, so don't hurt yourself.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_glass_white_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_glass_white_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_gray_locked",
+    "type": "terrain",
+    "name": "closed wood door",
+    "copy-from": "t_door_gray_c",
+    "looks_like": "t_door_gray_c",
+    "description": "A standard wooden door that doesn't look very resilient.  It'd probably burn easily, too.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_gray_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_gray_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_green_locked",
+    "type": "terrain",
+    "name": "closed wood door",
+    "copy-from": "t_door_green_c",
+    "looks_like": "t_door_green_c",
+    "description": "A standard wooden door that doesn't look very resilient.  It'd probably burn easily, too.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_green_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_green_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_metal_locked_peep",
+    "type": "terrain",
+    "name": "closed metal door with peephole",
+    "copy-from": "t_door_metal_c_peep",
+    "looks_like": "t_door_metal_c_peep",
+    "description": "An extremely resilient door made of assorted steel, carved and pounded into shape.  If you examined it more closely, you'd be able to peek through the peephole.",
+    "examine_action": "door_peephole",
+    "lockpick_result": "t_door_metal_c_peep",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_metal_o_peep",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 4,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_red_locked",
+    "type": "terrain",
+    "name": "closed wood door",
+    "copy-from": "t_door_red_c",
+    "looks_like": "t_door_red_c",
+    "description": "A standard wooden door that doesn't look very resilient.  It'd probably burn easily, too.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_red_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_red_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_door_white_locked",
+    "type": "terrain",
+    "name": "closed wood door",
+    "copy-from": "t_door_white_c",
+    "looks_like": "t_door_white_c",
+    "description": "A standard wooden door that doesn't look very resilient.  It'd probably burn easily, too.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_door_white_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_door_white_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_laminated_door_glass_locked",
+    "type": "terrain",
+    "name": "closed laminated glass door",
+    "copy-from": "t_laminated_door_glass_c",
+    "looks_like": "t_laminated_door_glass_c",
+    "description": "A closed laminated glass door, composed of layers of glass and plastic held together by an interlayer.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_laminated_door_glass_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_laminated_door_glass_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  },
+  {
+    "id": "bh_terrain_t_reinforced_door_glass_locked",
+    "type": "terrain",
+    "name": "closed reinforced glass door",
+    "copy-from": "t_reinforced_door_glass_c",
+    "looks_like": "t_reinforced_door_glass_c",
+    "description": "A closed glass door reinforced with woven steel wires in a stylish, but practical pattern.",
+    "examine_action": "locked_object",
+    "lockpick_result": "t_reinforced_door_glass_c",
+    "lockpick_message": "The tumblers align, the lock clicks, and the door comes open.",
+    "prying": {
+      "result": "t_reinforced_door_glass_o",
+      "message": "With a crunch, the door pops open.",
+      "prying_data": {
+        "difficulty": 6,
+        "prying_level": 2,
+        "noisy": true,
+        "failure": "You try to pry the door, but it doesn't give."
+      }
+    },
+    "extend": {
+      "flags": [ "LOCKABLE", "LOCKED", "PICKABLE" ]
+    }
+  }
+]

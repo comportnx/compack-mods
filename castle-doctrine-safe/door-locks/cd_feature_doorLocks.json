@@ -1,0 +1,187 @@
+[
+  { "id": "KEYRING_HOLE", "type": "json_flag" },
+
+  {
+    "id": "bh_item_key",
+    "type": "ITEM",
+    "copy-from": "old_key",
+    "name": "key",
+    "stackable": false,
+    "flags": [ "KEYRING_HOLE", "PRESERVE_SPAWN_LOC" ],
+    "variables": { "blindCode": -1, "forBuilding": "true" },
+    "use_action": { "type": "effect_on_conditions", "effect_on_conditions": [ "bh_eoc_getDoorLocation", "bh_eoc_tryKey" ] },
+    "variants": [
+      { "id": "bh_item_key_rusted", "name": "rusted key", "description": "An old rust-spotted key.", "weight": 1 },
+      { "id": "bh_item_key_copper", "name": "copper key", "description": "A shiny copper key.", "weight": 1 },
+      { "id": "bh_item_key_steel", "name": "steel key", "description": "A shiny steel key.", "weight": 1 },
+      { "id": "bh_item_key_brass", "name": "brass key", "description": "An old brass key. This one has a beautiful patina.", "weight": 1 },
+      { "id": "bh_item_key_scratched", "name": "scratched key", "description": "A heavily scratched key.", "weight": 1 },
+      { "id": "bh_item_key_bloody", "name": "blood-stained key", "description": "An old key. This one has a bloody fingerprint at the base.", "weight": 1 },
+      { "id": "bh_item_key_square", "name": "square key", "description": "A key with a square head.", "weight": 1 },
+      { "id": "bh_item_key_heart", "name": "heart-shaped key", "description": "A key with a heart-shaped head.", "weight": 1 },
+      { "id": "bh_item_key_anodised", "name": "rainbow-anodized key", "description": "An anodized aluminium key. Pretty.", "weight": 1 },
+      { "id": "bh_item_key_black", "name": "black key", "description": "A key stamped out of black metal.", "weight": 1 },
+      { "id": "bh_item_key_grimy", "name": "grimy key", "description": "A key with grime caked into the details.", "weight": 1 },
+      { "id": "bh_item_key_security", "name": "security key", "description": "A security key.", "weight": 1 },
+      { "id": "bh_item_key_plastic", "name": "plastic key", "description": "A key with a plastic grip moulded around its head.", "weight": 1 }
+    ]
+  },
+  {
+    "id": "cd_item_doorKey",
+    "type": "ITEM",
+    "copy-from": "old_key",
+    "name": "small key",
+    "description": "A shiny new key.",
+    "stackable": false,
+    "flags": [ "KEYRING_HOLE", "PRESERVE_SPAWN_LOC" ],
+    "variables": { "blindCode": -1, "forBuilding": "false" },
+    "use_action": { "type": "effect_on_conditions", "effect_on_conditions": [ "bh_eoc_getDoorLocation", "bh_eoc_tryKey" ] },
+    "variants": [
+      { "id": "bh_item_doorKey_flat", "name": "small flat key", "description": "A flat key with carved grooves instead of teeth.", "weight": 1 },
+      { "id": "bh_item_doorKey_barrel", "name": "small barrel key", "description": "A small cylindrical key.", "weight": 1 },
+      { "id": "bh_item_doorKey_dimple", "name": "small dimple key", "description": "A rectangular key with divots instead of teeth.", "weight": 1 },
+      { "id": "bh_item_doorKey_corrugated", "name": "small corrugated key", "description": "A small key with both grooves and teeth.", "weight": 1 },
+      { "id": "bh_item_doorKey_small", "name": "small key", "description": "A small key. It looks brand new.", "weight": 1 }
+    ]
+  },
+  {
+    "id": "bh_item_keyring",
+    "type": "ITEM",
+    "copy-from": "wire",
+    "name": "keyring",
+    "stackable": false,
+    "use_action": { "type": "effect_on_conditions", "effect_on_conditions": [ "bh_eoc_getDoorLocation", "bh_eoc_tryAllKeys" ] },
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_weight": "500 g", "max_contains_volume": "500 ml", "moves": 10, "flag_restriction": [ "KEYRING_HOLE" ] } ],
+    "variants": [
+      { "id": "bh_item_keyring_bunny", "name": "rabbit-foot keyring", "description": "A keyring with a taxidermied rabbit's foot on it. Maybe it's lucky.", "weight": 1 },
+      { "id": "bh_item_keyring_carabiner", "name": "carabiner keyring", "description": "A keyring with an attached carabiner.", "weight": 3 },
+      { "id": "bh_item_keyring_leather", "name": "leather fob keyring", "description": "A keyring attached to a circular leather fob.", "weight": 5 },
+      { "id": "bh_item_keyring_zombie", "name": "novelty zombie keyring", "description": "This keyring has a plastic toy zombie hanging from it by a chain.", "weight": 1 },
+      { "id": "bh_item_keyring_paracord", "name": "paracord keyring", "description": "A keyring with a braided piece of paracord attached.", "weight": 3 },
+      { "id": "bh_item_keyring_anchor", "name": "anchor keyring", "description": "A keyring with a small copper anchor hanging from it. Nautical.", "weight": 1 },
+      { "id": "bh_item_keyring_bare", "name": "split-ring keyring", "description": "A plain unadorned keyring.", "weight": 5 },
+      { "id": "bh_item_keyring_caddy", "name": "key-caddy keyring", "description": "A strip of leather folded on itself and joined by a bolt that keys can hang off.", "weight": 3 }
+    ]
+  },
+
+  {
+    "id": "bh_eoc_getDoorLocation",
+    "type": "effect_on_condition",
+    "effect": [
+      { "math": [ " u_bh_usr_doorLocation = null " ] },
+      { "math": [ " u_bh_usr_locationFailed = false " ] },
+      { "math": [ " u_bh_usr_keyFit = false " ] },
+      {
+        "u_choose_adjacent_highlight": { "u_val": "bh_usr_doorLocation" },
+        "condition": {
+          "or": [
+            { "map_terrain_with_flag": "DOOR", "loc": { "context_val": "loc" } },
+            { "map_terrain_with_flag": "BARRICADABLE_DOOR", "loc": { "context_val": "loc" } },
+            { "map_terrain_with_flag": "LOCKED", "loc": { "context_val": "loc" } }
+          ]
+        },
+        "message": "Select a door",
+        "failure_message": "There is no valid door nearby.",
+        "false_eocs": [
+          { "id": "bh_eoc_failSelection", "effect": { "math": [ "u_bh_usr_locationFailed = true" ] } }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_tryKey",
+    "type": "effect_on_condition",
+    "condition": { "math": [ "u_bh_usr_locationFailed == false" ] },
+    "effect": [
+      { "run_eocs": "cd_eoc_checkForWeirdFloor" },
+
+      { "run_eocs": "clib_eoc_getOvermapCoordinates", "variables": { "loc": { "npc_val": "spawn_location" } } },
+      { "set_string_var": "<u_val:clib_eoc_getOvermapCoordinates>", "target_var": { "context_val": "keyOMT" }, "parse_tags": true },
+
+      { "run_eocs": "clib_eoc_getOvermapCoordinates", "variables": { "loc": { "u_val": "bh_usr_doorLocation" } } },
+      { "set_string_var": "<u_val:clib_eoc_getOvermapCoordinates>", "target_var": { "context_val": "doorOMT" }, "parse_tags": true },
+
+      {
+        "if": {
+          "and": [
+            { "compare_string": [ "true", { "npc_val": "forBuilding" } ] },
+            { "compare_string": [ { "context_val": "keyOMT" }, { "context_val": "doorOMT" } ] }
+          ]
+        },
+        "then": [ { "math": [ "_matchesOMT = true" ] } ],
+        "else": [ { "math": [ "_matchesOMT = false" ] } ]
+      },
+
+      {
+        "if": { "math": [ "distance(n_spawn_location, u_bh_usr_doorLocation) <= 1" ] },
+        "then": [ { "math": [ "_matchesDoor = true" ] } ],
+        "else": [ { "math": [ "_matchesDoor = false" ] } ]
+      },
+
+      {
+        "if": {
+          "or": [
+            { "math": [ "_matchesDoor" ] },
+            { "and": [ { "math": [ "_matchesOMT" ] }, { "math": [ "u_weirdFloorAdjacent" ] } ] }
+          ]
+        },
+        "then": [
+          { 
+            "if": { "math": [ "u_bh_usr_keyFit != true" ] },
+            "then": [
+              { "u_transform_radius": 1, "ter_furn_transform": "bh_transform_lockUnlock", "target_var": { "u_val": "bh_usr_doorLocation" } },
+              { "math": [ "u_bh_usr_keyFit = true" ] },
+              { "math": [ "securityConscious = true" ] }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "if": { "not": { "math": [ "u_bh_usr_suppressMessage == 1" ] } },
+            "then": { "u_message": "The key doesn't fit this door." }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_tryAllKeys",
+    "type": "effect_on_condition",
+    "condition": { "math": [ "u_bh_usr_locationFailed == false" ] },
+    "effect": [
+      { "math": [ "u_bh_usr_suppressMessage = 1" ] },
+      { "math": [ "u_bh_usr_keyFit = false" ] },
+      { "u_run_inv_eocs": "all", "search_data": [ { "id": "bh_item_key" }, { "id": "cd_item_doorKey" } ], "true_eocs": [ "bh_eoc_tryKey" ] },
+      { "math": [ "u_bh_usr_suppressMessage = 0" ] },
+      { "if": { "math": [ "u_bh_usr_keyFit == false" ] }, "then": { "u_message": "None of your keys fit this door." } }
+    ]
+  },
+  {
+    "id": "cd_eoc_checkForWeirdFloor",
+    "type": "effect_on_condition",
+    "effect": [
+      { "math": [ "u_weirdFloorAdjacent = false" ] },
+      {
+        "u_map_run_eocs": {
+          "id": "cd_eoc_checkForWeirdFloor_inner",
+          "effect": [ { "math": [ "u_weirdFloorAdjacent = true" ] } ]
+        },
+        "target_var": { "u_val": "bh_usr_doorLocation" },
+        "range": 1,
+        "store_coordinates_in": { "context_val": "loc" },
+        "condition": {
+          "not": {
+            "or": [
+              { "map_terrain_with_flag": "WALL", "loc": { "context_val": "loc" } },
+              { "map_terrain_with_flag": "DOOR", "loc": { "context_val": "loc" } },
+              { "map_terrain_with_flag": "BARRICADABLE_DOOR", "loc": { "context_val": "loc" } },
+              { "map_terrain_with_flag": "LOCKED", "loc": { "context_val": "loc" } },
+              { "map_terrain_id": "t_floor", "loc": { "context_val": "loc" } },
+              { "map_terrain_id": "t_linoleum_white", "loc": { "context_val": "loc" } }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

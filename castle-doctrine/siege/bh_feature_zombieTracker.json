@@ -1,0 +1,46 @@
+[
+    {
+        "//1": "A seeker-type zombie, it tracks by sound, scent, and flashes of supernatural insight. This is the zombie you find sniffing around your door.",
+        "id": "bh_monster_zombieTracker",
+        "type": "MONSTER",
+        "copy-from": "mon_zombie_dog",
+        "name": "zombie hound",
+        "description": "This creature's face is a mess of waving tendrils and redundant orifices. It moves around on four legs, wetly sniffing the air.",
+        "vision_day": 70,
+        "vision_night": 70,
+        "scents_tracked": [ "sc_human" ],
+        "extend": { "flags": [ "GOODHEARING", "KEENNOSE", "LOUDMOVES", "MIND_SEEING" ], "anger_triggers": [ "SOUND" ] },
+        "delete": { "flags": [ "BASHES", "GROUP_BASH" ]  },
+        "special_attacks": [ {
+            "id": "bh_attack_zombieTracker_flashOfInsight",
+            "type": "spell",
+            "spell_data": { "id": "bh_spell_zombieTracker_flashOfInsight" },
+            "monster_message": "",
+            "cooldown": [ 30, 60 ],
+            "allow_no_target": true
+        } ]
+    },
+    {
+        "id": "bh_spell_zombieTracker_flashOfInsight",
+        "type": "SPELL",
+        "name": "Flash of Insight",
+        "description": "A momentary supernatural awareness of possible targets.",
+        "flags": [ "NO_PROJECTILE", "SILENT", "NO_EXPLOSION_SFX" ],
+        "effect": "effect_on_condition",
+        "effect_str": "bh_eoc_flashOfInsight",
+        "message": "",
+        "valid_targets": [ "self" ],
+        "shape": "blast",
+        "min_range": 15,
+        "max_range": 15
+    },    
+    {
+        "id": "bh_eoc_flashOfInsight",
+        "type": "effect_on_condition",
+        "effect": [
+            { "npc_add_effect": "eff_mind_seeing_bonus_30", "duration": 3 },
+            { "npc_add_effect": "eff_mind_seeing_bonus_20", "duration": 3 },
+            { "npc_add_effect": "eff_mind_seeing_bonus_10", "duration": 3 }
+        ]
+    }
+]

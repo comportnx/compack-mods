@@ -1,0 +1,27 @@
+[
+  {
+    "id": "lib_spawnHorde",
+    "type": "effect_on_condition",
+    "condition": { "expects_vars": [ "location", "monsterGroup", "minCount", "maxCount" ] },
+    "effect": [
+      { "u_location_variable": { "context_val": "startLocation" } },
+      { "u_teleport": { "context_val": "location" } },
+      {
+        "u_spawn_monster": { "context_val": "monsterGroup" },
+        "group": true,
+        "real_count": [ { "context_val": "minCount" }, { "context_val": "maxCount" } ],
+        "min_radius": 3,
+        "max_radius": 8,
+        "outdoor_only": true
+      },
+      {
+        "u_spawn_monster": "mon_zombie",
+        "real_count": [ 1, 1 ],
+        "min_radius": 3,
+        "max_radius": 8,
+        "outdoor_only": true
+      },      
+      { "u_teleport": { "context_val": "startLocation" } }
+    ]
+  }
+]

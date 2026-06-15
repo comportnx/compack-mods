@@ -1,0 +1,166 @@
+[
+  {
+    "id": "bh_eoc_siegeCheckSleep",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "character_falls_asleep",
+    "condition": {
+      "and": [
+        { "math": [ "securityConscious == true" ] },
+        "u_is_avatar"
+      ]
+    },
+    "effect": [
+      {
+        "if": {
+          "or": [
+            {
+              "not": { "math": [ "has_var(u_sleepsUntilSiege)" ] }
+            },
+            { "math": [ "u_sleepsUntilSiege <= 0" ] }
+          ]
+        },
+        "then": [
+          { "math": [ "u_sleepsUntilSiege = rand(4) + 1" ] },
+          {
+            "weighted_list_eocs": [
+              [ { "id": "cd_eoc_siegeMessage1", "effect": { "u_message": "You dream of a twisted figure crawling out from under your bed." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage2", "effect": { "u_message": "You dream that someone is knocking on the door." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage3", "effect": { "u_message": "You dream of faces staring in at you through the window." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage4", "effect": { "u_message": "You dream of a lipless mouth whispering through a letter slot." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage5", "effect": { "u_message": "You dream of a face staring at you from inches away." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage6", "effect": { "u_message": "You dream that your friend is suffocating you in your sleep." } } , 1 ],
+              [ { "id": "cd_eoc_siegeMessage7", "effect": { "u_message": "You dream of a croaking voice saying '<u_name>' over and over." } } , 1 ]
+            ]
+          },
+          { "u_location_variable": { "u_val": "cd_usr_siegeSource" } },
+          { "run_eocs": [ "bh_eoc_generateSiegeEvent" ], "time_in_future": [ "3 hours", "6 hours" ] }
+        ],
+        "else": [
+          { "math": [ "u_sleepsUntilSiege -= 1" ] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_generateSiegeEvent",
+    "type": "effect_on_condition",
+    "effect": [
+      {
+        "weighted_list_eocs": [
+          [ "bh_eoc_siegeEvent_feralScavenger", 1 ],
+          [ "bh_eoc_siegeEvent_zombieTracker", 0 ],
+          [ "bh_eoc_siegeEvent_zombieBuzzard", 0 ],
+          [ "bh_eoc_siegeEvent_migo", 0 ],
+          [ "bh_eoc_siegeEvent_horde", 0 ],
+          [ "bh_eoc_siegeEvent_feralGang", 0 ],
+          [ "bh_eoc_siegeEvent_scavGang", 0 ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_feralScavenger",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_spawn_monster": "bh_monster_feralScavenger", "real_count": [ 1, 2 ], "min_radius": 62, "max_radius": 62, "outdoor_only": true, "target_var": { "u_val": "cd_usr_siegeSource" } }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_migo",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_spawn_monster": "mon_mi_go", "real_count": [ 1, 2 ], "min_radius": 62, "max_radius": 62, "outdoor_only": true }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_zombieTracker",
+    "type": "effect_on_condition",
+    "effect": [ { "u_spawn_monster": "bh_monster_zombieTracker", "real_count": 1, "min_radius": 62, "max_radius": 62, "outdoor_only": true } ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_zombieBuzzard",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_spawn_monster": "bh_monster_zombieBuzzard", "real_count": 1, "min_radius": 32, "max_radius": 32, "outdoor_only": true, "open_air_allowed": true }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_horde",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_location_variable": { "context_val": "bh_ctx_addHordeLocation" } },
+      { "math": [ "_bh_ctx_addHordeLocation.z = 0" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.x += ((rand(1) * 2 - 1) * 6) * 24" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.y += ((rand(1) * 2 - 1) * 6) * 24" ] },
+      {
+        "if": {
+          "or": [
+            { "overmap_at_point": "field", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "overmap_at_point": "forest", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "math": [ "true" ] }
+          ]
+        },
+        "then": [
+          {
+            "run_eocs": "lib_spawnHorde",
+            "variables": { "location": { "context_val": "bh_ctx_addHordeLocation" }, "monsterGroup": "GROUP_VANILLA_ONLY_HUMANS", "minCount": 6, "maxCount": 17 }
+          }
+        ],
+        "else": [ ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_feralGang",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_location_variable": { "context_val": "bh_ctx_addHordeLocation" } },
+      { "math": [ "_bh_ctx_addHordeLocation.z = 0" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.x += ((rand(1) * 2 - 1) * 6) * 24" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.y += ((rand(1) * 2 - 1) * 6) * 24" ] },
+      {
+        "if": {
+          "or": [
+            { "overmap_at_point": "field", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "overmap_at_point": "forest", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "math": [ "true" ] }
+          ]
+        },
+        "then": [
+          {
+            "run_eocs": "lib_spawnHorde",
+            "variables": { "location": { "context_val": "bh_ctx_addHordeLocation" }, "monsterGroup": "GROUP_FERAL", "minCount": 2, "maxCount": 4 }
+          }
+        ],
+        "else": [ ]
+      }
+    ]
+  },
+  {
+    "id": "bh_eoc_siegeEvent_scavGang",
+    "type": "effect_on_condition",
+    "effect": [
+      { "u_location_variable": { "context_val": "bh_ctx_addHordeLocation" } },
+      { "math": [ "_bh_ctx_addHordeLocation.z = 0" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.x += ((rand(1) * 2 - 1) * 4) * 24" ] },
+      { "math": [ "_bh_ctx_addHordeLocation.y += ((rand(1) * 2 - 1) * 4) * 24" ] },
+      {
+        "if": {
+          "or": [
+            { "overmap_at_point": "field", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "overmap_at_point": "forest", "point": { "context_val": "bh_ctx_addHordeLocation" } },
+            { "math": [ "true" ] }
+          ]
+        },
+        "then": [
+          {
+            "run_eocs": "lib_spawnHorde",
+            "variables": { "location": { "context_val": "bh_ctx_addHordeLocation" }, "monsterGroup": "cd_monsterGroup_feralScavenger", "minCount": 2, "maxCount": 4 }
+          }
+        ],
+        "else": [ ]
+      }
+    ]
+  }
+]

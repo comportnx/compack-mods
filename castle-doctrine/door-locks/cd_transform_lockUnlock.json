@@ -1,0 +1,203 @@
+[
+  {
+    "id": "bh_transform_lockUnlock",
+    "type": "ter_furn_transform",
+    "terrain": [
+      {
+        "valid_terrain": [ "t_laminated_door_glass_o", "t_laminated_door_glass_c" ],
+        "result": "bh_terrain_t_laminated_door_glass_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_ballistic_door_glass_o", "t_ballistic_door_glass_c" ],
+        "result": "bh_terrain_t_ballistic_door_glass_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_reinforced_door_glass_o", "t_reinforced_door_glass_c" ],
+        "result": "bh_terrain_t_reinforced_door_glass_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_white_o", "t_door_white_c" ],
+        "result": "bh_terrain_t_door_white_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_gray_o", "t_door_gray_c" ],
+        "result": "bh_terrain_t_door_gray_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_red_o", "t_door_red_c" ],
+        "result": "bh_terrain_t_door_red_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_green_o", "t_door_green_c" ],
+        "result": "bh_terrain_t_door_green_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_red_o", "t_door_glass_red_c" ],
+        "result": "bh_terrain_t_door_glass_red_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_green_o", "t_door_glass_green_c" ],
+        "result": "bh_terrain_t_door_glass_green_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_white_o", "t_door_glass_white_c" ],
+        "result": "bh_terrain_t_door_glass_white_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_gray_o", "t_door_glass_gray_c" ],
+        "result": "bh_terrain_t_door_glass_gray_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_o", "t_door_c" ],
+        "result": "t_door_locked_interior",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_o_peep", "t_door_c_peep" ],
+        "result": "t_door_locked_peep",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_metal_o", "t_door_metal_c" ],
+        "result": "t_door_metal_interior_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_metal_o_peep", "t_door_metal_c_peep" ],
+        "result": "bh_terrain_t_door_metal_locked_peep",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_bar_o", "t_door_bar_c" ],
+        "result": "bh_terrain_t_door_bar_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_o", "t_door_glass_c" ],
+        "result": "bh_terrain_t_door_glass_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "t_door_glass_frosted_o", "t_door_glass_frosted_c" ],
+        "result": "bh_terrain_t_door_glass_frosted_locked",
+        "message": "You lock the door securely."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_laminated_door_glass_locked" ],
+        "result": [ "t_laminated_door_glass_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_ballistic_door_glass_locked" ],
+        "result": [ "t_ballistic_door_glass_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_reinforced_door_glass_locked" ],
+        "result": [ "t_reinforced_door_glass_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_white_locked" ],
+        "result": [ "t_door_white_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_gray_locked" ],
+        "result": [ "t_door_gray_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_red_locked" ],
+        "result": [ "t_door_red_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_green_locked" ],
+        "result": [ "t_door_green_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_red_locked" ],
+        "result": [ "t_door_glass_red_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_green_locked" ],
+        "result": [ "t_door_glass_green_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_white_locked" ],
+        "result": [ "t_door_glass_white_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_gray_locked" ],
+        "result": [ "t_door_glass_gray_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_locked_interior" ],
+        "result": [ "t_door_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_locked" ],
+        "result": [ "t_door_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_locked_alarm" ],
+        "result": [ "t_door_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_locked_peep" ],
+        "result": [ "t_door_c_peep" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_metal_interior_locked" ],
+        "result": [ "t_door_metal_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "t_door_metal_pickable" ],
+        "result": [ "t_door_metal_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_metal_locked_peep" ],
+        "result": [ "t_door_metal_c_peep" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_bar_locked" ],
+        "result": [ "t_door_bar_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_locked" ],
+        "result": [ "t_door_glass_c" ],
+        "message": "You unlock the door."
+      },
+      {
+        "valid_terrain": [ "bh_terrain_t_door_glass_frosted_locked" ],
+        "result": [ "t_door_glass_frosted_c" ],
+        "message": "You unlock the door."
+      }
+    ]
+  }
+]

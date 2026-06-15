@@ -1,0 +1,73 @@
+[
+    {
+        "//1": "A buzzard zombie. It flies around and cries out a signal if it sees a target.",
+        "id": "bh_monster_zombieBuzzard",
+        "type": "MONSTER",
+        "copy-from": "mon_zombie_dog",
+        "name": "carrion bird",
+        "description": "From a distance this could be mistaken for a living bird, but its flight is wrong, long glides interrupted by chaotic tumbles. This thing is barely staying in the air. It's screeching even before it sees you, calling out intermittently like an animal in pain.",
+        "vision_day": 50,
+        "vision_night": 50,
+        "scents_tracked": [ "sc_human" ],
+        "extend": { "flags": [ "GOODHEARING", "FLIES" ] },
+        "delete": { "flags": [ "BASHES", "GROUP_BASH" ]  },
+        "special_attacks": [ {
+            "id": "bh_attack_zombieBuzzard_summonHordes",
+            "type": "spell",
+            "spell_data": { "id": "bh_spell_summonScreech" },
+            "monster_message": "",
+            "cooldown": 210,
+            "allow_no_target": true
+        }, {
+            "id": "bh_attack_zombieBuzzard_loudScreech",
+            "type": "spell",
+            "spell_data": { "id": "bh_spell_regularScreech" },
+            "monster_message": "",
+            "cooldown": [ 55, 60 ],
+            "allow_no_target": true
+        } ]        
+    },
+    {
+        "id": "bh_spell_summonScreech",
+        "type": "SPELL",
+        "name": "Summoning Screech",
+        "description": "A loud noise that also summons hoards.",
+        "flags": [ "NO_PROJECTILE", "SILENT", "NO_EXPLOSION_SFX" ],
+        "effect": "effect_on_condition",
+        "effect_str": "bh_eoc_screechSummonHoards",
+        "message": "",
+        "valid_targets": [ "self" ],
+        "shape": "blast",
+        "min_range": 1,
+        "max_range": 1
+    },
+    {
+        "id": "bh_eoc_screechSummonHoards",
+        "type": "effect_on_condition",
+        "effect": [
+            { "npc_location_variable": { "context_val": "bh_ctx_summonLocation" } },
+            { "signal_hordes": { "context_val": "bh_ctx_summonLocation" }, "signal_power": 17 }
+        ]
+    },
+    {
+        "id": "bh_spell_regularScreech",
+        "type": "SPELL",
+        "name": "Loud Screech",
+        "description": "A loud noise.",
+        "flags": [ "NO_PROJECTILE", "SILENT", "NO_EXPLOSION_SFX" ],
+        "effect": "effect_on_condition",
+        "effect_str": "bh_eoc_screechLoudNoise",
+        "message": "",
+        "valid_targets": [ "self" ],
+        "shape": "blast",
+        "min_range": 1,
+        "max_range": 1
+    },
+    {
+        "id": "bh_eoc_screechLoudNoise",
+        "type": "effect_on_condition",
+        "effect": [
+            
+        ]
+    }    
+]

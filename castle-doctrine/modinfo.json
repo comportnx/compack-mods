@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "castle-doctrine",
+    "name": "Castle Doctrine",
+    "authors": [
+      "comportnx"
+    ],
+    "description": "Adds door locks and a reason to lock them. Find keys on kitchen counters, by cash registers, and in desks, or use the Install/Replace lock construction.",
+    "category": "misc",
+    "dependencies": [
+      "dda"
+    ]
+  }
+]

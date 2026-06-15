@@ -1,0 +1,35 @@
+[
+  {
+    "id": "bh_construction_putup_t_wall_metal",
+    "type": "construction",
+    "group": "bh_construction_group_putup_t_wall_metal",
+    "pre_special": "check_empty",
+    "post_terrain": "t_wall_metal",
+    "post_special": "add_roof",
+    "components": [ [ [ "bh_wall_metal_section", 2 ] ] ],
+    "required_skills": [ [ "fabrication", 3 ] ]
+  },
+  {
+    "id": "bh_construction_tear_down_t_wall_metal",
+    "type": "construction",
+    "group": "bh_construction_group_takedown_t_wall_metal",
+    "pre_terrain": "t_wall_metal",
+    "post_terrain": "t_dirt",
+    "byproducts": [ { "item": "bh_wall_metal_section", "count": 2 } ],
+    "using": [ [ "metal_removal_high_standard", 1 ] ],
+    "required_skills": [ [ "fabrication", 3 ] ]
+  },
+  { "id": "bh_construction_group_putup_t_wall_metal", "type": "construction_group", "name": "Put up metal wall" },
+  { "id": "bh_construction_group_takedown_t_wall_metal", "type": "construction_group", "name": "Take down metal wall" },
+  {
+    "id"          : "bh_wall_metal_section",
+    "type"        : "ITEM",
+    "category"    : "spare_parts",
+    "copy-from"   : "hard_steel_armor",
+    "name"        : "metal wall section",
+    "description" : "A large section of industrial metal wall, still burred where it was cut out.",
+    "volume"      : "10 L",
+    "weight"      : "50 kg",
+    "longest_side": "1 meter"
+  }
+]

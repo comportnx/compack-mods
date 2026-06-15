@@ -1,0 +1,326 @@
+[
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_laminated_door_glass_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_laminated_door_glass_o",
+    "post_terrain": "t_laminated_door_glass_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_ballistic_door_glass_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_ballistic_door_glass_o",
+    "post_terrain": "t_ballistic_door_glass_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_reinforced_door_glass_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_reinforced_door_glass_o",
+    "post_terrain": "t_reinforced_door_glass_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_white_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_white_o",
+    "post_terrain": "t_door_white_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_gray_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_gray_o",
+    "post_terrain": "t_door_gray_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_red_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_red_o",
+    "post_terrain": "t_door_red_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_green_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_green_o",
+    "post_terrain": "t_door_green_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_red_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_red_o",
+    "post_terrain": "t_door_glass_red_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_green_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_green_o",
+    "post_terrain": "t_door_glass_green_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_white_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_white_o",
+    "post_terrain": "t_door_glass_white_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_gray_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_gray_o",
+    "post_terrain": "t_door_glass_gray_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_o",
+    "post_terrain": "t_door_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_o_peep",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_o_peep",
+    "post_terrain": "t_door_c_peep"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_metal_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_metal_o",
+    "post_terrain": "t_door_metal_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_metal_o_peep",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_metal_o_peep",
+    "post_terrain": "t_door_metal_c_peep"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_bar_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_bar_o",
+    "post_terrain": "t_door_bar_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_o",
+    "post_terrain": "t_door_glass_c"
+  },
+  {
+    "type": "construction",
+    "id": "cd_construction_installLock_t_door_glass_frosted_o",
+    "group": "cd_constructionGroup_installLock",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "25 m",
+    "qualities": [
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ]
+    ],
+    "components": [
+      [ [ "lock", 1 ] ]
+    ],
+    "byproducts": [ { "item": "cd_item_doorKey", "count": 1 } ],
+    "pre_terrain": "t_door_glass_frosted_o",
+    "post_terrain": "t_door_glass_frosted_c"
+  }
+]
