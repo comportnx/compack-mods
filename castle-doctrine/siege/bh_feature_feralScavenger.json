@@ -13,10 +13,11 @@
     "description": "This thin, sickly-looking human stalks the perimiter of buildings, rattling doors and peering through windows.",
     "default_faction": "fargone",
     "scents_tracked": [ "sc_human", "sc_fetid" ],
-    "morale": 10,
+    "morale": 20,
     "hp": 25,
     "fear_triggers": [ "FRIEND_DIED", "FIRE", "HURT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER", "DROPS_AMMO", "WIELDED_WEAPON", "EATS" ],
+    "path_settings": { "max_dist": 60, "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "special_attacks": [
       [ "BROWSE", 100 ],
       [ "EAT_FOOD", 100 ],

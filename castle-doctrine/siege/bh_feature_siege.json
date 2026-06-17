@@ -34,7 +34,8 @@
             ]
           },
           { "u_location_variable": { "u_val": "cd_usr_siegeSource" } },
-          { "run_eocs": [ "bh_eoc_generateSiegeEvent" ], "time_in_future": [ "3 hours", "6 hours" ] }
+          { "math": [ "u_cd_usr_siegeSource.z = 0" ] },
+          { "run_eocs": [ "bh_eoc_generateSiegeEvent" ], "time_in_future": [ "1 hours", "6 hours" ] }
         ],
         "else": [
           { "math": [ "u_sleepsUntilSiege -= 1" ] }
