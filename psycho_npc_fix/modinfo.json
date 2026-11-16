@@ -1,0 +1,90 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "psycho_npc_fix",
+    "name": "Psycho NPC Fix",
+    "authors": [ "comportnx" ],
+    "description": "Jumping a fence no longer deserves death.",
+    "category": "balance",
+    "dependencies": [ "dda" ]
+  },  
+  {
+    "type": "terrain",
+    "id": "t_chainfence",
+    "name": "chain link fence",
+    "description": "A tall fence made of woven wires.  There aren't any gaps big enough for you to fit through, so you'll have to cut it, climb it, or find a way around.",
+    "symbol": "#",
+    "color": "cyan",
+    "move_cost": 0,
+    "boltcut": {
+      "result": "t_chainfence_posts",
+      "duration": "5 seconds",
+      "sound": "Snick, snick, gachunk!",
+      "byproducts": [ { "item": "lc_wire", "count": 20 } ]
+    },
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "THIN_OBSTACLE",
+      "PERMEABLE",
+      "UNSTABLE",
+      "CLIMBABLE",
+      "AUTO_WALL_SYMBOL",
+      "BURROWABLE"
+    ],
+    "connect_groups": "CHAINFENCE",
+    "connects_to": "CHAINFENCE",
+    "examine_action": "chainfence",
+    "oxytorch": {
+      "result": "t_dirt",
+      "duration": "20 seconds",
+      "byproducts": [ { "item": "pipe", "count": [ 1, 4 ] }, { "item": "lc_wire", "count": [ 4, 16 ] } ]
+    },
+    "hacksaw": {
+      "result": "t_dirt",
+      "duration": "2 minutes",
+      "message": "You finish cutting the metal.",
+      "byproducts": [ { "item": "pipe", "count": 6 }, { "item": "lc_wire", "count": [ 4, 16 ] } ]
+    },
+    "bash": {
+      "str_min": 10,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_chainfence_posts",
+      "items": [ { "item": "lc_wire", "count": [ 8, 15 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_splitrail_fence",
+    "name": "split rail fence",
+    "description": "A rather stout fence made of planks and fence posts, suitable for containing livestock like horses, cows and pigs.",
+    "symbol": "#",
+    "color": "brown",
+    "looks_like": "t_fence",
+    "move_cost": 0,
+    "examine_action": "chainfence",
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "THIN_OBSTACLE",
+      "PERMEABLE",
+      "FLAMMABLE_ASH",
+      "CLIMBABLE",
+      "AUTO_WALL_SYMBOL",
+      "BURROWABLE"
+    ],
+    "connect_groups": "WOODFENCE",
+    "connects_to": "WOODFENCE",
+    "deconstruct": { "ter_set": "t_fence_post", "items": [ { "item": "2x4", "count": 2 }, { "item": "nail", "charges": 20 } ] },
+    "bash": {
+      "str_min": 5,
+      "str_max": 12,
+      "sound": "whump!",
+      "sound_fail": "whack!",
+      "ter_set": "t_fence_post",
+      "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]
+    }
+  }  
+]
