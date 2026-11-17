@@ -5,7 +5,7 @@
     "name": "Psycho NPC Fix",
     "authors": [ "comportnx" ],
     "description": "Jumping a fence no longer deserves death.",
-    "category": "balance",
+    "category": "rebalance",
     "dependencies": [ "dda" ]
   },  
   {
